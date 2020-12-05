@@ -1,10 +1,10 @@
 # 0. Table of contents
-  1. [Importance of low input lag](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#1-importance-of-low-input-lag)
-  2. [Physical setup](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#2-physical-setup)
-  3. [BIOS](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#3-bios)
-  4. [Hardware clocking](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#4-hardware-clocking)
-  5. [Windows](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#5-windows)
-  6. [Tools & resources](https://github.com/BoringBoredom/PC-Setup/blob/main/README.md#6-tools--resources)
+  1. [Importance of low input lag](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#1-importance-of-low-input-lag)
+  2. [Physical setup](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#2-physical-setup)
+  3. [BIOS](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#3-bios)
+  4. [Hardware clocking](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#4-hardware-clocking)
+  5. [Windows](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#5-windows)
+  6. [Tools & resources](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/README.md#6-tools--resources)
 # 1. Importance of low input lag
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
