@@ -95,6 +95,7 @@
       - [WinDirStat](https://sourceforge.net/projects/windirstat/)
       - [Total Commander](https://www.ghisler.com/)
   - ## BIOS
+    - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
     - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
   - ## Windows
     - ### Documentation
