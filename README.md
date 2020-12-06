@@ -9,7 +9,14 @@
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
 # 2. Physical setup
-  - [Guide](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/pages/physical%20setup.md)
+  - Make sure your outlets are properly grounded.
+  - If you don't have enough outlets, buy a proper power strip ( < power conditioner < voltage regulator) and connect all devices directly to it. Only connect your hardware (no phone chargers and other stuff).
+  - Disconnect all things you don't use from your motherboard. E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
+  - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. router, power strip/conditioner, voltage regulator etc.
+  - Make sure none of your cables are touching each other and untangle them. This applies to everything, including power and peripheral cables.
+  - Connect your mouse to the USB port closest to your PCH (Intel) / CPU (AMD). It's usually the one closer to the motherboard next to the PS/2 port(s).
+  - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000hz
+  - Test both HDMI and DP on each GPU port (don't Plug & Play these).
 # 3. BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
   - [r0ach' BIOS guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
@@ -18,7 +25,15 @@
 # 4. Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
   - ## CPU
-    - [Guide](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/pages/cpu%20clocking.md)
+    - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
+    - Set your VCORE, VCCIO and VCCSA to what you consider safe 24/7 voltages for your hardware and set your LLC to flat.
+    - Set your All Core and Uncore (Cache) frequency to the *Processor Base Frequency* value displayed in the [Intel product database](https://ark.intel.com/content/www/us/en/ark.html). The reason for this is preventing your CPU from overheating by testing the waters first.
+    - Boot into Linpack and stress test for a few minutes with a low problem size (high problem size involves more RAM).
+    - Monitor your temperatures and make sure you are below 80°C (you most likely will on stock frequency, unless your cooling is very bad).
+    - Continue raising both your All Core and Uncore and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
+    - If temperatures are too high, you can try lowering your VCORE (P = I x V).
+    - If you encounter instability, lower your All Core and Uncore by 100 Mhz and start raising only one at a time from now on (All Core will most likely clock higher than Uncore).
+    - Ultimately, stress test for 1-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
     - [Integralfx' DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
