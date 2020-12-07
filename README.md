@@ -77,6 +77,8 @@
     - [GPU-Z](https://www.techpowerup.com/gpuz/)
     - [Superposition](https://benchmark.unigine.com/superposition)
     - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
+    - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
+    - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
   - ## CPU
     - ### Documentation
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
@@ -133,6 +135,9 @@
       - [Device Remover](https://www.majorgeeks.com/files/details/device_remover_543c.html)
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
+      - [Legendary](https://github.com/derrod/legendary) (faster Epic Games alternative)
+      - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
+      - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [Virustotal](https://www.virustotal.com/gui/home/upload)
