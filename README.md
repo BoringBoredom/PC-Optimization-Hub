@@ -50,7 +50,7 @@
       - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
       - [Techbench](https://tb.rg-adguard.net/public.php)
       - [The Eye](https://the-eye.eu/public/MSDN/)
-      - [DigitalRiver (W7 only)](https://digitalrivermirror.com/)
+      - [DigitalRiver](https://digitalrivermirror.com/) (W7 only)
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
 # 6. Tools & resources
   - ## Mouse
@@ -126,8 +126,8 @@
       - [Prio](https://www.prnwatch.com/prio/)
       - [Ripcord](https://cancel.fm/ripcord/)
       - [Foobar2000](https://www.foobar2000.org/)
-      - [VC++ Redist. AIO (TPU)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-      - [VC++ Redist. AIO (abbodi1406)](https://github.com/abbodi1406/vcredist)
+      - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
+      - [VC++ Redist. AIO](https://github.com/abbodi1406/vcredist) (abbodi1406)
       - [Quick CPU](https://coderbag.com/product/quickcpu)
       - [Mouse Tester](https://github.com/dobragab/MouseTester)
       - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
