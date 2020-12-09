@@ -20,7 +20,7 @@
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
 # 3. BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
-  - [r0ach' BIOS guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
+  - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
 # 4. Hardware clocking
@@ -126,8 +126,6 @@
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
       - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager)
       - [Prio](https://www.prnwatch.com/prio/)
-      - [Ripcord](https://cancel.fm/ripcord/)
-      - [Foobar2000](https://www.foobar2000.org/)
       - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
       - [VC++ Redist. AIO](https://github.com/abbodi1406/vcredist) (abbodi1406)
       - [Quick CPU](https://coderbag.com/product/quickcpu)
@@ -137,9 +135,12 @@
       - [Device Remover](https://www.majorgeeks.com/files/details/device_remover_543c.html)
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
-      - [Legendary](https://github.com/derrod/legendary) (faster Epic Games alternative)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
+  - ## Alternatives to bloated programs
+    - Epic Games: [Legendary](https://github.com/derrod/legendary)
+    - Spotify: [Foobar2000](https://www.foobar2000.org/)
+    - Discord: [Ripcord](https://cancel.fm/ripcord/)
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [Virustotal](https://www.virustotal.com/gui/home/upload)
