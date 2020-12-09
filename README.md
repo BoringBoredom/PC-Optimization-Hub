@@ -1,30 +1,30 @@
-# 0. Table of contents
-  1. [Importance of low input lag](#1-importance-of-low-input-lag)
-  2. [Physical setup](#2-physical-setup)
-  3. [BIOS](#3-bios)
-  4. [Hardware clocking](#4-hardware-clocking)
-     - [CPU](#cpu)
-     - [RAM](#ram)
-     - [GPU](#gpu)
-  5. [Windows](#5-windows)
-  6. [Tools & resources](#6-tools--resources)
-     - [Mouse](#mouse)
-     - [Mousepad](#mousepad)
-     - [Monitor](#monitor)
-     - [PSU](#psu)
-     - [CPU](#cpu-1)
-     - [RAM](#ram-1)
-     - [GPU](#gpu-1)
-     - [Storage](#storage)
-     - [BIOS](#bios)
-     - [Windows](#windows)
-     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
-     - [Miscellaneous](#miscellaneous)
-# 1. Importance of low input lag
+# Table of contents
+  - [Importance of low input lag](#importance-of-low-input-lag)
+  - [Physical setup](#physical-setup)
+  - [BIOS](#bios)
+  - [Hardware clocking](#hardware-clocking)
+    - [CPU](#cpu)
+    - [RAM](#ram)
+    - [GPU](#gpu)
+  - [Windows](#windows)
+  - [Tools & resources](#tools--resources)
+    - [Mouse](#mouse)
+    - [Mousepad](#mousepad)
+    - [Monitor](#monitor)
+    - [PSU](#psu)
+    - [CPU](#cpu-1)
+    - [RAM](#ram-1)
+    - [GPU](#gpu-1)
+    - [Storage](#storage)
+    - [BIOS](#bios-1)
+    - [Windows](#windows-1)
+    - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
+    - [Miscellaneous](#miscellaneous)
+# Importance of low input lag
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
   - [NVIDIA article](https://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/#so-what-is-latency-anyway)
-# 2. Physical setup
+# Physical setup
   - Make sure your outlets are properly grounded.
   - If you don't have enough outlets, buy a proper power strip ( < power conditioner < voltage regulator) and connect all devices directly to it. Only connect your hardware (no phone chargers and other stuff).
   - Disconnect all things you don't use from your motherboard. E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
@@ -33,12 +33,12 @@
   - Connect your mouse to the USB port closest to your PCH (Intel) / CPU (AMD). It's usually the one closer to the motherboard next to the PS/2 port(s).
   - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
-# 3. BIOS
+# BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
   - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
-# 4. Hardware clocking
+# Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
   - ## CPU
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
@@ -55,7 +55,7 @@
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
-# 5. Windows
+# Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition is also convenient due to both operating systems having shared access to everything and the ease of reinstalling either of them.
   - As usual, disable everything you don't explicitely need.
   - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
@@ -69,7 +69,7 @@
       - [The Eye](https://the-eye.eu/public/MSDN/)
       - [DigitalRiver](https://digitalrivermirror.com/) (W7 only)
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
-# 6. Tools & resources
+# Tools & resources
   - ## Mouse
     - [Gearsearch mouse shape comparison](https://gearsearch.gg/shape.html)
     - [RTINGS mouse shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
