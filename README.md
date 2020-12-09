@@ -3,8 +3,23 @@
   2. [Physical setup](#2-physical-setup)
   3. [BIOS](#3-bios)
   4. [Hardware clocking](#4-hardware-clocking)
+     - [CPU](#cpu)
+     - [RAM](#ram)
+     - [GPU](#gpu)
   5. [Windows](#5-windows)
   6. [Tools & resources](#6-tools--resources)
+     - [Mouse](#mouse)
+     - [Mousepad](#mousepad)
+     - [Monitor](#monitor)
+     - [PSU](#psu)
+     - [CPU](#cpu-1)
+     - [RAM](#ram-1)
+     - [GPU](#gpu-1)
+     - [Storage](#storage)
+     - [BIOS](#bios)
+     - [Windows](#windows)
+     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
+     - [Miscellaneous](#miscellaneous)
 # 1. Importance of low input lag
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
@@ -71,16 +86,6 @@
   - ## PSU
     - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
-  - ## GPU
-    - [Afterburner](https://www.msi.com/Landing/afterburner)
-    - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
-    - [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
-    - [NVSlimmer](https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/)
-    - [GPU-Z](https://www.techpowerup.com/gpuz/)
-    - [Superposition](https://benchmark.unigine.com/superposition)
-    - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
-    - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
-    - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
   - ## CPU
     - ### Documentation
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
@@ -101,6 +106,16 @@
       - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/)
       - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n)
       - [OCCT](https://www.ocbase.com/)
+  - ## GPU
+    - [Afterburner](https://www.msi.com/Landing/afterburner)
+    - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
+    - [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
+    - [NVSlimmer](https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/)
+    - [GPU-Z](https://www.techpowerup.com/gpuz/)
+    - [Superposition](https://benchmark.unigine.com/superposition)
+    - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
+    - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
+    - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
   - ## Storage
     - ### Reviews
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
