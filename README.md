@@ -128,28 +128,29 @@
   - ## Windows
     - ### Documentation
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
-    - ### Tools
+    - ### Profiling / Monitoring / Benchmarking
       - [HWInfo](https://www.hwinfo.com/download/) + [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/)
       - [CapFrameX](https://github.com/CXWorld/CapFrameX)
+      - [Windows Performance Analyzer](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer)
+      - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
+      - [Mouse Tester](https://github.com/dobragab/MouseTester)
+      - [Latencymon](https://www.resplendence.com/latencymon)
+      - [Liblava](https://github.com/liblava/liblava-demo)
+    - ### Tools
       - [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/)  (huge compendium)
       - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
-      - [Windows Performance Analyzer](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer)
       - [Process Lasso](https://bitsum.com/)
       - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
       - [Timer Resolution Service](https://forums.guru3d.com/threads/windows-timer-resolution-tool-in-form-of-system-service.376458/)
       - [NSudo](https://github.com/M2Team/NSudo)
-      - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
       - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager)
       - [Prio](https://www.prnwatch.com/prio/)
       - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
       - [VC++ Redist. AIO](https://github.com/abbodi1406/vcredist) (abbodi1406)
       - [Quick CPU](https://coderbag.com/product/quickcpu)
-      - [Mouse Tester](https://github.com/dobragab/MouseTester)
       - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
       - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
       - [Device Remover](https://www.majorgeeks.com/files/details/device_remover_543c.html)
-      - [Latencymon](https://www.resplendence.com/latencymon)
-      - [Liblava](https://github.com/liblava/liblava-demo)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
   - ## Alternatives to bloated programs
