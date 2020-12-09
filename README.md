@@ -42,6 +42,7 @@
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # 5. Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition is also convenient due to both operating systems having shared access to everything and the ease of reinstalling either of them.
+  - As usual, disable everything you don't explicitely need.
   - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
   - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - ## ISO creation
