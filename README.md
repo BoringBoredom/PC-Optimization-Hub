@@ -1,6 +1,7 @@
 # Table of contents
   - [Importance of low input lag](#importance-of-low-input-lag)
   - [Physical setup](#physical-setup)
+  - [Peripherals](#peripherals)
   - [BIOS](#bios)
   - [Hardware clocking](#hardware-clocking)
     - [CPU](#cpu)
@@ -8,7 +9,7 @@
     - [GPU](#gpu)
   - [Windows](#windows)
   - [Tools & resources](#tools--resources)
-    - [Mouse](#mouse)
+    - [Mouse](#mouse-1)
     - [Mousepad](#mousepad)
     - [Monitor](#monitor)
     - [PSU](#psu)
@@ -31,8 +32,14 @@
   - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. router, power strip/conditioner, voltage regulator etc.
   - Make sure none of your cables are touching each other and untangle them. This applies to everything, including power and peripheral cables.
   - Connect your mouse to the USB port closest to your PCH (Intel) / CPU (AMD). It's usually the one closer to the motherboard next to the PS/2 port(s).
-  - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000hz
+  - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
+# Peripherals
+  - ## Mouse
+    - ### Wired vs. Wireless
+      - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://i.imgur.com/5myJ46P.png) are implemented to increase battery life.
+    - ### DPI
+      - Depending on your preferred cm/360° in games, you may want to experiment with different DPIs. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
@@ -48,7 +55,7 @@
     - Monitor your temperatures and make sure you are below 80°C (you most likely will on stock frequency, unless your cooling is very bad).
     - Continue raising both your All Core and Uncore and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
     - If temperatures are too high, you can try lowering your VCORE (P = I x V).
-    - If you encounter instability, lower your All Core and Uncore by 100 Mhz and start raising only one at a time from now on (All Core will most likely clock higher than Uncore).
+    - If you encounter instability, lower your All Core and Uncore by 100 MHz and start raising only one at a time from now on (All Core will most likely clock higher than Uncore).
     - Ultimately, stress test for 1-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
