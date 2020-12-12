@@ -31,7 +31,7 @@
   - Disconnect all things you don't use from your motherboard. E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
   - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. router, power strip/conditioner, voltage regulator etc.
   - Make sure none of your cables are touching each other and untangle them. This applies to everything, including power and peripheral cables.
-  - Connect your mouse to the USB port closest to your PCH (Intel) / CPU (AMD). It's usually the one closer to the motherboard next to the PS/2 port(s).
+  - Connect your mouse to the USB port closest to the PCH (Intel) / CPU (AMD). It's usually the one closer to the motherboard next to the PS/2 port(s).
   - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
 # Peripherals
@@ -39,7 +39,7 @@
     - ### Wired vs. Wireless
       - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://i.imgur.com/5myJ46P.png) are implemented to increase battery life.
     - ### DPI
-      - Depending on your preferred cm/360° in games, you may want to experiment with different DPIs. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
+      - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
@@ -47,15 +47,16 @@
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
+  - [General Intel Lake clocking information](https://www.youtube.com/watch?v=WK5Md-90XHQ)
   - ## CPU
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
-    - Set your VCORE, VCCIO and VCCSA to what you consider safe 24/7 voltages for your hardware and set your [LLC](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/) to flat. Generally, a higher VRM switching frequency results in more stable voltage at the cost of increased temperatures.
-    - Set your All Core and Uncore (Cache) frequency to the *Processor Base Frequency* value displayed in the [Intel product database](https://ark.intel.com/content/www/us/en/ark.html). The reason for this is preventing your CPU from overheating by testing the waters first.
+    - Set VCORE, VCCIO and VCCSA to what you consider safe 24/7 voltages for your hardware and set the [LLC](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/) to flat. Generally, a higher VRM switching frequency results in more stable voltage at the cost of increased temperatures.
+    - Set All Core and Uncore (Cache) frequency to the *Processor Base Frequency* value displayed in the [Intel product database](https://ark.intel.com/content/www/us/en/ark.html). The reason for this is preventing your CPU from overheating by testing the waters first.
     - Boot into Linpack and stress test for a few minutes.
     - Monitor your temperatures and make sure you are below 80°C (you most likely will on stock frequency, unless your cooling is very bad).
-    - Continue raising both your All Core and Uncore and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
-    - If temperatures are too high, you can try lowering your VCORE (P = I x V).
-    - If you encounter instability, lower your All Core and Uncore by 100 MHz and start raising only one at a time from now on (All Core will most likely clock higher than Uncore).
+    - Continue raising both All Core and Uncore and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
+    - If temperatures are too high, you can try lowering VCORE (P = I x V).
+    - If you encounter instability, lower All Core and Uncore to the previous clocks and continue raising All Core from now on.
     - Ultimately, stress test for 1-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
