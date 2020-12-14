@@ -47,7 +47,7 @@
       - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
-        - X %Y = 0
+        - X / Y if X %Y = 0
       - Taking two refresh rate values as example, these are some of the FPS cap values that will prevent mistiming:
         - 360 Hz: ... , 45, 60, 72, 90, 120, 180, 360, 720, 1080, ...
         - 240 Hz: ... , 48, 60, 80, 120, 240, 480, 720, ...
@@ -71,6 +71,7 @@
     - Ultimately, stress test for 1-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
+    - Dedicated cooling is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
