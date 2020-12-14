@@ -2,6 +2,8 @@
   - [Importance of low input lag](#importance-of-low-input-lag)
   - [Physical setup](#physical-setup)
   - [Peripherals](#peripherals)
+    - [Mouse](#mouse)
+    - [Monitor](#monitor)
   - [BIOS](#bios)
   - [Hardware clocking](#hardware-clocking)
     - [CPU](#cpu)
@@ -11,7 +13,7 @@
   - [Tools & resources](#tools--resources)
     - [Mouse](#mouse-1)
     - [Mousepad](#mousepad)
-    - [Monitor](#monitor)
+    - [Monitor](#monitor-1)
     - [PSU](#psu)
     - [CPU](#cpu-1)
     - [RAM](#ram-1)
@@ -40,6 +42,15 @@
       - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://i.imgur.com/5myJ46P.png) are implemented to increase battery life.
     - ### DPI
       - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
+  - ## Monitor
+    - ### Capping FPS
+      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
+      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. There are two formulae (X = monitor's refresh rate, Y = any integer):
+        - X * Y
+        - X %Y = 0
+      - Taking two refresh rate values as example, these are some of the FPS cap values that will prevent mistiming:
+        - 360 Hz: ... , 45, 60, 72, 90, 120, 180, 360, 720, 1080, ...
+        - 240 Hz: ... , 48, 60, 80, 120, 240, 480, 720, ...
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused USB/PCI/SATA ports, RGB that can't physically be disconnected etc.
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
@@ -47,7 +58,7 @@
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
-  - [General Intel Lake clocking information](https://www.youtube.com/watch?v=WK5Md-90XHQ)
+  - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
   - ## CPU
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
     - Set VCORE, VCCIO and VCCSA to what you consider safe 24/7 voltages for your hardware and set the [LLC](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/) to flat. Generally, a higher VRM switching frequency results in more stable voltage at the cost of increased temperatures.
