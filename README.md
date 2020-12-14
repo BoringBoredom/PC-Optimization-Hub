@@ -41,7 +41,7 @@
     - ### DPI
       - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
 # BIOS
-  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable unused USB/PCI/SATA ports, RGB that can't physically be disconnected, power saving etc.
+  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused USB/PCI/SATA ports, RGB that can't physically be disconnected etc.
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
   - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
@@ -54,9 +54,9 @@
     - Set All Core and Uncore (Cache) frequency to the *Processor Base Frequency* value displayed in the [Intel product database](https://ark.intel.com/content/www/us/en/ark.html). The reason for this is preventing your CPU from overheating by testing the waters first.
     - Boot into Linpack and stress test for a few minutes.
     - Monitor your temperatures and make sure you are below 80°C (you most likely will on stock frequency, unless your cooling is very bad).
-    - Continue raising both All Core and Uncore and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
     - If temperatures are too high, you can try lowering VCORE (P = I x V).
-    - If you encounter instability, lower All Core and Uncore to the previous clocks and continue raising All Core from now on.
+    - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test for 1-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
