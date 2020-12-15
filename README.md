@@ -85,7 +85,7 @@
     - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
     - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - ## ISO creation
-    - [Drivers & integration guide](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html)
+    - [Drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) & [integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
     - [Rufus](https://github.com/pbatard/rufus)
     - ### ISO sources
       - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
