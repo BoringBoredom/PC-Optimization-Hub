@@ -78,9 +78,10 @@
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition is also convenient due to both operating systems having shared access to everything and the ease of reinstalling either of them.
   - As usual, disable everything you don't explicitely need.
-  - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
-  - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) exposes a lot of settings that are hidden from the control panel.
+  - ## Optimization guides
+    - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
+    - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - ## ISO creation
     - [Drivers & integration guide](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html)
     - [Rufus](https://github.com/pbatard/rufus)
@@ -92,8 +93,8 @@
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
 # Tools & resources
   - ## Mouse
-    - [Gearsearch mouse shape comparison](https://gearsearch.gg/shape.html)
-    - [RTINGS mouse shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
+    - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
+    - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
   - ## Mousepad
     - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Monitor
