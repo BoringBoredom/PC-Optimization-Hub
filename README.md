@@ -28,6 +28,7 @@
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
   - [NVIDIA article](https://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/#so-what-is-latency-anyway)
 # Physical setup
+  - [Issues](https://forums.blurbusters.com/viewtopic.php?t=6498) with [EMI](https://en.wikipedia.org/wiki/Electromagnetic_interference) and electricity can cause unintended behavior of electronic components, causing input lag.
   - Make sure your outlets are properly grounded.
   - If you don't have enough outlets, buy a proper power strip ( < power conditioner < voltage regulator) and connect all devices directly to it. Only connect your hardware (no phone chargers and other stuff).
   - Disconnect all things you don't use from your motherboard. E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
