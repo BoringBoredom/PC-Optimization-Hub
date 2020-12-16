@@ -96,7 +96,7 @@
 # Tools & resources
   - ## Mouse
     - ### Documentation
-      - [newbrict's page](https://sensor.fyi/info/)
+      - [Newbrict's page](https://sensor.fyi/info/)
     - ### Tools
       - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
       - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
