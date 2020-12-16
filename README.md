@@ -95,8 +95,11 @@
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
 # Tools & resources
   - ## Mouse
-    - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
-    - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
+    - ### Documentation
+      - [newbrict's page](https://sensor.fyi/info/)
+    - ### Tools
+      - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
+      - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
   - ## Mousepad
     - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Monitor
