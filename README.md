@@ -49,9 +49,12 @@
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
-      - Taking two refresh rate values as example, these are some of the FPS cap values that will prevent mistiming:
+      - These are some of the FPS cap values that will prevent mistiming:
         - 360 Hz: ... , 45, 60, 72, 90, 120, 180, 360, 720, 1080, ...
-        - 240 Hz: ... , 48, 60, 80, 120, 240, 480, 720, ...
+        - 280 Hz: ... , 40, 56, 70, 140, 280, 560, 840, 1120, ...
+        - 240 Hz: ... , 48, 60, 80, 120, 240, 480, 720, 960, ...
+        - 144 Hz: ... , 48, 72, 144, 288, 432, 576, 720, 864, 1008, ...
+        - 120 Hz: ... , 40, 60, 120, 240, 360, 480, 600, 720, 840, 960, 1080, ...
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused USB/PCI/SATA ports, RGB that can't physically be disconnected etc.
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
@@ -190,3 +193,5 @@
     - [Virustotal](https://www.virustotal.com/gui/home/upload)
     - [Hybrid Analysis](https://www.hybrid-analysis.com/)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
+# Keywords for Google indexing (ignore this)
+input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max
