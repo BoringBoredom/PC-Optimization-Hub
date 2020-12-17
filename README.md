@@ -180,6 +180,7 @@
       - [Device Remover](https://www.majorgeeks.com/files/details/device_remover_543c.html)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
+      - [MSMG Toolkit](https://msmgtoolkit.in/)
   - ## Alternatives to bloated programs
     - Epic Games: [Legendary](https://github.com/derrod/legendary)
     - Spotify: [Foobar2000](https://www.foobar2000.org/)
