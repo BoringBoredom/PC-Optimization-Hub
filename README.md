@@ -37,6 +37,8 @@
   - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
   - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
+  - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause
+electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
 # Peripherals
   - ## Mouse
     - ### Wired vs. Wireless
