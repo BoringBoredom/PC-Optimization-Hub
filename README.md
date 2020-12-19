@@ -1,4 +1,5 @@
 # Table of contents
+  - [Disclaimer](#disclaimer)
   - [Importance of low input lag](#importance-of-low-input-lag)
   - [Physical setup](#physical-setup)
   - [Peripherals](#peripherals)
@@ -23,6 +24,8 @@
     - [Windows](#windows-1)
     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
     - [Miscellaneous](#miscellaneous)
+# Disclaimer
+  - Due to the sheer complexity of hardware and software and differences between various architectures, your mileage may vary. However, it is useful to be aware of things that can impact user experience and adjust them according to your needs.
 # Importance of low input lag
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
@@ -87,6 +90,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - As usual, disable everything you don't explicitely need.
   - The Task Manager is a very inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive. I recommend using [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/process_explorer_settings.reg) instead.
   - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) exposes a lot of settings that are hidden from the control panel.
+  - Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running.
   - ## Optimization guides
     - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
     - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
@@ -149,6 +153,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
     - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
     - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
+    - [Furmark](https://geeks3d.com/furmark/)
   - ## Storage
     - ### Reviews
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
