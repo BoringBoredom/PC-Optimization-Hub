@@ -61,10 +61,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
         - 144 Hz: ... , 48, 72, 144, 288, 432, 576, 720, 864, 1008, ...
         - 120 Hz: ... , 40, 60, 120, 240, 360, 480, 600, 720, 840, 960, 1080, ...
 # BIOS
-  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused USB/PCI/SATA ports, RGB that can't physically be disconnected etc.
-  - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
-  - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
+  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, RGB that can't physically be disconnected etc.
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
+  - ## Optimization guides
+    - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
+    - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
   - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
