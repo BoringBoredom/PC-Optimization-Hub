@@ -68,7 +68,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
   - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
-  - [Core, Uncore and RAM affect each other's stability](https://youtu.be/WK5Md-90XHQ?t=851). I recommend doing CPU -> RAM -> CPU because stress testing CPU is not as time consuming as stress testing [RAM](https://youtu.be/WK5Md-90XHQ?t=1116).
+  - [Core, Uncore and RAM affect each other's stability](https://youtu.be/WK5Md-90XHQ?t=851). I recommend doing CPU -> RAM -> CPU because stress testing CPU is not as time-consuming as stress testing [RAM](https://youtu.be/WK5Md-90XHQ?t=1116).
   - ## CPU
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
     - Set VCORE, VCCIO and VCCSA to what you consider safe 24/7 voltages for your hardware and set the [LLC](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/) to flat. Generally, a higher VRM switching frequency results in more stable voltage at the cost of increased temperatures.
