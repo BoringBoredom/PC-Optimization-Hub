@@ -79,6 +79,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
     - Dedicated cooling is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
+    - At this point you will have to revisit your CPU since [Core, Uncore and RAM affect each other's stability](https://youtu.be/WK5Md-90XHQ?t=851). I recommend doing RAM last because stress testing CPU is not as time consuming as stress testing [RAM](https://youtu.be/WK5Md-90XHQ?t=1116).
   - ## GPU
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
