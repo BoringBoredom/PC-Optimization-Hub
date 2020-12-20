@@ -129,6 +129,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+    - ### Stress testing programs
       - [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/)
       - [Prime95](https://www.mersenne.org/download/)
   - ## RAM
@@ -140,10 +141,12 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [ASUS MemTweakIt 2.02.48](https://cdn.discordapp.com/attachments/653171331256549386/755097007240249416/MemTweakIt_V20248.zip)
       - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
       - [AIDA](https://www.aida64.com/downloads/NzI2ODhjM2U=)
-      - [HCI MemTest](https://hcidesign.com/memtest/)
-      - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/)
-      - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n)
+    - ### Stress testing programs
+      - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
       - [OCCT](https://www.ocbase.com/)
+      - [HCI MemTest](https://hcidesign.com/memtest/)
+      - [GSAT](https://github.com/stressapptest/stressapptest)
+      - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/)
   - ## GPU
     - [Afterburner](https://www.msi.com/Landing/afterburner)
     - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
