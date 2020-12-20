@@ -148,16 +148,18 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [GSAT](https://github.com/stressapptest/stressapptest)
       - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/)
   - ## GPU
-    - [Afterburner](https://www.msi.com/Landing/afterburner)
-    - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
-    - [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
-    - [NVSlimmer](https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/)
-    - [GPU-Z](https://www.techpowerup.com/gpuz/)
-    - [Superposition](https://benchmark.unigine.com/superposition)
-    - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
-    - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
-    - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
-    - [Furmark](https://geeks3d.com/furmark/)
+    - ### Tools
+      - [Afterburner](https://www.msi.com/Landing/afterburner)
+      - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
+      - [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
+      - [NVSlimmer](https://forums.guru3d.com/threads/nvslimmer-nvidia-driver-slimming-utility.423072/)
+      - [GPU-Z](https://www.techpowerup.com/gpuz/)
+      - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)
+      - [NVIDIA Nsight](https://developer.nvidia.com/nsight-graphics)
+      - [NVIDIA FrameView](https://www.nvidia.com/en-us/geforce/technologies/frameview/)
+    - ### Stress testing programs
+      - [Geeks3D's tools](https://www.geeks3d.com/dlz/#gpu_benchmarks)
+      - [Unigine's tools](https://benchmark.unigine.com/)
   - ## Storage
     - ### Reviews
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
