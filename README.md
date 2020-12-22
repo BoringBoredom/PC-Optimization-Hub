@@ -178,7 +178,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Profiling / Monitoring / Benchmarking
       - [HWInfo](https://www.hwinfo.com/download/) + [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/)
       - [CapFrameX](https://github.com/CXWorld/CapFrameX)
-      - [Windows Performance Analyzer](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/windows-performance-analyzer) ([all versions](https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install))
+      - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/)
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
       - [Mouse Tester](https://github.com/dobragab/MouseTester)
       - [Latencymon](https://www.resplendence.com/latencymon)
