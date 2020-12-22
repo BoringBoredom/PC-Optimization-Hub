@@ -103,6 +103,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [The Eye](https://the-eye.eu/public/MSDN/)
       - [DigitalRiver](https://digitalrivermirror.com/) (W7 only)
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
+      - [Heidoc's SHA-1 archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) (check legitimacy of ISOs)
 # Tools & resources
   - ## Mouse
     - ### Documentation
