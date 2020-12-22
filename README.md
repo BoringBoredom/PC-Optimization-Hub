@@ -75,7 +75,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Set the [LLC](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/) to flat and adjust the VRM switching frequency. Generally, higher frequency results in more stable voltage at the cost of increased temperatures.
     - Boot into Linpack and stress test for a few minutes.
     - Monitor your temperatures and make sure you are below 80°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will either encounter instability or temperatures above 80°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperatures above 80°C.
     - If temperatures are too high, you can try lowering VCORE (P = I x V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test for 2-4h to maximize long-term stability.
@@ -167,6 +167,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [WinDirStat](https://sourceforge.net/projects/windirstat/)
       - [Total Commander](https://www.ghisler.com/)
+      - [Ventoy](https://github.com/ventoy/Ventoy) (lets you create multi-boot USB drives)
   - ## BIOS
     - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
     - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
@@ -208,6 +209,5 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Virustotal](https://www.virustotal.com/gui/home/upload)
     - [Hybrid Analysis](https://www.hybrid-analysis.com/)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
-    - [Ventoy](https://github.com/ventoy/Ventoy) (lets you create multi-boot USB drives)
 # Keywords for Google indexing (ignore this)
 input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 OW FN COD LOL kovaak aim trainer krunker battlefield BF roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale BR intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme
