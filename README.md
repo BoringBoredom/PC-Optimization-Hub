@@ -138,6 +138,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Documentation
       - [DDR4 basics](https://www.systemverilog.io/)
       - [DDR4 JEDEC paper](http://www.softnology.biz/pdf/JESD79-4B.pdf)
+      - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
     - ### Tools
       - [ASRock Timing Configurator 4.0.4](https://download.asrock.com/Utility/Formula/TimingConfigurator(v4.0.4).zip)
       - [ASUS MemTweakIt 2.02.48](https://cdn.discordapp.com/attachments/653171331256549386/755097007240249416/MemTweakIt_V20248.zip)
