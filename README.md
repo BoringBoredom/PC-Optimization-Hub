@@ -206,7 +206,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Epic Games: [Legendary](https://github.com/derrod/legendary)
     - Spotify: [Foobar2000](https://www.foobar2000.org/)
     - Discord: [Ripcord](https://cancel.fm/ripcord/)
-    - GHUB / LGS: [Logitech Onboard Memory Manager](https://download01.logi.com/web/ftp/pub/techsupport/gaming/Onboard%20Memory%20Manager.exe)
+    - GHUB / LGS: [Logitech Onboard Memory Manager](https://support.logi.com/hc/en-us/articles/360059641133)
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [Virustotal](https://www.virustotal.com/gui/home/upload)
