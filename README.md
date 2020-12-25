@@ -39,7 +39,7 @@
   - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. [router](https://www.theverge.com/circuitbreaker/2017/2/3/14496044/lg-ultrafine-5k-display-router-fix-redesign) ([example of a router with a high electric field](https://i.imgur.com/EIt51IX.jpeg)), power strip/conditioner, voltage regulator etc.
   - Make sure none of your cables are touching each other and untangle them. This applies to everything, including power and peripheral cables.
   - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
-  - If your motherboard has multiple USB controllers, offload your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
+  - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618) your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
   - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause
 electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
