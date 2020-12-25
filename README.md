@@ -48,9 +48,9 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Wired vs. Wireless
       - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://i.imgur.com/5myJ46P.png) are implemented to increase battery life.
     - ### DPI
-      - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [decreases latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
+      - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [reduces latency](https://twitter.com/Chris_Pate/status/871307822562107394) and improves motion clarity. Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
     - ### Polling rate
-      - Higher polling rate decreases latency and [improves motion clarity](https://youtu.be/gOQNRvJbpmk?t=540) ([another example](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569)).
+      - Higher polling rate reduces latency and [improves motion clarity](https://youtu.be/gOQNRvJbpmk?t=540) ([another example](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569)).
   - ## Monitor
     - ### Capping FPS
       - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
