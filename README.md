@@ -171,9 +171,10 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
     - ### Tools
-      - [WinDirStat](https://sourceforge.net/projects/windirstat/)
-      - [Total Commander](https://www.ghisler.com/)
-      - [Ventoy](https://github.com/ventoy/Ventoy) (lets you create multi-boot USB drives)
+      - [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
+      - [Total Commander](https://www.ghisler.com/) (file manager)
+      - [Ventoy](https://github.com/ventoy/Ventoy) (multi-boot USB drive)
+      - [Rufus](https://github.com/pbatard/rufus) (ISO mounting)
   - ## BIOS
     - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
     - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
