@@ -101,7 +101,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) & [integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
     - [Rufus](https://github.com/pbatard/rufus)
     - ### ISO sources
-      - Always check legitimacy of ISO by comparing SHA-1 [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's SHA-1 archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
+      - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
       - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
       - [Techbench](https://tb.rg-adguard.net/public.php)
       - [The Eye](https://the-eye.eu/public/MSDN/)
