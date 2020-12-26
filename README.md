@@ -114,6 +114,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
       - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
+      - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
   - ## Mousepad
     - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Monitor
