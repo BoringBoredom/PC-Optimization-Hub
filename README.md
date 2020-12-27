@@ -36,7 +36,7 @@
   - Make sure your outlets are properly grounded.
   - If you don't have enough outlets, buy a proper power strip ( < power conditioner < voltage regulator) and connect all devices directly to it. Only connect your hardware (no phone chargers and other stuff).
   - [Disconnect all things you don't use from your motherboard](https://www.youtube.com/watch?v=950XhSPanlA). E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
-  - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. [router](https://i.imgur.com/EIt51IX.jpeg), power strip/conditioner, voltage regulator etc.
+  - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. [router](https://i.imgur.com/EIt51IX.jpeg), power strip/[conditioner](https://i.imgur.com/GLyCqUN.jpeg), voltage regulator etc.
   - Make sure none of your [cables](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) are touching each other and untangle them. This applies to everything, including power and peripheral cables.
   - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
   - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618) your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
@@ -110,7 +110,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Unknown list](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk/edit)
 # Tools & resources
   - ## Mouse
-    - ### Documentation
+    - ### Information
       - [Newbrict's page](https://sensor.fyi/info/)
     - ### Tools
       - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
@@ -131,7 +131,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
   - ## CPU
-    - ### Documentation
+    - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
@@ -139,7 +139,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/)
       - [Prime95](https://www.mersenne.org/download/)
   - ## RAM
-    - ### Documentation
+    - ### Information
       - [DDR4 basics](https://www.systemverilog.io/)
       - [DDR4 JEDEC paper](http://www.softnology.biz/pdf/JESD79-4B.pdf)
       - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
@@ -180,7 +180,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
     - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
   - ## Windows
-    - ### Documentation
+    - ### Information
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - ### Profiling / Monitoring / Benchmarking
       - [HWInfo](https://www.hwinfo.com/download/) + [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/)
