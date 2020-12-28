@@ -39,8 +39,8 @@
   - [Disconnect all things you don't use from your motherboard](https://www.youtube.com/watch?v=950XhSPanlA). E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
   - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. [router](https://i.imgur.com/EIt51IX.jpeg), power strip/[conditioner](https://i.imgur.com/GLyCqUN.jpeg), voltage regulator etc.
   - Make sure none of your [cables](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) are touching each other and untangle them. This applies to everything, including power and peripheral cables.
-  - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
-  - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618) your other devices to them. Lower their polling rates to an acceptable level. E.g. your microphone doesn't need 1000 Hz
+  - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
+  - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618) your other devices to them. Lower their polling rate to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DP on each GPU port (don't Plug & Play these).
   - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause
 electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
