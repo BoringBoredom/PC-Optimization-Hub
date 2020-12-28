@@ -14,7 +14,7 @@
   - [Tools & resources](#tools--resources)
     - [Mouse](#mouse-1)
     - [Mousepad](#mousepad)
-    - [Keyboard](#keyboard]
+    - [Keyboard](#keyboard)
     - [Monitor](#monitor-1)
     - [PSU](#psu)
     - [CPU](#cpu-1)
