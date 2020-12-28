@@ -118,6 +118,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
   - ## Mousepad
     - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
+  - ## Keyboard
+    - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
   - ## Monitor
     - ### Reviews
       - [RTINGS](https://www.rtings.com/monitor/reviews/best/by-usage/gaming#conclusion)
