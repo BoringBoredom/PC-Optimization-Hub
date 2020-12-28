@@ -1,4 +1,4 @@
-# List of forum threads from users reporting increased input lag due to lack of electromagnetic compatibility
+# List of forum threads from users reporting increased input lag due to lack of electromagnetic compatibility or ground loops
 https://www.nvidia.com/en-us/geforce/forums/gaming-pcs/8/235326/mouseinput-lag-is-killing-me/  
 https://forums.blurbusters.com/viewtopic.php?f=10&t=3641  
 https://www.reddit.com/r/buildapc/comments/bafhfe/update_after_years_of_mouse_input_lag_and_other/  
