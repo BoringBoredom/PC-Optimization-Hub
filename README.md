@@ -177,6 +177,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Reviews
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
+      - [AnandTech](https://www.anandtech.com/tag/ssd%2breview)
     - ### Tools
       - [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
       - [Total Commander](https://www.ghisler.com/) (file manager)
