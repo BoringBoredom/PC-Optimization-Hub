@@ -130,9 +130,12 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [EIZO monitor test](https://www.eizo.be/monitor-test/)
       - [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
   - ## PSU
-    - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
-    - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
-    - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
+    - ### Information
+      - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
+    - ### Reviews
+      - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
+      - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
+      - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
   - ## CPU
     - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
@@ -221,4 +224,4 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Hybrid Analysis](https://www.hybrid-analysis.com/)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
 # Keywords for Google indexing (ignore this)
-input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme emi emf emc ef power electricity coupling interference
+input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
