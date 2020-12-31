@@ -47,7 +47,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
 # Peripherals
   - ## Mouse
     - ### Wired vs. Wireless
-      - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://i.imgur.com/5myJ46P.png) are implemented to increase battery life.
+      - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/hero%20power%20saving.PNG) are implemented to increase battery life.
     - ### DPI
       - Depending on your preferred cm/360° in games, you may want to experiment with different DPI. Higher DPI [reduces latency](https://twitter.com/Chris_Pate/status/871307822562107394) and [improves motion clarity](https://youtu.be/QrF_e5vKqPk). Most modern sensors are able to handle around 1600 DPI without sensor smoothing. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
     - ### Polling rate
