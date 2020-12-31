@@ -211,7 +211,6 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Quick CPU](https://coderbag.com/product/quickcpu)
       - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/)
       - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
-      - [Device Remover](https://www.majorgeeks.com/files/details/device_remover_543c.html)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
   - ## Alternatives to bloated programs
