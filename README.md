@@ -1,6 +1,6 @@
 # Table of contents
-  - [Disclaimer](#disclaimer)
   - [Importance of low input lag](#importance-of-low-input-lag)
+  - [Disclaimer](#disclaimer)
   - [Physical setup](#physical-setup)
   - [Peripherals](#peripherals)
     - [Mouse](#mouse)
@@ -25,14 +25,14 @@
     - [Windows](#windows-1)
     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
     - [Miscellaneous](#miscellaneous)
-# Disclaimer
-  - Due to the sheer complexity of hardware and software and differences between various architectures, your mileage may vary. However, it is useful to be aware of things that can impact user experience and adjust them according to your needs.
-  - Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
 # Importance of low input lag
   - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
   - [visual demonstration of 10 vs 1 milliseconds](https://www.youtube.com/watch?v=vOvQCPLkPt4&feature=youtu.be&t=80)
   - ["The average difference in aiming task completion (the time it takes to acquire and shoot a target) between a 12ms and 20ms PCs was measured to be 182ms - that is about 22 times the system latency difference."](https://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/#why-does-system-latency-matter)
   - ["In all studies, the trend shows continued improvements all the way toward zero latency."](https://developer.nvidia.com/blog/aiming-faster-in-games-with-low-computer-system-latency/)
+# Disclaimer
+  - Due to the sheer complexity of hardware and software and differences between various architectures, your mileage may vary. However, it is useful to be aware of things that can impact user experience and adjust them according to your needs.
+  - Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
 # Physical setup
   - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with electricity (e.g. [ground loops](https://en.wikipedia.org/wiki/Ground_loop_(electricity))) can cause unintended behavior of electronic components, potentially [increasing input lag](content/physical%20setup/emc%20problem%20list.md#list-of-forum-threads-from-users-reporting-increased-input-lag-due-to-lack-of-electromagnetic-compatibility-or-issues-with-electricity). Problems can occur due to [insufficient quality control](https://bit-tech.net/news/tech/motherboards_not_passing_emi_tests/1/) or [oversight regarding magnitude of impact from/on other independently manufactured components](https://www.theverge.com/circuitbreaker/2017/2/3/14496044/lg-ultrafine-5k-display-router-fix-redesign). Here are some [resources regarding electromagnetic compatibility](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical).
   - Make sure your outlets are properly grounded.
