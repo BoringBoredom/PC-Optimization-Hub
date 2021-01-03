@@ -114,11 +114,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - ## Mouse
     - ### Information
       - [Newbrict's page](https://sensor.fyi/info/)
+      - [Click latency database](https://github.com/NVIDIA/Reflex-Latency-Analyzer-Mouse-Database/blob/main/NVIDIA%20RLA%20Mice%20Database%20-%20Github.csv)
     - ### Tools
       - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
       - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
       - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
-      - [Click latency database](https://github.com/NVIDIA/Reflex-Latency-Analyzer-Mouse-Database/blob/main/NVIDIA%20RLA%20Mice%20Database%20-%20Github.csv)
   - ## Mousepad
     - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Keyboard
