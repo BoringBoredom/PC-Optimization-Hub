@@ -131,6 +131,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Blur Busters' utilities](https://www.testufo.com/)
       - [EIZO monitor test](https://www.eizo.be/monitor-test/)
       - [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+      - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
   - ## PSU
     - ### Information
       - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
