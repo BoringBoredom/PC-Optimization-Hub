@@ -224,5 +224,6 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
+# [My Twitter](https://twitter.com/Bra1nlet)
 # Keywords for Google indexing (ignore this)
 input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
