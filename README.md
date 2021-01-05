@@ -220,7 +220,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Spotify: [Foobar2000](https://www.foobar2000.org/)
     - Discord: [Ripcord](https://cancel.fm/ripcord/)
     - GHUB / LGS: [Logitech Onboard Memory Manager](https://support.logi.com/hc/en-us/articles/360059641133)
-    - Antivirus software: [Virustotal](https://www.virustotal.com/gui/home/upload) & [Hybrid Analysis](https://www.hybrid-analysis.com/)
+    - Antivirus software: [Virustotal](https://www.virustotal.com/gui/home/upload), [Hybrid Analysis](https://www.hybrid-analysis.com/) & [uBlock Origin](https://github.com/gorhill/uBlock)
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
