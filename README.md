@@ -125,7 +125,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
   - ## Monitor
     - ### Reviews
-      - [RTINGS](https://www.rtings.com/monitor/reviews/best/by-usage/gaming#conclusion)
+      - [RTINGS](https://www.rtings.com/monitor/tools/table)
       - [TFT Central](https://www.tftcentral.co.uk/reviews_index.htm)
     - ### Tools
       - [Blur Busters' utilities](https://www.testufo.com/)
