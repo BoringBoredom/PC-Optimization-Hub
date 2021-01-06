@@ -72,16 +72,16 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
     - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
-  - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperatures, for example).
+  - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperature, for example).
   - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
   - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability, hence there is no definitive order.
   - ## CPU
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
     - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
     - Boot into Linpack and stress test for a few minutes.
-    - Monitor your temperatures and make sure you are below 80°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperatures above 80°C.
-    - If temperatures are too high, you can try lowering VCORE (P = I x V).
+    - Monitor the temperature and make sure you are below 80°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 80°C.
+    - If the temperature is too high, you can try lowering VCORE (P = I x V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test for 2-4h to maximize long-term stability.
   - ## RAM
@@ -89,6 +89,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Dedicated cooling is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
+    - VRAM benefits from low temperature as well.
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
