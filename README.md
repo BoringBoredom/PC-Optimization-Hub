@@ -86,15 +86,15 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Ultimately, stress test for 2-4h to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
-    - Dedicated cooling is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
+    - Dedicated cooling (ideally near ambient) is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
-    - VRAM benefits from low temperature as well.
+    - VRAM benefits from low temperature (ideally near ambient) as well.
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
   - As usual, disable everything you don't explicitely need.
-  - The Task Manager is a very inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive. I recommend using [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](content/windows/process%20explorer%20settings.reg) instead.
+  - The Task Manager is a very inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive. I recommend using [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/windows/process%20explorer%20settings.reg) instead.
   - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) exposes a lot of settings that are hidden from the control panel.
   - Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running.
   - ## Optimization guides
@@ -182,6 +182,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
       - [AnandTech](https://www.anandtech.com/tag/ssd%2breview)
+    - ### Profiling / Monitoring / Benchmarking
+      - [CrystalDiskMark](https://crystalmark.info/en/)
     - ### Tools
       - [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
       - [Total Commander](https://www.ghisler.com/) (file manager)
@@ -227,4 +229,4 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
 # [My Twitter](https://twitter.com/Bra1nlet)
 # Keywords for Google indexing (ignore this)
-input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
+input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia amd ryzen core i9 i7 i5 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
