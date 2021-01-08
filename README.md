@@ -55,7 +55,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Higher polling rate reduces latency and [improves motion clarity](https://youtu.be/gOQNRvJbpmk?t=540) ([another example](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569)).
   - ## Monitor
     - ### Capping FPS
-      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
+      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817) (possibly due to higher VRAM temperature).
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
@@ -206,6 +206,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/)  (huge compendium)
       - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
+      - [NTLite](https://www.ntlite.com/) (ISO creation)
       - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
       - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
       - [Timer Resolution Service](https://forums.guru3d.com/threads/windows-timer-resolution-tool-in-form-of-system-service.376458/)
