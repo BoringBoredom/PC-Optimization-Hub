@@ -73,23 +73,26 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperature, for example).
+  - A stable system should be able to run anything indefinitely.
   - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
   - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability, hence there is no definitive order.
   - ## CPU
+    - I recommend dedicated cooling of VRMs (ideally near ambient).
     - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
     - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
     - Boot into Linpack and stress test for a few minutes.
-    - Monitor the temperature and make sure you are below 80°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 80°C.
+    - Monitor the temperature and make sure you are below 70°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 70°C.
     - If the temperature is too high, you can try lowering VCORE (P = I x V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
-    - Ultimately, stress test for 2-4h to maximize long-term stability.
+    - Ultimately, stress test for at least 4 hrs to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
     - Dedicated cooling (ideally near ambient) is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
+    - Stress test with multiple programs for at least 8 hrs each program to maximize long-term stability.
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
-    - VRAM benefits from low temperature (ideally near ambient) as well.
+    - VRAM benefits from low temperature (ideally near ambient).
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
@@ -101,7 +104,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
     - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - ## ISO creation
-    - [Drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) & [integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
+    - [USB and storage drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) (mostly relevant for W7) & [driver integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
     - [Rufus](https://github.com/pbatard/rufus)
     - ### ISO sources
       - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
