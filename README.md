@@ -84,7 +84,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Boot into Linpack and stress test for a few minutes.
     - Monitor the temperature and make sure you are below 70°C.
     - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 70°C.
-    - If the temperature is too high, you can try lowering VCORE (P = I x V).
+    - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test for at least 4 hrs to maximize long-term stability.
   - ## RAM
@@ -229,9 +229,10 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Discord: [Ripcord](https://cancel.fm/ripcord/)
     - GHUB / LGS: [Logitech Onboard Memory Manager](https://support.logi.com/hc/en-us/articles/360059641133)
     - Antivirus software: [Virustotal](https://www.virustotal.com/gui/home/upload), [Hybrid Analysis](https://www.hybrid-analysis.com/) & [uBlock Origin](https://github.com/gorhill/uBlock)
+    - Chrome: [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
   - ## Miscellaneous
     - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
 # [My Twitter](https://twitter.com/Bra1nlet)
 # Keywords for Google indexing (ignore this)
-input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny 2 ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia reflex amd ryzen core i9 i7 i5 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
+input lag latency optimization performance gaming overclock windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia pascal turing ampere reflex amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference
