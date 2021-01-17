@@ -57,7 +57,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Higher polling rate reduces latency and [improves motion clarity](https://youtu.be/gOQNRvJbpmk?t=540) ([another example](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569)).
   - ## Monitor
     - ### Capping FPS
-      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817) (possibly due to higher VRAM temperature).
+      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
@@ -209,7 +209,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Profiling / Monitoring / Benchmarking
       - [HWInfo](https://www.hwinfo.com/download/) + [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
       - [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
-      - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/)
+      - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
       - [Mouse Tester](https://github.com/dobragab/MouseTester)
       - [Latencymon](https://www.resplendence.com/latencymon)
