@@ -80,9 +80,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability, hence there is no definitive order.
   - ## CPU
     - I recommend dedicated cooling of VRMs (ideally near ambient).
-    - Download the bootable version of [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) and mount it to a USB stick.
     - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
-    - Boot into Linpack and stress test for a few minutes.
+    - Stress test with [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) for a few minutes.
     - Monitor the temperature and make sure you are below 70°C.
     - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 70°C.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
