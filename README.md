@@ -7,6 +7,7 @@
     - [Monitor](#monitor)
   - [BIOS](#bios)
   - [Hardware clocking](#hardware-clocking)
+    - [Temperature](#temperature)
     - [CPU](#cpu)
     - [RAM](#ram)
     - [GPU](#gpu)
@@ -27,7 +28,7 @@
     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
     - [Miscellaneous](#miscellaneous)
 # Importance of low input lag
-  - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee)
+  - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://www.semanticscholar.org/paper/In-the-blink-of-an-eye%3A-investigating-latency-Ng-Annett/386a15fd85c162b8e4ebb6023acdce9df2bd43ee).
   - [Visual demonstration of 1 vs 10 milliseconds](https://youtu.be/vOvQCPLkPt4?t=80)
   - ["The average difference in aiming task completion (the time it takes to acquire and shoot a target) between a 12ms and 20ms PCs was measured to be 182ms - that is about 22 times the system latency difference."](https://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/#why-does-system-latency-matter)
   - ["In all studies, the trend shows continued improvements all the way toward zero latency."](https://developer.nvidia.com/blog/aiming-faster-in-games-with-low-computer-system-latency/)
@@ -74,26 +75,33 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
     - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
-  - I called this category *clocking* rather than *overclocking* because in the end all you do is run your silicon at its safe capabilities (which may not always be *over*clocking due to temperature, for example).
+  - I called this category *clocking* rather than *overclocking* because in the end all you do is run your components at their safe capabilities (which may not always be *over*clocking due to temperature, for example).
   - A stable system should be able to run anything indefinitely.
   - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
   - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability, hence there is no definitive order.
+  - ## Temperature
+    - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
+    - ["The load has increased the main board temperature by 5 deg. (centigrade scale) only, but the influence to the measured performance counter frequency is quite considerable."](http://www.windowstimestamp.com/description)
+    - ["According to a report on reliability prediction of electronic equipment prepared by the U.S. Department of Defense, the failure factor, which is relative failure rate at any temperature over failure rate at 75 °C, increases exponentially with increasing the device temperature as demonstrated in Fig. 3. Pedram and Nazarian also reported that more than 50% of all integrated circuit (IC) failures are related to thermal issues. Thus a rule of thumb is that the failure rate of electronic components can be halved for each 10 °C reduction in their junction temperature and the cooler the devices operate, the more reliable they are."](https://doi.org/10.1016/j.rser.2017.04.112)
+    - ["The operating leakage current of an aluminium electrolytic capacitor with non-solid electrolyte is extremely dependent on the temperature and voltage."](https://tadiranbatteries.de/pdf/applications/leakage-current-properties-of-modern-electrolytic-capacitors.pdf)
+    - Conclusion: Maintaining near ambient temperature of components is desirable.
+    - ### Controlling temperature
+      - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
+      - Undervolt the GPU to reduce VRAM and PCH temperature.
+      - Liquid cool all components (expensive).
   - ## CPU
-    - I recommend dedicated cooling of VRMs (ideally near ambient).
     - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
     - Stress test with [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) for a few minutes.
-    - Monitor the temperature and make sure you are below 70°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 70°C.
+    - Monitor the temperature and make sure you are below 60°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 60°C.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
-    - Ultimately, stress test for at least 4 hrs to maximize long-term stability.
+    - Ultimately, stress test overnight to maximize long-term stability.
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
-    - Dedicated cooling (ideally near ambient) is advised since ["charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
-    - Stress test with multiple programs for at least 8 hrs each program to maximize long-term stability.
+    - Stress test overnight to maximize long-term stability. Retest with a variety of programs since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
-    - VRAM benefits from low temperature (ideally near ambient).
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
