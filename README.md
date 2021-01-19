@@ -87,7 +87,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Conclusion: Maintaining near ambient temperature of components is desirable.
     - ### Controlling temperature
       - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
-      - Undervolt the GPU to reduce VRAM and PCH temperature.
+      - Undervolt and downclock the GPU to reduce VRAM and PCH temperature.
       - Liquid cool all components (expensive).
   - ## CPU
     - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
