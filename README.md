@@ -89,18 +89,18 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
       - Undervolt and downclock the GPU to reduce VRAM and PCH temperature.
       - Liquid cool all components (expensive).
+  - ## RAM
+    - [Importance of memory clocking](https://kingfaris.co.uk/ram)
+    - Stress test overnight to maximize long-term stability. Retest with a variety of programs since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
+    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU
-    - Adjust [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
+    - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
     - Stress test with [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) for a few minutes.
     - Monitor the temperature and make sure you are below 60°C.
     - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 60°C.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test overnight to maximize long-term stability.
-  - ## RAM
-    - [Importance of memory clocking](https://kingfaris.co.uk/ram)
-    - Stress test overnight to maximize long-term stability. Retest with a variety of programs since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
-    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## GPU
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
@@ -202,6 +202,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [AnandTech](https://www.anandtech.com/tag/ssd%2breview)
     - ### Profiling / Monitoring / Benchmarking
       - [CrystalDiskMark](https://crystalmark.info/en/)
+      - [ATTO Disk Benchmark](https://www.techpowerup.com/download/atto-disk-benchmark/)
     - ### Tools
       - [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
       - [Total Commander](https://www.ghisler.com/) (file manager)
