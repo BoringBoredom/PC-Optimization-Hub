@@ -169,7 +169,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [ASRock Timing Configurator 4.0.4](https://download.asrock.com/Utility/Formula/TimingConfigurator(v4.0.4).zip)
       - [ASUS MemTweakIt 2.02.48](https://cdn.discordapp.com/attachments/653171331256549386/755097007240249416/MemTweakIt_V20248.zip)
       - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
-      - [AIDA](https://www.aida64.com/downloads/NzI2ODhjM2U=)
+      - [AIDA](https://www.aida64.com/downloads)
     - ### Stress testing programs
       - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
       - [OCCT](https://www.ocbase.com/)
