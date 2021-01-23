@@ -40,7 +40,7 @@
   - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with electricity (e.g. [ground loops](https://en.wikipedia.org/wiki/Ground_loop_(electricity))) can cause unintended behavior of electronic components, potentially [increasing input lag](content/physical%20setup/emc%20problem%20list.md#list-of-forum-threads-from-users-reporting-increased-input-lag-due-to-lack-of-electromagnetic-compatibility-or-issues-with-electricity). Problems can occur due to [insufficient quality control](https://bit-tech.net/news/tech/motherboards_not_passing_emi_tests/1/) or [oversight regarding magnitude of impact from/on other independently manufactured components](https://www.theverge.com/circuitbreaker/2017/2/3/14496044/lg-ultrafine-5k-display-router-fix-redesign). Here are [some resources](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical) and a [short summary](https://forums.blurbusters.com/viewtopic.php?f=10&t=7168&start=30#p62185).
   - Make sure your outlets are properly grounded.
   - If you don't have enough outlets, buy a proper power strip ( < power conditioner < voltage regulator) and connect all devices directly to it. Only connect your hardware (no phone chargers etc.).
-  - Disconnect all things you don't use from your motherboard to minimize risk of [coupling](https://youtu.be/950XhSPanlA). E.g. front USB, front audio, RGB, hard drive activity LED, system power LED, reset button etc.
+  - Disconnect all things you don't use from your motherboard to minimize risk of [coupling](https://youtu.be/950XhSPanlA). E.g. front USB, front audio, (RGB) LEDs, hard drive activity LED, system power LED, reset button etc.
   - Move all devices that have electric or electromagnetic fields away from your PC and peripherals. E.g. [router](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/router.jpg), power strip/[conditioner](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/conditioner.jpg), voltage regulator etc.
   - Make sure there is enough space between your [cables](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) and untangle them. This applies to everything, including power and peripheral cables.
   - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)).
@@ -49,6 +49,7 @@
   - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause
 electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
 # Peripherals
+  - Turn off (RGB) LEDs since USB current output is very limited ([USB 2: 0.5 A, USB 3: 0.9 A](https://en.wikipedia.org/wiki/USB)). Moreover, ["running an RGB effect/animation can take a great toll on the MCU. It requires a lot of processing power and will delay other processes."](https://blog.wooting.nl/what-influences-keyboard-speed/)
   - ## Mouse
     - ### Wired vs. Wireless
       - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, aggressive [power saving mechanisms](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/hero%20power%20saving.PNG) are implemented to increase battery life.
@@ -69,7 +70,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
         - 144 Hz: ... , 48, 72, 144, 288, 432, 576, 720, 864, 1008, ...
         - 120 Hz: ... , 40, 60, 120, 240, 360, 480, 600, 720, 840, 960, 1080, ...
 # BIOS
-  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, RGB that can't physically be disconnected etc.
+  - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, (RGB) LEDs that can't physically be disconnected etc.
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
   - ## Optimization guides
     - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
