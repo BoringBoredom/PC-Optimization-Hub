@@ -87,8 +87,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ["The operating leakage current of an aluminium electrolytic capacitor with non-solid electrolyte is extremely dependent on the temperature and voltage."](https://tadiranbatteries.de/pdf/applications/leakage-current-properties-of-modern-electrolytic-capacitors.pdf)
     - Conclusion: Maintaining near ambient temperature of components is desirable.
     - ### Controlling temperature
+      - Manually set voltages and clocks for all components.
       - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
-      - Undervolt and downclock the GPU to reduce VRAM and PCH temperature.
       - Liquid cool all components (expensive).
   - ## RAM
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
