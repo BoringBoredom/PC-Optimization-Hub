@@ -96,7 +96,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
-    - Stress test with [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) for a few minutes.
+    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes.
     - Monitor the temperature and make sure you are below 60°C.
     - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 60°C.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
@@ -160,7 +160,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
     - ### Stress testing programs
-      - [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/)
+      - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
       - [Prime95](https://www.mersenne.org/download/)
   - ## RAM
     - ### Information
