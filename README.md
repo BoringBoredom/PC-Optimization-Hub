@@ -18,9 +18,9 @@
     - [Keyboard](#keyboard)
     - [Monitor](#monitor-1)
     - [PSU](#psu)
-    - [CPU](#cpu-1)
-    - [RAM](#ram-1)
-    - [GPU](#gpu-1)
+    - [CPU](#cpu)
+    - [RAM](#ram)
+    - [GPU](#gpu)
     - [Motherboard](#motherboard)
     - [Storage](#storage)
     - [BIOS](#bios-1)
@@ -77,9 +77,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your components at their safe capabilities (which may not always be *over*clocking due to temperature, for example).
-  - A stable system should be able to run anything indefinitely.
-  - [General Intel Lake clocking information](https://youtu.be/WK5Md-90XHQ)
-  - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability, hence there is no definitive order.
+  - A stable system should be able to run anything indefinitely. A single error is one too many.
   - ## Temperature
     - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - ["The load has increased the main board temperature by 5 deg. (centigrade scale) only, but the influence to the measured performance counter frequency is quite considerable."](http://www.windowstimestamp.com/description)
@@ -90,19 +88,23 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Manually set voltages and clocks for all components.
       - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
       - Liquid cool all components (expensive).
-  - ## RAM
+  - ## Intel Lake platform (6000-10000 series)
+    - [Voltages](https://youtu.be/WK5Md-90XHQ?t=203)
+    - Beware of degradation by high voltage, temperature and current. Personally, I think the voltages and temperature mentioned in the previous video are too high.
+    - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. Since the effectiveness of CPU stress testing is much lower with stock RAM, I suggest adjusting RAM first and eventually revisiting it to verify it didn't destabilize.
+  - ## RAM (Intel & AMD)
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
     - Stress test overnight to maximize long-term stability. Retest with a variety of programs since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
-  - ## CPU
+  - ## CPU (Intel)
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
     - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes.
-    - Monitor the temperature and make sure you are below 60°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above 60°C.
+    - Monitor the temperature and make sure you are below your threshold. Personally, I would aim for <60°C.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above your threshold.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test overnight to maximize long-term stability.
-  - ## GPU
+  - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
