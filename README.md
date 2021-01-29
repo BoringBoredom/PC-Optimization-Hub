@@ -140,7 +140,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
       - [Aiming.Pro Sensitivity Calculator](https://aiming.pro/mouse-sensitivity-calculator)
   - ## Mousepad
-    - [Hoya's comparison sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
+    - [Hoya's sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Keyboard
     - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
   - ## Monitor
@@ -159,6 +159,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
       - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
+      - [PSUGuru's sheet](https://docs.google.com/spreadsheets/d/1_GMev0EwK37J3zZL98zIqF-OSBuHlFEHmrc_SPuYsjs/edit)
   - ## CPU
     - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
