@@ -226,7 +226,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
       - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
-      - [Mouse Tester](https://github.com/dobragab/MouseTester)
+      - [Mouse Tester](https://github.com/microe1/MouseTester) (microe1)
+      - [Mouse Tester](https://github.com/dobragab/MouseTester) (dobragab)
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
     - ### Tools
