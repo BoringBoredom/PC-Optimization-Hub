@@ -97,7 +97,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. Since the effectiveness of CPU stress testing is much lower with stock RAM, I suggest adjusting RAM first and eventually revisiting it to verify it didn't destabilize.
   - ## RAM (Intel & AMD)
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
-    - Stress test overnight to maximize long-term stability. Retest with a variety of programs since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
+    - Stress test overnight to maximize long-term stability. Retest with a [variety of programs](#stress-testing-programs-1) since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU (Intel)
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
@@ -179,11 +179,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
       - [AIDA](https://www.aida64.com/downloads)
     - ### Stress testing programs
+      - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/) ([Enable *Caching* on all operating systems and change the *RNG* to *XORWOW* if testing on Windows 7](https://www.karhusoftware.com/ramtest/README.txt))
       - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
       - [OCCT](https://www.ocbase.com/)
       - [HCI MemTest](https://hcidesign.com/memtest/)
       - [GSAT](https://github.com/stressapptest/stressapptest)
-      - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/)
   - ## GPU
     - ### Tools
       - [Afterburner](https://www.msi.com/Landing/afterburner)
