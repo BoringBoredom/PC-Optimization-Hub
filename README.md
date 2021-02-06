@@ -63,7 +63,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - ## Monitor
     - ### Capping FPS
       - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
-      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. Account for [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
+      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
       - These are some of the FPS cap values that will prevent mistiming:
