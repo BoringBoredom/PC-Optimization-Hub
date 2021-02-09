@@ -180,7 +180,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [AIDA](https://www.aida64.com/downloads)
     - ### Stress testing programs
       - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/) ([Enable *Caching* on all operating systems and change the *RNG* to *XORWOW* if testing on Windows 7](https://www.karhusoftware.com/ramtest/README.txt))
-      - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
+      - [TestMem5](https://testmem.tz.ru/testmem5.htm) & [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
       - [OCCT](https://www.ocbase.com/)
       - [HCI MemTest](https://hcidesign.com/memtest/)
       - [GSAT](https://github.com/stressapptest/stressapptest)
@@ -223,8 +223,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Information
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - ### Profiling / Monitoring / Benchmarking
-      - [HWInfo](https://www.hwinfo.com/download/) + [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
-      - [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
+      - [HWInfo](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
+      - [OCAT](https://github.com/GPUOpen-Tools/ocat) & [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
       - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
       - [Mouse Tester](https://github.com/microe1/MouseTester)
