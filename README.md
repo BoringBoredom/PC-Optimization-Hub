@@ -72,6 +72,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
   - ## Optimization guides
     - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
+    - [Congatec guide](https://www.congatec.com/fileadmin/user_upload/Documents/Application_Notes/AN40_BIOS_Optimization_For_Real-time_Applications.pdf)
     - [r0ach's guide](https://www.overclock.net/threads/gaming-and-mouse-response-bios-optimization-guide-for-modern-pc-hardware.1433882/)
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your components at their safe capabilities (which may not always be *over*clocking due to temperature, for example).
