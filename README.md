@@ -66,7 +66,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
-      - [FPS Cap Calculator](https://boringboredom.github.io/FPS-Cap-Calculator/)
+      - [FPS Cap Calculator](https://boringboredom.github.io/fps-cap-calculator/)
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, (RGB) LEDs that can't physically be disconnected etc.
   - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
