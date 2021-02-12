@@ -26,6 +26,7 @@
     - [Storage](#storage)
     - [BIOS](#bios-1)
     - [Windows](#windows-1)
+    - [Audio](#audio)
     - [Alternatives to bloated programs](#alternatives-to-bloated-programs)
     - [Miscellaneous](#miscellaneous)
 # Importance of low input lag
@@ -243,6 +244,9 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
+  - ## Audio
+    - ### Tools
+      - [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
   - ## Alternatives to bloated programs
     - Epic Games: [Legendary](https://github.com/derrod/legendary)
     - Spotify: [Foobar2000](https://www.foobar2000.org/)
