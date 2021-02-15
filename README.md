@@ -160,6 +160,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - ## CPU
     - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
+      - [Silicon Lottery's binning statistics](https://siliconlottery.com/pages/statistics)
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
     - ### Stress testing programs
