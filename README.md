@@ -62,9 +62,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Polling rate
       - Higher polling rate [reduces latency](https://youtu.be/mwf_F2VboFQ?t=458) and improves motion clarity ([1](https://youtu.be/gOQNRvJbpmk?t=540) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569)).
   - ## Monitor
-    - ### Capping FPS
-      - [Input lag increases as GPU utilization increases](https://youtu.be/8ZRuFaFZh5M?t=817).
-      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
+    - ### Capped FPS vs. VRR vs. uncapped FPS
+      - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large deviation), OS (Windows 7 only supports FreeSync), monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
+      - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
+      - [Adaptive Sync/VRR (G-Sync/FreeSync) increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
+      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
         - X * Y
         - X / Y if X %Y = 0
       - [FPS Cap Calculator](https://boringboredom.github.io/fps-cap-calculator/)
