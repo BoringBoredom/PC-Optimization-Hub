@@ -186,6 +186,8 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [HCI MemTest](https://hcidesign.com/memtest/)
       - [GSAT](https://github.com/stressapptest/stressapptest)
   - ## GPU
+    - ### Information
+      - [NVAPI Driver Settings](https://docs.nvidia.com/gameworks/content/gameworkslibrary/coresdk/nvapi/NvApiDriverSettings_8h.html)
     - ### Tools
       - [Afterburner](https://www.msi.com/Landing/afterburner)
       - [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/)
