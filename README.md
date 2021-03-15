@@ -101,10 +101,9 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - Stress test overnight to maximize long-term stability. Retest with a [variety of programs](#stress-testing-programs-1) since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU (Intel)
-    - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/).
+    - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/). Start with low voltage and frequency to guarantee not exceeding your temperature limit. Personally, I would aim for <60°C.
     - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes. Residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
-    - Monitor the temperature and make sure you are below your threshold. Personally, I would aim for <60°C.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above your threshold.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above your limit.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test overnight to maximize long-term stability.
