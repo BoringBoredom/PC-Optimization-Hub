@@ -112,7 +112,12 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
 # Windows
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
   - As usual, disable everything you don't explicitely need and avoid installing unnecessary and bloated drivers (included in e.g. Realtek audio, gaming peripheral software).
-  - The Task Manager is a very inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive. I recommend using [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/windows/process%20explorer%20settings.reg) and [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) as alternative to the *Startup* section instead.
+  - A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive.  
+    Here are some supplements for various system tools ([Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](http://www.nirsoft.net/utils/index.html) have a lot more):
+    - Task Manager: [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/windows/process%20explorer%20settings.reg)
+    - Startup section of Task Manager: [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
+    - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
+    - Device Manager: [DevManView](https://www.nirsoft.net/utils/device_manager_view.html)
   - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) exposes a lot of settings that are hidden from the control panel.
   - Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running.
   - ## Optimization guides
