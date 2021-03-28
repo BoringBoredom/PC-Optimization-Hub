@@ -238,6 +238,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
       - [API Monitor](http://www.rohitab.com/apimonitor)
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
+      - [Processor Counter Monitor](https://github.com/opcm/pcm)
       - [Mouse Tester](https://github.com/microe1/MouseTester)
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
