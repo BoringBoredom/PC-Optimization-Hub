@@ -110,7 +110,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
-  - The never-ending background bloat of Windows reduces performance ([especially 0.1% Lows](https://youtu.be/hwNAa_OdP1w)) significantly.  
+  - The never-ending background bloat of Windows [reduces performance significantly](https://youtu.be/hwNAa_OdP1w).  
     Note: I am not advocating using pre-made ISOs; on the contrary, you should make your own.
   - I highly recommend setting up a multi-boot environment to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
   - As usual, disable everything you don't explicitely need and avoid installing unnecessary and bloated drivers (included in e.g. Realtek audio, gaming peripheral software).
