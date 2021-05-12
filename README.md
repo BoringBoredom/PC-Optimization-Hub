@@ -167,7 +167,6 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
       - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
-      - [PSUGuru's sheet](https://docs.google.com/spreadsheets/d/1_GMev0EwK37J3zZL98zIqF-OSBuHlFEHmrc_SPuYsjs/edit)
   - ## CPU
     - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
