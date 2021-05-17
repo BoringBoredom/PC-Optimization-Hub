@@ -159,6 +159,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [ApertureGrille's utilities](https://www.aperturegrille.com/software/)
       - [EIZO monitor test](https://www.eizo.be/monitor-test/)
       - [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+      - [ControlMyMonitor](https://www.nirsoft.net/utils/control_my_monitor.html)
       - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
   - ## PSU
     - ### Information
