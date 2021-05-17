@@ -176,6 +176,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
     - ### Stress testing programs
       - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
+      - [OCCT](https://www.ocbase.com/)
       - [Prime95](https://www.mersenne.org/download/)
   - ## RAM
     - ### Information
