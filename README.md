@@ -129,7 +129,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
   - ## ISO creation
     - [USB and storage drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) (mostly relevant for W7) & [driver integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
-    - [Rufus](https://github.com/pbatard/rufus)
+    - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
     - ### ISO sources
       - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
       - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
