@@ -67,7 +67,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [How to use 8 kHz mice on Windows 7](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
   - ## Monitor
     - ### Capped FPS vs. VRR vs. uncapped FPS
-      - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large deviation), OS (Windows 7 only supports FreeSync), monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
+      - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large deviation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
       - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
       - [Adaptive Sync/VRR (G-Sync/FreeSync) increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
       - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
