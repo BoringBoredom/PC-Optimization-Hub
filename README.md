@@ -63,9 +63,14 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### DPI
       - Depending on your preferred cm/360°, [mousepad](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/mousepad.png) and FOV in games, you may want to experiment with different DPI. Higher DPI reduces latency ([1](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/dpi.PNG) [2](https://youtu.be/mwf_F2VboFQ?t=458) [3](https://youtu.be/6AoRfv9W110)) and [improves motion clarity](https://youtu.be/QrF_e5vKqPk). Most modern mice are able to handle around 1800 DPI without smoothing (PMW3360: <2100, PMW3389: <1900). Some companies disable it or allow you to disable it entirely. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
       - [Windows Sensitivity Calculator](https://boringboredom.github.io/windows-sensitivity-calculator/)
+      - Finding your individual approximate point of diminishing returns (taking 1000 Hz as example):
+        - Run [MouseTester](https://github.com/microe1/MouseTester) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
+        - Set the graph to ***Interval vs. Time***.
+        - Values greater than or equal to 2 ms indicate that the mouse hasn't reported motion data in the previous ***value - 1*** poll(s) (assuming other factors such as system or interference have been ruled out).
+        - Raise your DPI until all polls contain motion data.
     - ### Polling rate
       - Higher polling rate [reduces latency](https://youtu.be/mwf_F2VboFQ?t=458) and improves motion clarity ([1](https://youtu.be/gOQNRvJbpmk?t=540) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569#p57804)).
-      - [How to use 8 kHz mice on Windows 7](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
+      - [How to disable Interrupt Moderation](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
   - ## Monitor
     - ### Capped FPS vs. VRR vs. uncapped FPS
       - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large deviation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
@@ -247,7 +252,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [API Monitor](http://www.rohitab.com/apimonitor)
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
       - [Processor Counter Monitor](https://github.com/opcm/pcm)
-      - [Mouse Tester](https://github.com/microe1/MouseTester)
+      - [MouseTester](https://github.com/microe1/MouseTester)
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
       - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
