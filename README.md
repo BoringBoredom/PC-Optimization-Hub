@@ -229,7 +229,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Reviews
       - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
       - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
-      - [AnandTech](https://www.anandtech.com/tag/ssd%2breview)
+      - [AnandTech](https://www.anandtech.com/Bench/SSD21)
     - ### Profiling / Monitoring / Benchmarking
       - [CrystalDiskMark](https://crystalmark.info/en/)
       - [ATTO Disk Benchmark](https://www.techpowerup.com/download/atto-disk-benchmark/)
