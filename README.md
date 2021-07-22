@@ -90,6 +90,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
 # Hardware clocking
   - I called this category *clocking* rather than *overclocking* because in the end all you do is run your components at their safe capabilities (which may not always be *over*clocking due to temperature, for example).
   - A stable system should be able to run anything indefinitely. A single error is one too many.
+  - When raising clocks, always benchmark every change and verify that the performance scales positively and the standard deviation is very low. Due to error correction, higher clocks may not cause errors in stress tests but can result in "identical" performance, worse performance or higher standard deviation.
   - ## Temperature
     - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
     - ["The load has increased the main board temperature by 5 deg. (centigrade scale) only, but the influence to the measured performance counter frequency is quite considerable."](http://www.windowstimestamp.com/description)
@@ -110,10 +111,10 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU (Intel)
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/). Start with low voltage and frequency to guarantee not exceeding your temperature limit. Personally, I would aim for <60°C.
-    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes. Residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability or temperature above your limit.
+    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes. The standard deviation should be very low and residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
+    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability, error correction or temperature above your limit.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
-    - If you encounter instability, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
+    - If you encounter instability or error correction, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
     - Ultimately, stress test overnight to maximize long-term stability.
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
@@ -190,7 +191,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Prime95](https://www.mersenne.org/download/)
   - ## RAM
     - ### Information
-      - [DDR4 basics](https://www.systemverilog.io/)
+      - DDR4 basics: [text](https://www.systemverilog.io/) + [video](https://youtu.be/I-9XWtdW_Co?list=PLTd6ceoshpreE_xQfQ-akUMU1sEtthFdB)
       - [DDR4 JEDEC paper](http://www.softnology.biz/pdf/JESD79-4B.pdf)
       - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
     - ### Tools
