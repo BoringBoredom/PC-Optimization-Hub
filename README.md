@@ -111,7 +111,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU (Intel)
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/). Start with low voltage and frequency to guarantee not exceeding your temperature limit. Personally, I would aim for <60°C.
-    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes. The standard deviation should be very low and residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
+    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes with the highest *problem size* your RAM can fit. The standard deviation should be very low and residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
     - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability, error correction or temperature above your limit.
     - If the temperature is too high, you can try lowering VCORE (P = I * V).
     - If you encounter instability or error correction, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
