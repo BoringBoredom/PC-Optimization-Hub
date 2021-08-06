@@ -107,6 +107,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. Since the effectiveness of CPU stress testing is much lower with stock RAM, I suggest adjusting RAM first and eventually revisiting it to verify it didn't destabilize.
   - ## RAM (Intel & AMD)
     - [Importance of memory clocking](https://kingfaris.co.uk/ram)
+    - GPU and ambient temperature (e.g. summer vs. winter) will significantly impact memory temperature. Here are some things you can do while stress testing to simulate a more realistic scenario:
+      - Run a GPU heat generator.
+      - Mount a hair dryer to blow hot air on the memory.
+      - Turn off case fans.
+      - Turn up room heaters.
     - Stress test overnight to maximize long-term stability. Retest with a [variety of programs](#stress-testing-programs-1) since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
     - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
   - ## CPU (Intel)
