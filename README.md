@@ -113,7 +113,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Turn off case fans.
       - Turn up room heaters.
     - Stress test overnight to maximize long-term stability. Retest with a [variety of programs](#stress-testing-programs-1) since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
-    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/master/DDR4%20OC%20Guide.md)
+    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
   - ## CPU (Intel)
     - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/). Start with low voltage and frequency to guarantee not exceeding your temperature limit. Personally, I would aim for <60°C.
     - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes with both the lowest and the highest *problem size* your RAM can fit. The standard deviation should be very low and residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
