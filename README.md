@@ -9,8 +9,6 @@
   - [Hardware clocking](#hardware-clocking)
     - [Temperature](#temperature)
     - [Intel Lake platform (6000-10000 series)](#intel-lake-platform-6000-10000-series)
-    - [RAM (Intel & AMD)](#ram-intel--amd)
-    - [CPU (Intel)](#cpu-intel)
     - [GPU (NVIDIA)](#gpu-nvidia)
   - [Windows](#windows)
   - [Tools & resources](#tools--resources)
@@ -102,25 +100,17 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
       - Liquid cool all components (expensive).
   - ## Intel Lake platform (6000-10000 series)
-    - [Voltages](https://youtu.be/WK5Md-90XHQ?t=203)
+    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
+    - [Voltages and their impact](https://youtu.be/WK5Md-90XHQ?t=370)
     - Beware of degradation by high voltage, temperature and current. Personally, I think the voltages and temperature mentioned in the previous video are too high.
-    - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. Since the effectiveness of CPU stress testing is much lower with stock RAM, I suggest adjusting RAM first and eventually revisiting it to verify it didn't destabilize.
-  - ## RAM (Intel & AMD)
-    - [Importance of memory clocking](https://kingfaris.co.uk/ram)
+    - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. They should be treated as one unit and adjusted and stress tested together.
     - GPU and ambient temperature (e.g. summer vs. winter) will significantly impact memory temperature. Here are some things you can do while stress testing to simulate a more realistic scenario:
       - Run a GPU heat generator.
       - Mount a hair dryer to blow hot air on the memory.
       - Turn off case fans.
       - Turn up room heaters.
-    - Stress test overnight to maximize long-term stability. Retest with a [variety of programs](#stress-testing-programs-1) since ["data pattern dependence exists. Coverage varies significantly between data patterns in each of the device families shown, indicating that the retention time of many DRAM cells depends on the data stored in other cells."](https://www.pdl.cmu.edu/PDL-FTP/NVM/dram-retention_isca13.pdf)
-    - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
-  - ## CPU (Intel)
-    - Adjust VCORE, [LLC and VRM switching frequency](https://elmorlabs.com/index.php/2019-09-05/vrm-load-line-visualized/). Start with low voltage and frequency to guarantee not exceeding your temperature limit. Personally, I would aim for <60°C.
-    - Stress test with [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html) for a few minutes with both the lowest and the highest *problem size* your RAM can fit. The standard deviation should be very low and residuals should always match. [This](https://tpucdn.com/download/images/122_small-v1609400124.png) is fine. [This](https://www.techpowerup.com/forums/attachments/inkeduntitled_li-jpg.107003/) is not fine.
-    - Continue raising both All Core and Uncore by 100 MHz and do quick stress tests. Eventually, you will encounter either instability, error correction or temperature above your limit.
-    - If the temperature is too high, you can try lowering VCORE (P = I * V).
-    - If you encounter instability or error correction, lower All Core and Uncore by 100 MHz and continue raising All Core from now on.
-    - Ultimately, stress test overnight to maximize long-term stability.
+    - ### Avoiding error correction
+      - [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) is a great stress test that can be used to detect error correction. On top of passing, [residuals should always match](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/hardware%20clocking/linpack%20residuals.jpg) and [GFlop deviation should be as low as possible](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/hardware%20clocking/linpack%20deviation.jpg).
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
