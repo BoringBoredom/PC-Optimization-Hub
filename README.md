@@ -109,8 +109,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Mount a hair dryer to blow hot air on the memory.
       - Turn off case fans.
       - Turn up room heaters.
-    - ### Avoiding error correction
-      - [Linpack Xtreme](https://www.techpowerup.com/download/linpack-xtreme/) is a great stress test that can be used to detect error correction. On top of passing, [residuals should always match](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/hardware%20clocking/linpack%20residuals.jpg) and [GFlop deviation should be as low as possible](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/hardware%20clocking/linpack%20deviation.jpg).
+    - ### CPU stress testing
+      - [LinX](https://hwtips-tistory-com.translate.goog/1611?category=377841&_x_tr_sl=auto&_x_tr_tl=en)
+      - The newest version isn't translated into English. Use these screenshots to familiarize yourself with the GUI: [main window](https://windows-cdn.softpedia.com/screenshots/LinX-benchmark_1.png) (the 2nd dropdown option above ***Stop*** is ***minutes***), [settings](https://cdn.lo4d.com/t/screenshot/linx-3.png) (also present in English in the config file)
+      - Test with each problem size (from 512MB to the maximum that fits into your RAM).
+      - Residuals should always match and GFlop deviation should be as low as possible.
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
@@ -181,6 +184,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
     - ### Stress testing programs
+      - [LinX](https://hwtips-tistory-com.translate.goog/1611?category=377841&_x_tr_sl=auto&_x_tr_tl=en)
       - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
       - [OCCT](https://www.ocbase.com/)
       - [Prime95](https://www.mersenne.org/download/)
