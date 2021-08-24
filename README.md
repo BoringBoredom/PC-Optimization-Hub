@@ -109,10 +109,11 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Mount a hair dryer to blow hot air on the memory.
       - Turn off case fans.
       - Turn up room heaters.
+    - Avoid monitoring programs (e.g. HWiNFO) while stress testing since they have a large performance impact.
     - ### CPU stress testing
       - [LinX](https://hwtips-tistory-com.translate.goog/1611?category=377841&_x_tr_sl=auto&_x_tr_tl=en)
       - The newest version isn't translated into English. Use these screenshots to familiarize yourself with the GUI: [main window](https://windows-cdn.softpedia.com/screenshots/LinX-benchmark_1.png) (the 2nd dropdown option above ***Stop*** is ***minutes***), [settings](https://cdn.lo4d.com/t/screenshot/linx-3.png) (also present in English in the config file)
-      - Test with each problem size (from 512MB to the maximum that fits into your RAM).
+      - Test with each memory size (from 512MB to the maximum that fits into your RAM).
       - Residuals should always match and GFlop deviation should be as low as possible.
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
@@ -173,6 +174,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - When choosing a power supply, keep in mind that there are spikes that go well beyond the average power consumption. ([1](https://www.igorslab.de/wp-content/uploads/2018/12/Peak-Load.png) [2](https://www.igorslab.de/wp-content/uploads/2020/09/04-Peak-Power-1.png) [3](https://www.igorslab.de/wp-content/uploads/2020/12/03-Peak-Power.png) [4](https://tpucdn.com/review/zotac-geforce-rtx-3090-amp-extreme-holo/images/power-spikes.png) [5](https://tpucdn.com/review/asrock-radeon-rx-6900-xt-oc-formula/images/power-spikes.png))
       - Avoid daisy chaining cables.
       - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
+      - [Single vs. Multi Rail](https://youtu.be/PWtKSHT2od8)
     - ### Reviews
       - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
       - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
@@ -245,7 +247,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Information
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - ### Profiling / Monitoring / Benchmarking
-      - [HWInfo](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
+      - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
       - [OCAT](https://github.com/GPUOpen-Tools/ocat) & [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
       - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
