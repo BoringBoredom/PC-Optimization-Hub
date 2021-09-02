@@ -182,6 +182,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Information
       - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
       - [Silicon Lottery's binning statistics](https://siliconlottery.com/pages/statistics)
+      - [VRM Load-Line visualization](https://elmorlabs.com/2019-09-05/vrm-load-line-visualized/)
     - ### Tools
       - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
     - ### Stress testing programs
@@ -258,6 +259,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Latencymon](https://www.resplendence.com/latencymon)
       - [Liblava](https://github.com/liblava/liblava-demo)
       - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
+      - [Dependencies](https://github.com/lucasg/Dependencies) (dll load dependency checker)
     - ### Tools
       - [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/)  (huge compendium)
       - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
