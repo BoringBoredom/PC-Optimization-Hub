@@ -74,7 +74,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large deviation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
       - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
       - [Adaptive Sync/VRR (G-Sync/FreeSync) increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
-      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any integer):
+      - [Frame mistiming](https://youtu.be/_73gFgNrYVQ) causes severe stutters. To prevent this phenomenon you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any positive integer):
         - X * Y
         - X / Y if X %Y = 0
       - [FPS Cap Calculator](https://boringboredom.github.io/fps-cap-calculator/)
@@ -110,7 +110,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - Turn off case fans.
       - Turn up room heaters.
     - Avoid monitoring programs (e.g. HWiNFO) while stress testing since they have a large performance impact.
-    - ### Stress testing
+    - ### CPU stress testing
       - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
       - Test with a variety of different problem sizes.
       - GFlop deviation should be as low as possible.
@@ -203,7 +203,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [AIDA](https://www.aida64.com/downloads)
     - ### Stress testing programs
       - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/) ([Enable *Caching* on all operating systems and change the *RNG* to *XORWOW* if testing on Windows 7](https://www.karhusoftware.com/ramtest/README.txt))
-      - [TestMem5](https://testmem.tz.ru/testmem5.htm) & [anta777's config](https://bit.ly/2MUvl6n) (link taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
+      - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) & [LMHz's config](https://drive.google.com/file/d/1fEPPG3sCqwtg7t1GQTwVrrixsyidwjL5/view) (links taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
       - [OCCT](https://www.ocbase.com/)
       - [HCI MemTest](https://hcidesign.com/memtest/)
       - [GSAT](https://github.com/stressapptest/stressapptest)
@@ -271,7 +271,6 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
       - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager) (compatibility settings editor)
       - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
       - [VC++ Redist. AIO](https://github.com/abbodi1406/vcredist) (abbodi1406)
-      - [Quick CPU](https://coderbag.com/product/quickcpu) (power plan management)
       - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/) (interrupt mode and priority control)
       - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
