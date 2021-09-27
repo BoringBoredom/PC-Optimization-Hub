@@ -163,6 +163,7 @@ electrical leakage, shorting and opening of PCBs under different conditions"](ht
     - ### Tools
       - [Blur Busters' utilities](https://www.testufo.com/)
       - [ApertureGrille's utilities](https://www.aperturegrille.com/software/)
+      - [Lagom monitor test](http://www.lagom.nl/lcd-test/all_tests.php)
       - [EIZO monitor test](https://www.eizo.be/monitor-test/)
       - [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
       - [ControlMyMonitor](https://www.nirsoft.net/utils/control_my_monitor.html)
