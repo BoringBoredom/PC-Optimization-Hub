@@ -13,4 +13,4 @@
   - Installing Windows 7 and GPU drivers requires having CSM enabled (set Storage OpROM and PCI device ROM to UEFI).
   - After installing GPU drivers you can disable CSM.
 - ### Installing Windows 8-10
-  - Windows 8-10 can be installed with CSM disabled.
+  - Windows 8-10 can be installed without CSM.
