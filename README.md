@@ -128,7 +128,7 @@
     - Startup section of Task Manager: [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
     - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
     - Device Manager: [DevManView](https://www.nirsoft.net/utils/device_manager_view.html)
-  - [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) exposes a lot of settings that are hidden from the control panel.
+  - [NVIDIA Profile Inspector](https://www.pcgamingwiki.com/wiki/Nvidia_Profile_Inspector) exposes a lot of settings that are hidden from the control panel.
   - Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running.
   - ## Optimization guides
     - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
