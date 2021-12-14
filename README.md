@@ -208,8 +208,7 @@
       - [DDR4 JEDEC paper](http://www.softnology.biz/pdf/JESD79-4B.pdf)
       - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
     - ### Tools
-      - [ASRock Timing Configurator 4.0.9](https://download.asrock.com/Utility/Formula/TimingConfigurator(v4.0.9).zip)
-      - [ASUS MemTweakIt 2.02.48](https://cdn.discordapp.com/attachments/653171331256549386/755097007240249416/MemTweakIt_V20248.zip)
+      - New versions of ASRock Timing Configurator, ASUS MemTweakIt and MSI Dragon Ball can usually be found [here](https://community.hwbot.org/forum/126-intel-cpu-overclocking/).
       - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
       - [AIDA](https://www.aida64.com/downloads)
     - ### Stress testing programs
