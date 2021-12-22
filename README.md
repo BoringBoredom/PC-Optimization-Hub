@@ -286,6 +286,7 @@
       - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
       - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
       - [Special K](https://wiki.special-k.info/) (game modifying framework | DO NOT USE WITH ANTI-CHEATS)
+      - [EasyBCD](https://neosmart.net/EasyBCD/)
   - ## Audio
     - ### Tools
       - [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
