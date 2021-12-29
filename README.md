@@ -37,6 +37,7 @@
   - Due to the sheer complexity of hardware and software and differences between various architectures, your mileage may vary. However, it is useful to be aware of things that can impact user experience and adjust them according to your needs.
   - Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and frametime consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
 # Physical setup
+  - [Do not daisy chain power cables](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/psu%20cables.jpg). Be careful not to short the loose ends if you have any.
   - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with the electrical installation (e.g. [ground loops](https://en.wikipedia.org/wiki/Ground_loop_(electricity))) can cause unintended behavior of electronic components, potentially increasing input lag ([1](https://forums.blurbusters.com/viewtopic.php?f=24&t=9133#p71950) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7168&start=30#p62185)).  
     Here are some resources: [1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/ELECTRICAL/README.md#electrical) [2](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical)
   - ["EMC tests were developed to make them easier to perform, provide better repeatability from one lab to another, and reduce testing costs. But even though the EUT may pass its EMC tests, it still may fail when it's put into service. Laboratory tests performed in accordance with the standards are not adequate to guarantee that an EMC failure will not occur during actual operation because the tests do not represent the operational EME."](https://www.evaluationengineering.com/home/article/13003718/emc-failures-happen)  
@@ -182,7 +183,6 @@
   - ## PSU
     - ### Information
       - When choosing a power supply, keep in mind that there are spikes that go well beyond the average power consumption. ([1](https://www.igorslab.de/wp-content/uploads/2018/12/Peak-Load.png) [2](https://www.igorslab.de/wp-content/uploads/2020/09/04-Peak-Power-1.png) [3](https://www.igorslab.de/wp-content/uploads/2020/12/03-Peak-Power.png) [4](https://tpucdn.com/review/zotac-geforce-rtx-3090-amp-extreme-holo/images/power-spikes.png) [5](https://tpucdn.com/review/asrock-radeon-rx-6900-xt-oc-formula/images/power-spikes.png))
-      - Avoid daisy chaining cables.
       - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
       - [Single vs. Multi Rail](https://youtu.be/PWtKSHT2od8)
     - ### Reviews
