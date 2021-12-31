@@ -123,6 +123,9 @@
       - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
       - Test with a variety of different problem sizes.
       - GFlop variation should be as low as possible.
+    - ### Memory stress testing
+      - [Options](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
+      - Test with a variety of programs/configs since the algorithms differ. One may not fail at all, while another may fail within minutes.
   - ## GPU (NVIDIA)
     - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 # Windows
