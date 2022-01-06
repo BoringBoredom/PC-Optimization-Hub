@@ -262,7 +262,7 @@
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - ### Profiling / Monitoring / Benchmarking
       - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
-      - [OCAT](https://github.com/GPUOpen-Tools/ocat) & [CapFrameX](https://github.com/CXWorld/CapFrameX) (frametime capture and analysis)
+      - [OCAT](https://github.com/GPUOpen-Tools/ocat) & [Frame Time Analysis](https://boringboredom.github.io/Frame-Time-Analysis/)
       - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
       - [API Monitor](http://www.rohitab.com/apimonitor)
