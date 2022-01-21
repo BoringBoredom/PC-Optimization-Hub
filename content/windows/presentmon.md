@@ -7,4 +7,5 @@
 @presentmon.exe -multi_csv -no_top -track_debug -hotkey f10
 ```
 - Optionally, exclude processes with ***-exclude***
+- Use ***-delay*** and ***-timed*** for consistent benchmarking 
 - Run the ***.bat*** file as Administrator
