@@ -73,15 +73,21 @@
     - ### Capped FPS vs. VRR vs. uncapped FPS
       - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
       - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
-      - [Adaptive Sync/VRR (G-Sync/FreeSync) increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
+      - [VRR increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
       - #### Frame mistiming
-        - ##### Visual demonstration
-          - [Blur Busters' motion test with preconfigured settings](https://testufo.com/framerates-versus#photo=alien-invasion.png&pps=960&framepacingerror=0&direction=rtl&framerate=180&compare=0&showfps=1) (browser's hardware acceleration must be enabled)
-          - Test 1: Set the frame rate to half of your monitor's refresh rate.
-          - Test 2: Set the frame rate to 5-10 FPS ***below*** half of your monitor's refresh rate.
-          - Test 3: Set the frame rate to 5-10 FPS ***above*** half of your monitor's refresh rate.
-          - Test 2 & 3 will stutter while Test 1 will be smooth.
-        - To prevent this phenomenon you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any positive integer):
+        - ##### V-Sync off
+          - This happens due to tearing.
+          - [Visual demonstration](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/peripherals/mistiming/mistiming.md)
+          - Note: You need a monitor with 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360 or 390 Hz to watch these 30 FPS videos without dropping frames.
+        - ##### V-Sync on
+          - This happens due to dropped frames.
+          - ###### Visual demonstration
+            - [Blur Busters' motion test with preconfigured settings](https://testufo.com/framerates-versus#photo=alien-invasion.png&pps=960&framepacingerror=0&direction=rtl&framerate=180&compare=0&showfps=1) (browser's hardware acceleration must be enabled)
+            - Test 1: Set the frame rate to half of your monitor's refresh rate.
+            - Test 2: Set the frame rate to 5-10 FPS ***below*** half of your monitor's refresh rate.
+            - Test 3: Set the frame rate to 5-10 FPS ***above*** half of your monitor's refresh rate.
+            - Test 2 & 3 will stutter while Test 1 will be smooth.
+        - To prevent mistiming you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any positive integer):
           - X * Y
           - X / Y if X %Y = 0
         - [FPS Cap Calculator](https://boringboredom.github.io/fps-cap-calculator/)
