@@ -268,11 +268,12 @@
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - ### Profiling / Monitoring / Benchmarking
       - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
-      - [PresentMon](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/windows/presentmon.md) & [Frame Time Analysis](https://boringboredom.github.io/Frame-Time-Analysis/)
+      - [Benchmarking FPS](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/windows/benchmarking.md) & [Frame Time Analysis](https://boringboredom.github.io/Frame-Time-Analysis/)
       - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
       - [API Monitor](http://www.rohitab.com/apimonitor)
       - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
+      - [Intel Graphics Performance Analyzers](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)
       - [Processor Counter Monitor](https://github.com/opcm/pcm)
       - [MouseTester](https://github.com/microe1/MouseTester)
       - [Latencymon](https://www.resplendence.com/latencymon)
