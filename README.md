@@ -87,6 +87,7 @@
             - Test 2: Set the frame rate to 5-10 FPS ***below*** half of your monitor's refresh rate.
             - Test 3: Set the frame rate to 5-10 FPS ***above*** half of your monitor's refresh rate.
             - Test 2 & 3 will stutter while Test 1 will be smooth.
+        - [Further information](https://forums.blurbusters.com/viewtopic.php?t=4914&start=130#p51780)
         - To prevent mistiming you can either use VRR or cap your FPS at various values depending on your monitor's refresh rate. Consider your [1% and 0.1% Lows](https://youtu.be/uXepIWi4SgM) when choosing a value. There are two formulae (X = monitor's refresh rate, Y = any positive integer):
           - X * Y
           - X / Y if X %Y = 0
