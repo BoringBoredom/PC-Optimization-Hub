@@ -73,15 +73,14 @@
     - ### Capped FPS vs. VRR vs. uncapped FPS
       - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
       - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
-      - [VRR increases input lag](https://youtu.be/dPMHEyz38TM?t=289).
+      - [VRR](https://youtu.be/dPMHEyz38TM?t=289) and [V-Sync](https://youtu.be/rs0PYCpBJjc?t=202) increase input lag.
       - #### Frame mistiming
         - ##### V-Sync off
-          - This happens due to tearing.
+          - This is called tearing.
           - [Visual demonstration](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/peripherals/mistiming/mistiming.md)
-          - Note: You need a monitor with 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360 or 390 Hz to watch these 30 FPS videos without dropping frames.
         - ##### V-Sync on
-          - This happens due to dropped frames.
-          - ###### Visual demonstration
+          - This is called judder ([1](https://www.youtube.com/watch?v=CuEZIJDEQyo) [2](https://www.howtogeek.com/753131/what-is-judder-and-why-do-tvs-have-this-problem/)).
+          - ##### Visual demonstration
             - [Blur Busters' motion test with preconfigured settings](https://testufo.com/framerates-versus#photo=alien-invasion.png&pps=960&framepacingerror=0&direction=rtl&framerate=180&compare=0&showfps=1) (browser's hardware acceleration must be enabled)
             - Test 1: Set the frame rate to half of your monitor's refresh rate.
             - Test 2: Set the frame rate to 5-10 FPS ***below*** half of your monitor's refresh rate.
