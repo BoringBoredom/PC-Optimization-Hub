@@ -69,6 +69,8 @@
     - ### Polling rate
       - Higher polling rate [reduces latency](https://youtu.be/mwf_F2VboFQ?t=458) and improves motion clarity ([1](https://youtu.be/gOQNRvJbpmk?t=540) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569#p57804)).
       - [How to disable Interrupt Moderation](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
+    - ### Lens cleaning
+      - A [balloon pump](https://www.magictricks.com/assets/images/trickspix/balloonpump-basic.jpg) will do the job without risking physical damage to the polycarbonate lens ([1](https://dtsheet.com/doc/1305617/lens-datasheet---pixart-imaging-inc.) [2](https://manualzz.com/doc/43036065/lens-datasheet---pixart-imaging-inc.)).
   - ## Monitor
     - ### Capped FPS vs. VRR vs. uncapped FPS
       - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
