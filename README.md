@@ -97,7 +97,7 @@
       - ["Any image processing done on your monitor increases latency. Even if base response time is 1ms, should the monitor then add refinements like HDR, dynamic brightness/contrast, edge sharpening, local dimming and so forth – well, latency increases. Remember the basic rule: image processing means lag."](https://www.benq.com/en-ap/knowledge-center/knowledge/gaming-monitor-input-lag-versus-response-time-whats-the-difference-and-why-should-i-care.html)
 # BIOS
   - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, (RGB) LEDs that can't physically be disconnected etc.
-  - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/IFR-Formatter)
+  - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/UEFI-Editor/blob/master/README.md#how-to-change-hidden-settings-without-flashing-a-modded-bios)
   - ## Optimization guides
     - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
     - [Congatec guide](https://www.congatec.com/fileadmin/user_upload/Documents/Application_Notes/AN40_BIOS_Optimization_For_Real-time_Applications.pdf)
