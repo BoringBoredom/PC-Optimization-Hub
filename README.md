@@ -266,8 +266,12 @@
       - [Ventoy](https://github.com/ventoy/Ventoy) (multi-boot USB drive)
       - [Rufus](https://github.com/pbatard/rufus) (ISO mounting)
   - ## BIOS
-    - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
-    - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
+    - ### Information
+      - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
+      - [BIOS Mods](https://www.bios-mods.com/forum/)
+    - ### Tools
+      - [UEFI Editor](https://boringboredom.github.io/UEFI-Editor/)
+      - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
   - ## Windows
     - ### Information
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
@@ -290,6 +294,7 @@
       - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
       - [NTLite](https://www.ntlite.com/) (ISO creation)
       - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
+      - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
       - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
       - [Timer Resolution Service](https://forums.guru3d.com/threads/windows-timer-resolution-tool-in-form-of-system-service.376458/)
       - [AdvancedRun](https://www.nirsoft.net/utils/advanced_run.html)
@@ -317,4 +322,4 @@
     - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
 # [My Twitter](https://twitter.com/Bra1nlet)
 # Keywords for Google indexing (ignore this)
-input lag latency optimization performance gaming overclock oc windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 w7 w8 w8.1 w10 game gamer optimizations frametime frametimes 0.1 1 1080p 720p reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg super people warzone halo infinite tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia pascal turing ampere reflex amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference dpc isr
+input lag latency optimization performance gaming overclock oc windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 11 w7 w8 w8.1 w10 w11 linux game gamer optimizations frametime frametimes 0.1 1 1080p 720p reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg super people warzone halo infinite tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox super smash bros delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia pascal turing ampere reflex amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference dpc isr
