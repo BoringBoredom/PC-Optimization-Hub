@@ -15,6 +15,7 @@
     - [Mouse](#mouse-1)
     - [Mousepad](#mousepad)
     - [Keyboard](#keyboard)
+    - [Controller](#controller)
     - [Monitor](#monitor-1)
     - [PSU](#psu)
     - [CPU](#cpu)
@@ -38,6 +39,8 @@
   - Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and frametime consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
 # Physical setup
   - [Do not daisy chain power cables](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/psu%20cables.png). Be careful not to short the loose ends if you have any.
+  - [Mount your AIO cooler properly.](https://youtu.be/BbGomv195sk)
+  - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
   - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with the electrical installation (e.g. [ground loops](https://en.wikipedia.org/wiki/Ground_loop_(electricity))) can cause unintended behavior of electronic components, potentially increasing input lag ([1](https://forums.blurbusters.com/viewtopic.php?f=24&t=9133#p71950) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7168&start=30#p62185)).  
     Here are some resources: [1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/ELECTRICAL/README.md#electrical) [2](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical)
   - ["EMC tests were developed to make them easier to perform, provide better repeatability from one lab to another, and reduce testing costs. But even though the EUT may pass its EMC tests, it still may fail when it's put into service. Laboratory tests performed in accordance with the standards are not adequate to guarantee that an EMC failure will not occur during actual operation because the tests do not represent the operational EME."](https://www.evaluationengineering.com/home/article/13003718/emc-failures-happen)  
@@ -51,7 +54,6 @@
   - Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual to find out which ports are routed directly to the CPU.
   - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618#p58449) your other devices to them. Lower their polling rate to an acceptable level. E.g. your microphone doesn't need 1000 Hz
   - Test both HDMI and DisplayPort on each GPU port (don't Plug & Play these). [Don't cheap out on cables](https://www.youtube.com/watch?v=XFbJD6RE4EY). Both [HDMI](https://www.hdmi.org/spec/premiumcable) and [DisplayPort](https://www.displayport.org/product-category/cables-adaptors/) have certification programs.
-  - Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
 # Peripherals
   - Turn off (RGB) LEDs since USB current output is very limited ([USB 2: 0.5 A, USB 3: 0.9 A](https://en.wikipedia.org/wiki/USB)). Moreover, ["running an RGB effect/animation can take a great toll on the MCU. It requires a lot of processing power and will delay other processes."](https://blog.wooting.nl/what-influences-keyboard-speed/) ([1](https://www.techpowerup.com/review/endgame-gear-xm1-rgb/5.html#:~:text=tracking%20quality%20takes%20a%20hit%20as%20soon%20as%20RGB%20is%20enabled) [2](https://www.techpowerup.com/review/roccat-kone-pro-air/5.html#:~:text=after%20having%20disabled%20all%20RGB%20lighting,%20these%20outliers%20disappeared%20entirely))
   - ## Mouse
@@ -160,10 +162,10 @@
       - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
       - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
       - [Techbench](https://tb.rg-adguard.net/public.php)
-      - [The Eye](https://the-eye.eu/public/MSDN/)
-      - [DigitalRiver](https://digitalrivermirror.com/) (W7 only)
+      - [MVS Collection](https://isofiles.bd581e55.workers.dev/)
       - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
       - [Unknown list](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk/edit)
+      - [MSDN file server](https://files.dog/MSDN/)
 # Tools & resources
   - ## Mouse
     - ### Information
@@ -179,6 +181,8 @@
     - [Hoya's sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
   - ## Keyboard
     - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
+  - ## Controller
+    - [Input lag sheet](https://docs.google.com/spreadsheets/d/1KlRObr3Be4zLch7Zyqg6qCJzGuhyGmXaOIUrpfncXIM/edit)
   - ## Monitor
     - ### Information
       - [Factors affecting PC Monitor responsiveness](https://pcmonitors.info/articles/factors-affecting-pc-monitor-responsiveness/)
@@ -186,6 +190,7 @@
     - ### Reviews
       - [RTINGS](https://www.rtings.com/monitor/tools/table)
       - [TFT Central](https://www.tftcentral.co.uk/reviews_index.htm)
+      - [Hardware Unboxed](https://www.youtube.com/playlist?list=PL7m5C6_P_lnXb9cHwdo0Ct1TTZ7KUwm3e)
     - ### Tools
       - [Blur Busters' utilities](https://www.testufo.com/)
       - [ApertureGrille's utilities](https://www.aperturegrille.com/software/)
