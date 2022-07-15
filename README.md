@@ -129,7 +129,6 @@
       - Turn off case fans.
       - Turn up room heaters.
     - Avoid monitoring programs (e.g. HWiNFO) while stress testing since they have a large performance impact.
-    - Whenever possible, use safe mode to stress test.
     - ### CPU stress testing
       - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
       - Test with a variety of different problem sizes.
@@ -198,6 +197,7 @@
       - [EIZO monitor test](https://www.eizo.be/monitor-test/)
       - [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
       - [ControlMyMonitor](https://www.nirsoft.net/utils/control_my_monitor.html)
+      - [Open Source Response Time Tool](https://www.osrtt.com/)
       - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
   - ## PSU
     - ### Information
