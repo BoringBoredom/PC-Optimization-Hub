@@ -171,7 +171,7 @@
       - [Newbrict's page](https://sensor.fyi/info/)
       - [Click latency database](https://github.com/NVIDIA/Reflex-Latency-Analyzer-Mouse-Database/blob/main/NVIDIA%20RLA%20Mice%20Database%20-%20Github.csv)
     - ### Tools
-      - [Gearsearch shape comparison](https://gearsearch.gg/shape.html)
+      - [EloShapes shape comparison](https://www.eloshapes.com/)
       - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
       - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
       - [Aiming.Pro Sensitivity Calculator](https://aiming.pro/mouse-sensitivity-calculator)
