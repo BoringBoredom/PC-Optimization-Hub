@@ -280,6 +280,7 @@
   - ## Windows
     - ### Information
       - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
+      - [Group Policy Administrative Templates Catalog](https://admx.help/)
     - ### Profiling / Monitoring / Benchmarking
       - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
       - [Benchmarking FPS](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/windows/benchmarking.md) & [Frame Time Analysis](https://boringboredom.github.io/Frame-Time-Analysis/)
