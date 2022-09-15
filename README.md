@@ -338,7 +338,6 @@
 -  ## Alternatives to bloated programs
    -  Epic Games: [Legendary](https://github.com/derrod/legendary)
    -  Spotify: [Foobar2000](https://www.foobar2000.org/)
-   -  Discord: [Ripcord](https://cancel.fm/ripcord/) ([USE AT YOUR OWN RISK](https://github.com/Bios-Marcel/cordless/blob/master/README.md#i-am-closing-down-the-cordless-project))
    -  GHUB / LGS: [Logitech Onboard Memory Manager](https://support.logi.com/hc/en-us/articles/360059641133)
    -  Antivirus software: [Virustotal](https://www.virustotal.com/gui/home/upload), [Hybrid Analysis](https://www.hybrid-analysis.com/) & [uBlock Origin](https://github.com/gorhill/uBlock)
    -  Chrome: [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
