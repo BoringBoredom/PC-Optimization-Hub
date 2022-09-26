@@ -301,7 +301,7 @@
       -  [Group Policy Administrative Templates Catalog](https://admx.help/)
    -  ### Profiling / Monitoring / Benchmarking
       -  [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
-      -  [Benchmarking FPS](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/windows/benchmarking.md) & [Frame Time Analysis](https://boringboredom.github.io/Frame-Time-Analysis/)
+      -  [Benchmarking FPS](https://boringboredom.github.io/Frame-Time-Analysis/)
       -  [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
       -  [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
       -  [API Monitor](http://www.rohitab.com/apimonitor)
@@ -349,4 +349,4 @@
 
 # Keywords for Google indexing (ignore this)
 
-input lag latency optimization performance gaming overclock oc windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 11 w7 w8 w8.1 w10 w11 linux game gamer optimizations frametime frametimes 0.1 1 1080p 720p reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg super people warzone halo infinite tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox super smash bros delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia pascal turing ampere reflex amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference dpc isr
+input lag latency optimization performance gaming overclock oc windows ping debloat milliseconds fps boost increase decrease guide mouse tweak tweaks bios uefi pc overclocking 7 8.1 8 10 11 w7 w8 w8.1 w10 w11 linux game gamer optimizations frametime frametimes 0.1 1 1080p 720p reaction time vrt average avg minimum maximum min max tweaking fortnite overwatch apex call of duty cs:go csgo dota league of legends valorant rocket league rainbow six pubg super people warzone halo infinite tarkov rust starcraft destiny ow fn cod lol kovaak aim trainer krunker battlefield bf roblox super smash bros delay delayed bloat bloated debloated steam battle origin epic games quake counter strike battle royale br intel nvidia pascal turing ampere reflex amd ati ryzen r9 r7 r5 r3 radeon rdna core i9 i7 i5 i3 memory ram gpu ssd nvme psu power supply emi emf emc ef power electricity coupling interference dpc isr rla reflex latency analyzer
