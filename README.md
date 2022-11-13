@@ -57,7 +57,7 @@
 - ## Monitor
   - ### Capped FPS vs. VRR vs. uncapped FPS
     - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
-    - Input lag increases as GPU utilization increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
+    - Input lag increases as GPU workload increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
     - [VRR](https://youtu.be/dPMHEyz38TM?t=289) and [V-Sync](https://youtu.be/rs0PYCpBJjc?t=202) increase input lag.
     - #### Frame mistiming
       - ##### V-Sync off
