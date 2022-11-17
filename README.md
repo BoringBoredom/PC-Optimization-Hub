@@ -243,8 +243,6 @@
     - [Unigine's tools](https://benchmark.unigine.com/)
 - ## Motherboard
   - ### Information
-    - [Z590/B560 VRM list](https://docs.google.com/spreadsheets/d/1_ZGSXi1deJEXhHZNcm3bGvP-r8KkNKKPdTuBoFPctH4/edit)
-    - [Z490/Z590 VRM list](https://docs.google.com/spreadsheets/d/16YJm4L1-ohpL8s-4rLDDDCBZvi97ZYwkc44s7LS5-2Q/edit)
     - [eXtensible Host Controller Interface for Universal Serial Bus (xHCI)](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/extensible-host-controler-interface-usb-xhci.pdf)
     - [Message Signaled Interrupts](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/msg-signaled-interrupts-paper.pdf)
 - ## Storage
