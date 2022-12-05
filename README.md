@@ -82,6 +82,7 @@
 # BIOS
 
 - Generally, follow the principle of "Don't use it? Disable it." E.g. disable all power saving features, unused network/audio/SATA controllers, unused USB/PCI/DIMM/SATA ports, (RGB) LEDs that can't physically be disconnected etc.
+- [UEFI Editor](https://boringboredom.github.io/UEFI-Editor/)
 - [How to change hidden settings without flashing a modded BIOS](https://github.com/BoringBoredom/UEFI-Editor/blob/master/README.md#how-to-change-hidden-settings-without-flashing-a-modded-bios)
 - ## Optimization guides
   - [Fujitsu guide](https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-bios-settings-primergy-ww-en.pdf)
