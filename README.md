@@ -148,8 +148,7 @@
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
     - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W)
-    - [Heidoc](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-iso-download-tool)
-    - [Techbench](https://tb.rg-adguard.net/public.php)
+    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl/)
     - [MVS Collection](https://isofiles.bd581e55.workers.dev/)
     - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
     - [Unknown list](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk/edit)
