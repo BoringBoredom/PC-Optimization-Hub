@@ -9,7 +9,7 @@
 # Disclaimer
 
 - Due to the sheer complexity of hardware and software and differences between various architectures, your mileage may vary. However, it is useful to be aware of things that can impact user experience and adjust them according to your needs.
-- Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and frametime consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
+- Create a personal document and keep track of everything you do. Adopt a systematic approach with proper testing methodologies instead of just blindly changing many settings at once. Some settings are trade-offs between latency and frame time consistency / graphics quality. Some settings may not show a visible impact at first due to other bottlenecks.
 
 # Data Collection
 
@@ -17,9 +17,9 @@
 
 # Physical setup
 
-- [Do not daisy chain power cables](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/psu%20cables.png). Be careful not to short the loose ends if you have any.
+- [Do not daisy-chain power cables](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/physical%20setup/psu%20cables.png). Be careful not to short the loose ends if you have any.
 - [Mount your AIO cooler properly.](https://youtu.be/BbGomv195sk)
-- Keep your PC clean. Clogged heatsinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
+- Keep your PC clean. Clogged heat sinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
 - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with the electrical installation (e.g. [ground loops](<https://en.wikipedia.org/wiki/Ground_loop_(electricity)>)) can cause unintended behavior of electronic components, potentially increasing input lag ([1](https://forums.blurbusters.com/viewtopic.php?f=24&t=9133#p71950) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7168&start=30#p62185)).  
   Here are some resources: [1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/ELECTRICAL/README.md#electrical) [2](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical)
 - ["EMC tests were developed to make them easier to perform, provide better repeatability from one lab to another, and reduce testing costs. But even though the EUT may pass its EMC tests, it still may fail when it's put into service. Laboratory tests performed in accordance with the standards are not adequate to guarantee that an EMC failure will not occur during actual operation because the tests do not represent the operational EME."](https://www.evaluationengineering.com/home/article/13003718/emc-failures-happen)  
@@ -41,7 +41,7 @@
   - ### Wired vs. Wireless
     - The convenience of cordless mice is very appealing. However, there are significant drawbacks. Nowadays, [2.4 GHz](https://en.wikipedia.org/wiki/2.4_GHz_radio_use) is everywhere, causing a lot of interference. Additionally, the [inherent transmission overhead](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/wireless%20overhead.png) and aggressive power saving mechanisms ([1](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/hero%20power%20saving.PNG) [2](https://www.overclock.net/threads/8khz-wireless.1791955/#post-28824715)) affect both sensor ([1](https://youtu.be/Zn7WjyIvAWA?t=176) [2](https://www.techpowerup.com/review/asus-rog-pugio-ii/5.html#:~:text=wireless%20delay%20is%20somewhere%20between%201.5%E2%80%932%20ms) [3](https://www.techpowerup.com/review/asus-rog-chakram-mouse/5.html#:~:text=wireless%20delay%20of%20roughly%201.5%20ms) [4](https://www.techpowerup.com/review/roccat-kain-200-aimo/5.html#:~:text=wireless%20delay%20of%201.5%E2%80%932%20ms) [5](https://www.techpowerup.com/review/razer-viper-ultimate/5.html#:~:text=wireless%20delay%20of%20around%201%20ms) [6](https://www.techpowerup.com/review/logitech-pro-wireless-mouse/5.html#:~:text=measured%200.5%E2%80%931%20ms) [7](https://www.techpowerup.com/review/dream-machines-dm6-holey-duo/5.html#:~:text=wireless%20delay%20of%20roughly%201%20ms) [8](https://www.techpowerup.com/review/asus-rog-keris-wireless/5.html#:~:text=wireless%20delay%20of%20roughly%201.5%20ms) [9](https://www.techpowerup.com/review/razer-deathadder-v2-pro/5.html#:~:text=wireless%20delay%20of%20at%20least%202%20ms) [10](https://www.techpowerup.com/review/steelseries-aerox-3-wireless/5.html#:~:text=wireless%20delay%20of%20roughly%201%20ms) [11](https://www.techpowerup.com/review/glorious-model-o-wireless/5.html#:~:text=wireless%20delay%20of%20roughly%201%E2%80%931.5%20ms)) and [click](https://twitter.com/CaIypto/status/1354186350665363457/photo/1) latency.
   - ### DPI
-    - Depending on your sensor, preferred cm/360°, [mousepad](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/mousepad.png) and FOV in games, you may want to experiment with different DPI. Higher DPI reduces latency ([1](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/dpi.PNG) [2](https://youtu.be/mwf_F2VboFQ?t=458) [3](https://youtu.be/6AoRfv9W110) [4](https://youtu.be/imYBTj2RXFs?t=275)), [improves motion clarity](https://youtu.be/QrF_e5vKqPk) and improves sensor accuracy ([1](https://i0.hdslb.com/bfs/article/watermark/ac7bdde084e67d365ecb435aa8fc3195992b5cbe.jpg) [2](https://www.bilibili.com/read/cv11545206) [3](https://i0.hdslb.com/bfs/article/watermark/97e28f38daae36aa3e0ec43f26936590c684799f.png) [4](https://www.bilibili.com/read/cv10950469)). Most modern mice are able to handle around 1800 DPI without additional smoothing (PMW3360: <2100, PMW3389: <1900, with a few exceptions). Some companies disable it or allow you to disable it entirely. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
+    - Depending on your sensor, preferred cm/360°, [mouse pad](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/mousepad.png) and FOV in games, you may want to experiment with different DPI. Higher DPI reduces latency ([1](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/peripherals/dpi.PNG) [2](https://youtu.be/mwf_F2VboFQ?t=458) [3](https://youtu.be/6AoRfv9W110) [4](https://youtu.be/imYBTj2RXFs?t=275)), [improves motion clarity](https://youtu.be/QrF_e5vKqPk) and improves sensor accuracy ([1](https://i0.hdslb.com/bfs/article/watermark/ac7bdde084e67d365ecb435aa8fc3195992b5cbe.jpg) [2](https://www.bilibili.com/read/cv11545206) [3](https://i0.hdslb.com/bfs/article/watermark/97e28f38daae36aa3e0ec43f26936590c684799f.png) [4](https://www.bilibili.com/read/cv10950469)). Most modern mice are able to handle around 1800 DPI without additional smoothing (PMW3360: <2100, PMW3389: <1900, with a few exceptions). Some companies disable it or allow you to disable it entirely. To counteract the increased sensitivity on the Desktop and in game menus you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
     - [Windows Sensitivity Calculator](https://boringboredom.github.io/tools/#/WinSens)
     - Finding your individual approximate point of diminishing returns (taking 1000 Hz as example):
       - Run [MouseTester](https://github.com/microe1/MouseTester) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
@@ -131,7 +131,7 @@
 - The never-ending background bloat of Windows [reduces performance significantly](https://youtu.be/hwNAa_OdP1w).  
   Note: I am not advocating using pre-made ISOs; on the contrary, you should make your own.
 - I highly recommend [setting up a multi-boot environment](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
-- As usual, disable everything you don't explicitely need and avoid installing unnecessary and bloated drivers (included in e.g. Realtek audio or gaming peripheral software).
+- As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in e.g. Realtek audio or gaming peripheral software).
 - A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch) which can be very expensive.  
   Here are some supplements for various system tools ([Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](http://www.nirsoft.net/utils/index.html) have a lot more):
   - Task Manager: [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](https://raw.githubusercontent.com/BoringBoredom/PC-Optimization-Hub/main/content/windows/process%20explorer%20settings.reg)
@@ -166,7 +166,7 @@
     - [Mouse Sensitivity Calculator](https://www.mouse-sensitivity.com/)
     - [Aiming.Pro Sensitivity Calculator](https://aiming.pro/mouse-sensitivity-calculator)
     - [Mouse Functionality Tester](https://boringboredom.github.io/Mouse-Functionality-Tester/)
-- ## Mousepad
+- ## Mouse pad
   - [Hoya's sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
 - ## Keyboard
   - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
@@ -180,6 +180,7 @@
     - [RTINGS](https://www.rtings.com/monitor/tools/table)
     - [TFT Central](https://www.tftcentral.co.uk/reviews_index.htm)
     - [Hardware Unboxed](https://www.youtube.com/playlist?list=PL7m5C6_P_lnXb9cHwdo0Ct1TTZ7KUwm3e)
+    - [Monitors Unboxed](https://www.youtube.com/@monitorsunboxed/videos)
   - ### Tools
     - [Blur Busters' utilities](https://www.testufo.com/)
     - [ApertureGrille's utilities](https://www.aperturegrille.com/software/)
@@ -250,6 +251,7 @@
     - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
     - [AnandTech](https://www.anandtech.com/Bench/SSD21)
+    - [TweakTown](https://www.tweaktown.com/cat/storage/index.htmlhttps://www.tweaktown.com/cat/storage/index.html)
   - ### Profiling / Monitoring / Benchmarking
     - [CrystalDiskMark](https://crystalmark.info/en/)
     - [ATTO Disk Benchmark](https://www.techpowerup.com/download/atto-disk-benchmark/)
@@ -314,6 +316,7 @@
 - ## Miscellaneous
   - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
   - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
+  - [Digitec return & RMA rates](https://www.digitec.ch/en/page/refreshingly-honest-digitec-galaxus-now-displays-warranty-score-and-return-rate-25950)
 
 # [My Twitter](https://twitter.com/Bra1nlet)
 
