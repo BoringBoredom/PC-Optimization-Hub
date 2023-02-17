@@ -19,7 +19,7 @@ You can find the exact address by observing changes while moving the mouse <sup>
 Sometimes the value of BAR2 is not 0x00000000 and requires a workaround.
 
 - One method of getting the starting address is pressing **_Windows key + r_**, typing **_devmgmt.msc_**, right-clicking the xHCI controller, clicking **_Properties_** and navigating to **_Resources_**. The left value of **_Memory Range_** is your starting address.
-- Another method is concatenating BAR2 and BAR1 and replacing the 4 at the end with 0. In this example BAR2 is 00000040 and BAR1 is 00100004, resulting in 0000004000100000.
+- Another method is concatenating BAR2 and BAR1 and replacing the 4 at the end with 0. In this example, BAR2 is 00000040 and BAR1 is 00100004, resulting in 0000004000100000.
 
 ![](https://github.com/BoringBoredom/PC-Optimization-Hub/raw/main/content/xhci%20imod/bar2.png)
 

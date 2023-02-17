@@ -202,7 +202,6 @@
 - ## CPU
   - ### Information
     - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
-    - [Silicon Lottery's binning statistics](https://siliconlottery.com/pages/statistics)
     - [VRM Load-Line visualization](https://elmorlabs.com/2019-09-05/vrm-load-line-visualized/)
   - ### Tools
     - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
@@ -212,6 +211,7 @@
     - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
     - [OCCT](https://www.ocbase.com/)
     - [Prime95](https://www.mersenne.org/download/)
+    - [y-cruncher](http://www.numberworld.org/y-cruncher/)
 - ## RAM
   - ### Information
     - DDR4 basics: [text](https://www.systemverilog.io/) + [video](https://youtu.be/I-9XWtdW_Co?list=PLTd6ceoshpreE_xQfQ-akUMU1sEtthFdB)
@@ -225,6 +225,7 @@
     - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/) ([Enable _Caching_ on all operating systems and change the _RNG_ to _XORWOW_ if testing on Windows 7](https://www.karhusoftware.com/ramtest/README.txt))
     - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) & [LMHz's config](https://drive.google.com/file/d/1fEPPG3sCqwtg7t1GQTwVrrixsyidwjL5/view) (links taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
     - [OCCT](https://www.ocbase.com/)
+    - [y-cruncher](http://www.numberworld.org/y-cruncher/)
     - [HCI MemTest](https://hcidesign.com/memtest/)
     - [GSAT](https://github.com/stressapptest/stressapptest)
 - ## GPU
@@ -271,6 +272,7 @@
   - ### Information
     - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - [Group Policy Administrative Templates Catalog](https://admx.help/)
+    - [Presentation Model](https://wiki.special-k.info/en/Presentation_Model)
   - ### Profiling / Monitoring / Benchmarking
     - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
     - [Benchmarking FPS](https://boringboredom.github.io/Frame-Time-Analysis/)
