@@ -48,7 +48,6 @@
       - Set the graph to **_Interval vs. Time_**.
       - Values greater than or equal to 2 ms indicate that the mouse hasn't reported motion data in the previous **_value - 1_** poll(s) (assuming other factors such as system or interference have been ruled out).
       - Raise your DPI until all polls contain motion data.
-    - Due to the increased precision of higher DPI, the sensor will pick up finer motion which can result in "shakiness". When using a higher level of monitor overdrive, this can heavily amplify the negative impact of coronas caused by the overdrive. I recommend lowering it when raising DPI and encountering this issue.
   - ### Polling rate
     - Higher polling rate [reduces latency](https://youtu.be/mwf_F2VboFQ?t=458) and improves motion clarity ([1](https://youtu.be/gOQNRvJbpmk?t=540) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569#p57804)).
     - [How to disable Interrupt Moderation](https://github.com/BoringBoredom/PC-Optimization-Hub/blob/main/content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
@@ -143,7 +142,9 @@
 - ## Optimization guides
   - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
   - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
+  - [Amit's guide](https://github.com/amitxv/PC-Tuning)
 - ## ISO creation
+  - [NTLite](https://www.ntlite.com/)
   - [USB and storage drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) (mostly relevant for W7) & [driver integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
