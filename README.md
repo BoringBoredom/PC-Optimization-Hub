@@ -296,7 +296,7 @@
     - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
     - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
     - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
-    - [Timer Resolution Service](https://forums.guru3d.com/threads/windows-timer-resolution-tool-in-form-of-system-service.376458/)
+    - [Timer Resolution](https://github.com/amitxv/TimerResolution)
     - [AdvancedRun](https://www.nirsoft.net/utils/advanced_run.html)
     - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager) (compatibility settings editor)
     - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
