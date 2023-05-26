@@ -273,6 +273,7 @@
 - ## Windows
   - ### Information
     - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
+    - [Windows changelog](https://www.changewindows.org/platforms/pc)
     - [Group Policy Administrative Templates Catalog](https://admx.help/)
     - [Presentation Model](https://wiki.special-k.info/en/Presentation_Model)
   - ### Profiling / Monitoring / Benchmarking
