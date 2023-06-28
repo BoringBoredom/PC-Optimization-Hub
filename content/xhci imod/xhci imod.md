@@ -19,10 +19,10 @@ Open RWEverything.
 
 There are 1024 Interrupters, so the one you're looking for may not be on the first page.
 
-![](runtime%20base.png)
-![](runtime%20register%20space%20offset.png)
-![](interrupter.png)
-![](imod%20register.png)
+![](runtime%20base.PNG)
+![](runtime%20register%20space%20offset.PNG)
+![](interrupter.PNG)
+![](imod%20register.PNG)
 
 </details>
 
