@@ -8,6 +8,11 @@ This section is based on [Timecard's xHCI guide](https://github.com/djdallmann/G
 <summary>Click here for TLDR</summary>
 </br>
 
+![](runtime%20base.PNG)
+![](runtime%20register%20space%20offset.PNG)
+![](interrupter.PNG)
+![](imod%20register.PNG)
+
 Press `Windows key + R`, type `devmgmt.msc`, press `Enter`, right-click the xHCI controller, click `Properties` and navigate to `Resources`.
 
 ![](1.png)
@@ -19,10 +24,9 @@ Open RWEverything.
 
 There are 1024 Interrupters, so the one you're looking for may not be on the first page.
 
-![](runtime%20base.PNG)
-![](runtime%20register%20space%20offset.PNG)
-![](interrupter.PNG)
-![](imod%20register.PNG)
+To test whether it's the correct location, set the IMOD Interval (last 4 values) to `FA00` (64 Hz).
+
+The red number in the top left of the table is a decimal. Convert it to a hexadecimal before adding it to your address.
 
 </details>
 
