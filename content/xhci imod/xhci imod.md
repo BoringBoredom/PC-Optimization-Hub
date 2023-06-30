@@ -22,7 +22,7 @@ Open RWEverything.
 ![](2.png)
 ![](3.png)
 
-There are 1024 Interrupters, so the one you're looking for may not be on the first page.
+There are up to 1024 Interrupters, so the one you're looking for may not be on the first page.
 
 To test whether it's the correct location, set the IMOD Interval (last 4 values) to `FA00` (62.5 Hz).
 
