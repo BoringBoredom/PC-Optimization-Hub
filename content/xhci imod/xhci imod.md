@@ -10,6 +10,8 @@ This section is based on [Timecard's xHCI guide](https://github.com/djdallmann/G
 
 ![](runtime%20base.PNG)
 ![](runtime%20register%20space%20offset.PNG)
+![](interrupters.PNG)
+![](structural%20parameters.PNG)
 ![](interrupter.PNG)
 ![](imod%20register.PNG)
 
@@ -22,7 +24,7 @@ Open RWEverything.
 ![](2.png)
 ![](3.png)
 
-There are up to 1024 Interrupters, so the one you're looking for may not be on the first page.
+The interrupter you're looking for may not always be on the first page. There can be up to 1024 interrupters; however, typically, there are less than 100. The exact count is determined by the value stored at bits 18 to 8 in the HCSPARAMS1 register (Capability base address + 0x4).
 
 To test whether it's the correct location, set the IMOD Interval (last 4 values) to `FA00` (62.5 Hz).
 
