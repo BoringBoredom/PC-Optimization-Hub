@@ -172,7 +172,7 @@
 - ## Mouse pad
   - [Hoya's sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
 - ## Keyboard
-  - ["What influences keyboard speed?"](https://blog.wooting.nl/what-influences-keyboard-speed/)
+  - ["What influences keyboard input speed"](https://wooting.io/post/what-influences-keyboard-speed)
 - ## Controller
   - [Input lag sheet](https://docs.google.com/spreadsheets/d/1KlRObr3Be4zLch7Zyqg6qCJzGuhyGmXaOIUrpfncXIM/edit)
 - ## Monitor
