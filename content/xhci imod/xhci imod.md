@@ -19,16 +19,21 @@ Press `Windows key + R`, type `devmgmt.msc`, press `Enter`, right-click the xHCI
 
 ![](1.png)
 
-Open RWEverything.
+Open RWEverything. Add the `Runtime Register Space Offset` (0x18) to your `Capability Base address` and enter the result in the address field. Add the value in the upper left field (HEX) to your `Capability Base address`. This is your `Runtime Base` address.
 
 ![](2.png)
+
+Add the `Interrupt Moderation Register` offset (0x24) to your `Runtime Base` address. This is the address of the IMOD register of the first interrupter.
+
 ![](3.png)
 
-The interrupter you're looking for may not always be on the first page. There can be up to 1024 interrupters; however, typically, there are less than 100. The exact count is determined by the value stored at bits 18 to 8 in the HCSPARAMS1 register (Capability base address + 0x4).
+The interrupter you're looking for may not always be on the first page. There can be up to 1024 interrupters; however, typically, there are less than 100. The exact count is determined by the value stored at bits 18 to 8 in the `HCSPARAMS1` register (`Capability base address` + 0x4).
 
 To test whether it's the correct location, set the IMOD Interval (last 4 values) to `FA00` (62.5 Hz).
 
 The red number in the top left of the table is a decimal. Convert it to a hexadecimal before adding it to your address.
+
+Alternatively, you can use [Amit's script](https://github.com/amitxv/PC-Tuning/blob/main/docs/post-install.md#xhci-interrupt-moderation-imod) to automate everything.
 
 </details>
 
