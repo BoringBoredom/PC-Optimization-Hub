@@ -6,6 +6,7 @@
 - ["In all studies, the trend shows continued improvements all the way toward zero latency."](https://developer.nvidia.com/blog/aiming-faster-in-games-with-low-computer-system-latency/)
 - ["In the first part, perceptual user experience under different jitter levels was examined using the ISO 4120:2004 triangle test protocol, and a jitter of over 0.3 ms could be perceived by sensitive subjects."](https://dl.acm.org/doi/10.1145/3472749.3474783)
 - [Summary in form of an infographic](content/importance%20of%20low%20input%20lag/latency.png)
+- ["What Frame Rate is Needed to Simulate Reality?"](https://youtu.be/7zky-smR_ZY)
 
 # Disclaimer
 
@@ -149,7 +150,7 @@
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
     - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
-    - [Microsoft Software Download Listing](https://ave9858.github.io/msdl/)
+    - [Genuine Installation Media](https://massgrave.dev/genuine-installation-media.html)
     - [Adguard](https://uup.rg-adguard.net/index.php)
     - [MVS Collection](https://isofiles.bd581e55.workers.dev/)
     - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
@@ -222,6 +223,7 @@
     - DDR4 basics: [text](https://www.systemverilog.io/) + [video](https://youtu.be/I-9XWtdW_Co?list=PLTd6ceoshpreE_xQfQ-akUMU1sEtthFdB)
     - [DDR4 JEDEC paper](http://www.softnology.biz/pdf/JESD79-4B.pdf)
     - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
+    - ["How to remove modern DDR5 Heat-spreaders"](https://youtu.be/w2LnlLGBUy8)
   - ### Tools
     - New versions of ASRock Timing Configurator, ASUS MemTweakIt and MSI Dragon Ball can usually be found [here](https://community.hwbot.org/forum/126-intel-cpu-overclocking/).
     - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
