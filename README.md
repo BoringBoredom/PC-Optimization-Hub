@@ -32,7 +32,7 @@
 - Move all devices that have electromagnetic fields away from your PC and peripherals. E.g. [router](content/physical%20setup/router.jpg), power strip/[conditioner](content/physical%20setup/conditioner.jpg), voltage regulator etc.  
   ["A typical PC can be upset with an electric field strength of 48 V/m, whereas an unshielded PC board requires about 9 V/m."](https://doi.org/10.1109/EMCSA.2009.5349776)
 - Make sure there is enough space between your cables ([1](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569&start=470#p64674) [2](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) [3](https://en.wikipedia.org/wiki/Electrical_cable#Cables_and_electromagnetic_fields) [4](content/physical%20setup/psu%20cable.jpg) [5](content/physical%20setup/keyboard%20cable.jpg)) and untangle them. This applies to everything, including power and [peripheral](content/physical%20setup/mouse%20cable.png) cables.
-- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual to find out which ports are routed directly to the CPU.
+- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual or [HWiNFO](https://github.com/amitxv/PC-Tuning/blob/main/media/ryzen-xhci-controller.png) to find out which ports are routed directly to the CPU.
 - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618#p58449) your other devices to them. Lower their polling rate to an acceptable level. E.g. your microphone doesn't need 1000 Hz ([1](https://youtu.be/duGC4MCktV0)).
 - Cable type and ports can potentially produce different results ([1](https://forums.blurbusters.com/viewtopic.php?t=5533#p42369) [2](https://forums.blurbusters.com/viewtopic.php?t=6919#p51775)) (don't Plug & Play these). [Don't cheap out on cables](https://www.youtube.com/watch?v=XFbJD6RE4EY). Both [HDMI](https://www.hdmi.org/spec/premiumcable) and [DisplayPort](https://www.displayport.org/product-category/cables-adaptors/) have certification programs.
 
@@ -128,7 +128,7 @@
 
 # Windows
 
-- The never-ending background bloat of Windows [reduces performance significantly](https://youtu.be/hwNAa_OdP1w).  
+- The never-ending background bloat of Windows reduces performance significantly ([1](https://youtu.be/hwNAa_OdP1w) [2](https://youtu.be/yVNkMNVv4Y4)).  
   Note: I am not advocating using pre-made ISOs; on the contrary, you should make your own.
 - I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
 - As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in e.g. Realtek audio or gaming peripheral software).
@@ -151,8 +151,8 @@
   - ### ISO sources
     - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
     - [Genuine Installation Media](https://massgrave.dev/genuine-installation-media.html)
+    - [OS.click](https://os.click/en)
     - [Adguard](https://uup.rg-adguard.net/index.php)
-    - [MVS Collection](https://isofiles.bd581e55.workers.dev/)
     - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
     - [Unknown list](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk/edit)
     - [MSDN file server](https://files.dog/MSDN/)
