@@ -4,9 +4,9 @@ The computer's USB controller asks the mouse for new data at a <ins>**static**</
 
 # Motion data report rate
 
-Modern mice usually keep the polling rate at the maximum to reduce click latency while buffering motion data if you select lower report rates.
+This is the rate at which the mouse transmits motion data to the USB controller. Modern mice usually keep the polling rate at the maximum to reduce click latency while buffering motion data if you select lower report rates.
 
-E.g.: "polling" rate settings in Synapse
+E.g.: report rate settings in Synapse
 
 - 8000 Hz - motion data is transmitted every interval
 - 4000 Hz - motion data is transmitted every 2nd interval
