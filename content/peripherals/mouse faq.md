@@ -43,4 +43,12 @@ If we were to instead display the difference between timestamp and expected idea
 0         0               0.6 0         0         0     (ms)
 ```
 
-### TLDR: don't use `Frequency vs. Time`, use `Interval vs. Time` instead
+#### TLDR: don't use `Frequency vs. Time`, use `Interval vs. Time` instead
+
+### Why is MouseTester stuck at 8 ms / 125 Hz?
+
+Windows 11 [updated](https://reddit.com/r/Windows11/comments/109ca82/call_to_action_can_you_see_if_fps_drops_in_games/) the raw input API:
+
+> We capped the rate at which background recipients of raw mouse input could receive messages, so e.g. instead of seeing 1000 messages per second for a 1000Hz mouse, it may only see 125 (but each containing the combined payload of the coalesced messages).
+
+To circumvent this issue, keep the MouseTester window focussed.
