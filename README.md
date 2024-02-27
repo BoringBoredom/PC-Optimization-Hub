@@ -161,6 +161,7 @@
 
 - ## Mouse
   - ### Information
+    - [FAQ](content/peripherals/mouse%20faq.md)
     - [Newbrict's page](https://sensor.fyi/info/)
     - [Click latency database](https://github.com/NVIDIA/Reflex-Latency-Analyzer-Mouse-Database/blob/main/NVIDIA%20RLA%20Mice%20Database%20-%20Github.csv)
   - ### Tools
