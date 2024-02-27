@@ -17,7 +17,7 @@ E.g.: "polling" rate settings in Synapse
 
 Whenever MouseTester receives a raw input message, it gets [timestamped](https://github.com/amitxv/MouseTester/blob/904db7bcaca57a9bef578d04c41d2d32abad9dc4/MouseTester/MouseTester/Form1.cs#L80) and [collected](https://github.com/amitxv/MouseTester/blob/904db7bcaca57a9bef578d04c41d2d32abad9dc4/MouseTester/MouseTester/Form1.cs#L90) if it is a mouse event. You are not actually measuring the polling rate, but the rate at which MouseTester receives mouse events. This means that system load, lack of motion etc. will have an impact on the results.
 
-## Why does the `Frequency vs. Time` graph show very high peaks, way above the actual report rate?
+### Why does the `Frequency vs. Time` graph show very high peaks, way above the actual report rate?
 
 Each data point represents the delta between the current and previous event timestamp. The `Frequency vs. Time` graph converts the values from interval (ms) to frequency (Hz = 1000 / ms).
 
