@@ -19,7 +19,7 @@ Whenever MouseTester receives a raw input message, it gets [timestamped](https:/
 
 ### Usage tips
 
-- Use 10k+ DPI for testing to ensure lack of sensor data doesn't skew the results.
+- Use 15k+ DPI for testing to ensure lack of sensor data doesn't skew the results.
 - Exit all running applications.
 - Right-click your Desktop, hover over `View` and uncheck `Show desktop icons`.
 - Keep the MouseTester window focussed to avoid [this issue](#why-is-mousetester-stuck-at-8-ms--125-hz).
