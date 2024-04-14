@@ -32,7 +32,7 @@
 - Move all devices that have electromagnetic fields away from your PC and peripherals. E.g., [router](content/physical%20setup/router.jpg), power strip/[conditioner](content/physical%20setup/conditioner.jpg), voltage regulator etc.  
   ["A typical PC can be upset with an electric field strength of 48 V/m, whereas an unshielded PC board requires about 9 V/m."](https://doi.org/10.1109/EMCSA.2009.5349776)
 - Make sure there is enough space between your cables ([1](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569&start=470#p64674) [2](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) [3](https://en.wikipedia.org/wiki/Electrical_cable#Cables_and_electromagnetic_fields) [4](content/physical%20setup/psu%20cable.jpg) [5](content/physical%20setup/keyboard%20cable.jpg)) and untangle them. This applies to everything, including power and [peripheral](content/physical%20setup/mouse%20cable.png) cables.
-- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual or [HWiNFO](https://github.com/amitxv/PC-Tuning/blob/main/media/ryzen-xhci-controller.png) to find out which ports are routed directly to the CPU.
+- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual or HWiNFO to find out which ports are routed directly to the CPU.
 - If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618#p58449) your other devices to them. Lower their polling rate to an acceptable level. E.g., your microphone doesn't need 1000 Hz ([1](https://youtu.be/duGC4MCktV0)).
 - Cable type and ports can potentially produce different results ([1](https://forums.blurbusters.com/viewtopic.php?t=5533#p42369) [2](https://forums.blurbusters.com/viewtopic.php?t=6919#p51775)) (don't Plug & Play these). [Don't cheap out on cables](https://www.youtube.com/watch?v=XFbJD6RE4EY). Both [HDMI](https://www.hdmi.org/spec/premiumcable) and [DisplayPort](https://www.displayport.org/product-category/cables-adaptors/) have certification programs.
 
@@ -143,7 +143,6 @@
 - ## Optimization guides
   - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
   - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
-  - [Amit's guide](https://github.com/amitxv/PC-Tuning)
 - ## ISO creation
   - [NTLite](https://www.ntlite.com/)
   - [USB and storage drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) (mostly relevant for W7) & [driver integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
