@@ -13,7 +13,7 @@ E.g.: report rate settings in Synapse
 - 2000 Hz - motion data is transmitted every 4th interval
 - 1000 Hz - motion data is transmitted every 8th interval
 
-# MouseTester
+# [MouseTester](https://github.com/amitxv/MouseTester)
 
 Whenever MouseTester receives a raw input message, it gets [timestamped](https://github.com/amitxv/MouseTester/blob/904db7bcaca57a9bef578d04c41d2d32abad9dc4/MouseTester/MouseTester/Form1.cs#L80) and [collected](https://github.com/amitxv/MouseTester/blob/904db7bcaca57a9bef578d04c41d2d32abad9dc4/MouseTester/MouseTester/Form1.cs#L90) if it is a mouse event. You are not actually measuring the polling rate, but the rate at which MouseTester receives mouse events. This means that system load, lack of motion etc. will have an impact on the results.
 
