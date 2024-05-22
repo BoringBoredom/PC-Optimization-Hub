@@ -46,7 +46,7 @@
     - Depending on your mouse, preferred cm/360°, [mouse pad](content/peripherals/mousepad.png) and FOV in games, you may want to experiment with different DPI. Higher DPI reduces the latency between hand motion and the sensor acknowledging a change ([1](content/peripherals/dpi.PNG) [2](https://youtu.be/mwf_F2VboFQ?t=458) [3](https://youtu.be/6AoRfv9W110) [4](https://youtu.be/imYBTj2RXFs?t=275)) and improves [motion clarity](https://youtu.be/QrF_e5vKqPk) and accuracy ([1](https://i0.hdslb.com/bfs/article/watermark/ac7bdde084e67d365ecb435aa8fc3195992b5cbe.jpg@1256w_678h_!web-article-pic.avif) [2](https://www.bilibili.com/read/cv11545206) [3](https://i0.hdslb.com/bfs/article/watermark/97e28f38daae36aa3e0ec43f26936590c684799f.png@1256w_676h_!web-article-pic.avif) [4](https://www.bilibili.com/read/cv10950469)). Beware of smoothing and other jitter reduction technologies kicking in at various thresholds. To counteract the increased sensitivity on the Desktop and in game menus, you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
     - [Windows Sensitivity Calculator](https://boringboredom.github.io/tools/winsenscalculator)
     - Finding your individual approximate point of diminishing returns (taking 1000 Hz as example):
-      - Run [MouseTester](https://github.com/amitxv/MouseTester) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
+      - Run [MouseTester](https://github.com/deaglebullet/MouseTester) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
       - Set the graph to **_Interval vs. Time_**.
       - Values greater than or equal to 2 ms indicate that the mouse hasn't reported motion data in the previous **_value - 1_** poll(s) (assuming other factors such as system or interference have been ruled out).
       - Raise your DPI until all polls contain motion data.
@@ -290,7 +290,7 @@
     - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
     - [Intel Graphics Performance Analyzers](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)
     - [Processor Counter Monitor](https://github.com/opcm/pcm)
-    - [MouseTester](https://github.com/amitxv/MouseTester)
+    - [MouseTester](https://github.com/deaglebullet/MouseTester)
     - [Latencymon](https://www.resplendence.com/latencymon)
     - [Liblava](https://github.com/liblava/liblava-demo)
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
@@ -300,12 +300,12 @@
     - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
     - [NTLite](https://www.ntlite.com/) (ISO creation)
     - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
-    - [ReservedCpuSets](https://github.com/amitxv/ReservedCpuSets)
+    - [ReservedCpuSets](https://github.com/deaglebullet/ReservedCpuSets)
     - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
     - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
     - [Power Settings Editor](https://boringboredom.github.io/tools/powersettingseditor)
     - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
-    - [Timer Resolution](https://github.com/amitxv/TimerResolution)
+    - [Timer Resolution](https://github.com/deaglebullet/TimerResolution)
     - [AdvancedRun](https://www.nirsoft.net/utils/advanced_run.html)
     - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager) (compatibility settings editor)
     - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)

@@ -33,7 +33,7 @@ To test whether it's the correct location, set the IMOD Interval (last 4 values)
 
 The red number in the top left of the table is a decimal. Convert it to a hexadecimal before adding it to your address.
 
-Alternatively, you can use [Amit's script](https://gist.github.com/amitxv/4fe34e139f0aec681a6122f39757d86e) to automate everything.
+Alternatively, you can use [this script](https://gist.github.com/deaglebullet/4305266f2c4385457279c862c1eb846b) to automate everything.
 
 </details>
 
