@@ -22,6 +22,9 @@
 - [Do not daisy-chain power cables](content/physical%20setup/psu%20cables.png). Be careful not to short the loose ends if you have any.
 - [Mount your AIO cooler properly.](https://youtu.be/BbGomv195sk)
 - Keep your PC clean. Clogged heat sinks and dust filters will reduce airflow and consequently heat dissipation. Furthermore, ["dust may cause electrical leakage, shorting and opening of PCBs under different conditions"](https://www.circuitinsight.com/pdf/impact_of_dust_ipc.pdf).
+- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual or HWiNFO to find out which ports are routed directly to the CPU.
+- If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618#p58449) your other devices to them. Lower their polling rate to an acceptable level. E.g., your microphone doesn't need 1000 Hz ([1](https://youtu.be/duGC4MCktV0)).
+- Cable type and ports can potentially produce different results ([1](https://forums.blurbusters.com/viewtopic.php?t=5533#p42369) [2](https://forums.blurbusters.com/viewtopic.php?t=6919#p51775)) (don't Plug & Play these). [Don't cheap out on cables](https://www.youtube.com/watch?v=XFbJD6RE4EY). Both [HDMI](https://www.hdmi.org/spec/premiumcable) and [DisplayPort](https://www.displayport.org/product-category/cables-adaptors/) have certification programs.
 - [Electromagnetic interference](https://en.wikipedia.org/wiki/Electromagnetic_interference) and issues with the electrical installation (e.g., [ground loops](<https://en.wikipedia.org/wiki/Ground_loop_(electricity)>)) can cause unintended behavior of electronic components, potentially increasing input lag ([1](https://forums.blurbusters.com/viewtopic.php?f=24&t=9133#p71950) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7168&start=30#p62185)).  
   Here are some resources: [1](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/RESEARCH/ELECTRICAL/README.md#electrical) [2](https://github.com/djdallmann/GamingPCSetup/blob/master/CONTENT/TECHNICAL%20REFERENCES/README.md#electrical)
 - ["EMC tests were developed to make them easier to perform, provide better repeatability from one lab to another, and reduce testing costs. But even though the EUT may pass its EMC tests, it still may fail when it's put into service. Laboratory tests performed in accordance with the standards are not adequate to guarantee that an EMC failure will not occur during actual operation because the tests do not represent the operational EME."](https://www.evaluationengineering.com/home/article/13003718/emc-failures-happen)  
@@ -32,9 +35,6 @@
 - Move all devices that have electromagnetic fields away from your PC and peripherals. E.g., [router](content/physical%20setup/router.jpg), power strip/[conditioner](content/physical%20setup/conditioner.jpg), voltage regulator etc.  
   ["A typical PC can be upset with an electric field strength of 48 V/m, whereas an unshielded PC board requires about 9 V/m."](https://doi.org/10.1109/EMCSA.2009.5349776)
 - Make sure there is enough space between your cables ([1](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569&start=470#p64674) [2](https://www.phidgets.com/docs/Improving_Phidgets_Hardware_Reliability#Device_Resets_.28Due_to_Cable_to_Cable_Interference.29) [3](https://en.wikipedia.org/wiki/Electrical_cable#Cables_and_electromagnetic_fields) [4](content/physical%20setup/psu%20cable.jpg) [5](content/physical%20setup/keyboard%20cable.jpg)) and untangle them. This applies to everything, including power and [peripheral](content/physical%20setup/mouse%20cable.png) cables.
-- Check the USB layout of your system with [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html). Connect your mouse (or primary input device) to the first port of the first controller (usually [this port](https://i.imgur.com/QGKAVoA.png)). [Ryzen CPUs have a dedicated USB controller](https://images.anandtech.com/doci/14161/X570.png). Check your motherboard's manual or HWiNFO to find out which ports are routed directly to the CPU.
-- If your motherboard has multiple USB controllers, [offload](https://forums.blurbusters.com/viewtopic.php?f=10&t=7618#p58449) your other devices to them. Lower their polling rate to an acceptable level. E.g., your microphone doesn't need 1000 Hz ([1](https://youtu.be/duGC4MCktV0)).
-- Cable type and ports can potentially produce different results ([1](https://forums.blurbusters.com/viewtopic.php?t=5533#p42369) [2](https://forums.blurbusters.com/viewtopic.php?t=6919#p51775)) (don't Plug & Play these). [Don't cheap out on cables](https://www.youtube.com/watch?v=XFbJD6RE4EY). Both [HDMI](https://www.hdmi.org/spec/premiumcable) and [DisplayPort](https://www.displayport.org/product-category/cables-adaptors/) have certification programs.
 
 # Peripherals
 
@@ -212,6 +212,7 @@
   - ### Tools
     - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
   - ### Stress testing programs
+    - [StresKit](https://github.com/deaglebullet/StresKit)
     - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
     - [LinX](https://hwtips-tistory-com.translate.goog/1611?category=377841&_x_tr_sl=auto&_x_tr_tl=en)
     - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
