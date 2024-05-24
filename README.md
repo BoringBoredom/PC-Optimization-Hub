@@ -145,7 +145,7 @@
   - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
 - ## ISO creation
   - [NTLite](https://www.ntlite.com/)
-  - [USB and storage drivers](https://www.win-raid.com/f25-General-Storage-Drivers-AHCI-RAID-NVMe-and-USB.html) (mostly relevant for W7) & [driver integration guide](https://www.win-raid.com/t750f25-Guide-Integration-of-drivers-into-a-Win-image.html)
+  - [Drivers](https://winraid.level1techs.com/c/important-drivers/6/all) (mostly relevant for W7) & [driver integration guide](https://winraid.level1techs.com/t/guide-integration-of-drivers-into-a-win7-11-image/30793)
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
     - Always check legitimacy of ISO by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
@@ -271,7 +271,7 @@
     - [Rufus](https://github.com/pbatard/rufus) (ISO mounting)
 - ## BIOS
   - ### Information
-    - [Win-Raid modding section](https://www.win-raid.com/f16-BIOS-Modding-Guides-and-Problems.html)
+    - [Win-Raid modding section](https://winraid.level1techs.com/c/bios-uefi-modding/7/all)
     - [BIOS Mods](https://www.bios-mods.com/forum/)
   - ### Tools
     - [UEFI Editor](https://boringboredom.github.io/UEFI-Editor/)
