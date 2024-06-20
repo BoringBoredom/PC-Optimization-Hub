@@ -33,7 +33,7 @@ To test whether it's the correct location, set the IMOD Interval (last 4 values)
 
 The red number in the top left of the table is a decimal. Convert it to a hexadecimal before adding it to your address.
 
-Alternatively, you can use [this script](https://gist.github.com/deaglebullet/4305266f2c4385457279c862c1eb846b) to automate everything.
+Alternatively, you can use [this script](https://raw.githubusercontent.com/valleyofdoom/PC-Tuning/main/bin/XHCI-IMOD-Interval.ps1) to automate everything.
 
 </details>
 

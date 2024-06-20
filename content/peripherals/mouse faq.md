@@ -13,9 +13,9 @@ E.g.: report rate settings in Synapse
 - 2000 Hz - motion data is transmitted every 4th interval
 - 1000 Hz - motion data is transmitted every 8th interval
 
-# [MouseTester](https://github.com/deaglebullet/MouseTester)
+# [MouseTester](https://github.com/valleyofdoom/MouseTester)
 
-Whenever MouseTester receives a raw input message, it gets [timestamped](https://github.com/deaglebullet/MouseTester/blob/97262dbf7a0b4846e9e334a490b38dd7d0862139/MouseTester/MouseTester/Form1.cs#L80) and [collected](https://github.com/deaglebullet/MouseTester/blob/97262dbf7a0b4846e9e334a490b38dd7d0862139/MouseTester/MouseTester/Form1.cs#L90) if it is a mouse event. You are not actually measuring the polling rate, but the rate at which MouseTester receives mouse events. This means that system load, lack of motion etc. will have an impact on the results.
+Whenever MouseTester receives a raw input message, it gets timestamped and collected if it is a mouse event. You are not actually measuring the polling rate, but the rate at which MouseTester receives mouse events. This means that system load, lack of motion etc. will have an impact on the results.
 
 ### Usage tips
 
