@@ -6,7 +6,7 @@
 - Prepare a USB stick with [Ventoy](https://github.com/ventoy/Ventoy) (set to GPT) and transfer all your ISOs.
 - In the BIOS, enable CSM and set Storage OpROM and PCI device ROM to UEFI. You have to partition the drive with CSM enabled, otherwise you won't be able to install Windows 7. CSM is only required for partitioning and installing Windows 7 (including GPU drivers). Installing W8-10 and regularly booting W7-10 doesn't require CSM anymore.
 - Boot into the Windows 1803 installer and delete all existing partitions until the entire drive is just a chunk of unassigned space.
-- Windows will reserve 615 MB to create a [Recovery, a System and a Microsoft Reserved Partition](partitions.jpg) and subtract it from the first partition you create, so make sure to account for that when you choose your first partition's size. Create as many OS partitions as you want. Assign the rest of the unused space as your file partition, where you keep your files, games etc. You will have access to all partitions from any OS. Ultimately, format each partition to convert them from RAW to NTFS.
+- Create a file partition, where you keep your files, games etc. Windows will also reserve some space to create a [Recovery, a System, and a Microsoft Reserved Partition](partitions.jpg). Then, create as many OS partitions as you want. The final order will look something like this: Recovery, System, MSR, Files, OS, OS, OS etc.
 - You can now exit the installer and proceed with an ISO you want to install.
 
 ## Installing Windows
