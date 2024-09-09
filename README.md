@@ -323,6 +323,7 @@
 - ## Audio
   - ### Tools
     - [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
+    - [Round-trip audio latency tester](https://superpowered.com/webbrowserlatency)
 - ## Alternatives to bloated programs
   - Epic Games: [Legendary](https://github.com/derrod/legendary)
   - Spotify: [Foobar2000](https://www.foobar2000.org/)
