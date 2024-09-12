@@ -175,6 +175,7 @@
 - ## Keyboard
   - ["What influences keyboard input speed"](https://wooting.io/post/what-influences-keyboard-speed)
 - ## Controller
+  - [Gamepadla tests](https://gamepadla.com/)
   - [Input lag sheet](https://docs.google.com/spreadsheets/d/1KlRObr3Be4zLch7Zyqg6qCJzGuhyGmXaOIUrpfncXIM/edit)
 - ## Monitor
   - ### Information
