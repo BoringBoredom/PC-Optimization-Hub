@@ -57,8 +57,8 @@
     - A [balloon pump](https://www.magictricks.com/assets/images/trickspix/balloonpump-basic.jpg) will do the job without risking physical damage to the polycarbonate lens ([1](https://dtsheet.com/doc/1305617/lens-datasheet---pixart-imaging-inc.) [2](https://manualzz.com/doc/43036065/lens-datasheet---pixart-imaging-inc.)).
 - ## Monitor
   - ### Capped FPS vs. VRR vs. uncapped FPS
-    - There are a lot of variables involved: GPU utilization, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex (only supported by NVIDIA GPUs in a few games at the moment) etc.
-    - Input lag increases as GPU workload increases ([1](https://youtu.be/8ZRuFaFZh5M?t=817) [2](https://youtu.be/dPMHEyz38TM?t=1124)).
+    - There are a lot of variables involved: GPU workload, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex, AMD Anti-Lag 2 etc.
+    - [Input lag increases as GPU workload increases.](https://youtu.be/8ZRuFaFZh5M?t=817)
     - [VRR](https://youtu.be/dPMHEyz38TM?t=289) and [V-Sync](https://youtu.be/rs0PYCpBJjc?t=202) increase input lag.
     - #### Frame mistiming
       - ##### V-Sync off
@@ -94,6 +94,21 @@
 - I called this category _clocking_ rather than _overclocking_ because in the end all you do is run your components at their safe capabilities (which may not always be *over*clocking due to temperature, for example).
 - A stable system should be able to run anything indefinitely. A single error is one too many.
 - When raising clocks, always benchmark every change and verify that the performance scales positively and the variation is very low. Due to error correction, higher clocks may not cause errors in stress tests but can result in "identical" performance, worse performance or higher variation.
+- Beware of degradation by high voltage, temperature and current.
+- GPU and ambient temperature (e.g., summer vs. winter) will significantly impact memory temperature. Here are some things you can do while stress testing to simulate a more realistic scenario:
+  - Run a GPU heat generator.
+  - Mount a hair dryer to blow hot air on the memory.
+  - Turn off case fans.
+  - Turn up room heaters.
+- Avoid monitoring programs (e.g., HWiNFO) while stress testing, since they have a large performance impact.
+- [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. They should be treated as one unit and adjusted and stress tested together.
+- [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
+- ### Stress testing
+  - [StresKit](https://github.com/valleyofdoom/StresKit)
+  - [Memory](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
+  - Test with a variety of programs/configs, since the algorithms differ. One may not fail at all, while another may fail within minutes.
+- ## GPU (NVIDIA)
+  - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 - ## Temperature
   - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
   - ["The load has increased the main board temperature by 5 deg. (centigrade scale) only, but the influence to the measured performance counter frequency is quite considerable."](http://www.windowstimestamp.com/description)
@@ -104,27 +119,6 @@
     - Manually set voltages and clocks of all components.
     - Use zip-ties to extend fans over VRMs, RAM and PCH. Avoid CPU air coolers due to incompatibility with dedicated VRM and RAM cooling.
     - Liquid cool all components (expensive).
-- ## Intel Lake platform (6000-10000 series)
-  - [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
-  - [Voltages and their impact](https://youtu.be/WK5Md-90XHQ?t=370)
-  - Beware of degradation by high voltage, temperature and current. Personally, I think the voltages and temperature mentioned in the previous video are too high.
-  - [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. They should be treated as one unit and adjusted and stress tested together.
-  - GPU and ambient temperature (e.g., summer vs. winter) will significantly impact memory temperature. Here are some things you can do while stress testing to simulate a more realistic scenario:
-    - Run a GPU heat generator.
-    - Mount a hair dryer to blow hot air on the memory.
-    - Turn off case fans.
-    - Turn up room heaters.
-  - Avoid monitoring programs (e.g., HWiNFO) while stress testing, since they have a large performance impact.
-  - ### CPU stress testing
-    - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
-    - Test with a variety of different problem sizes.
-    - GFlop variation should be as low as possible.
-    - [Prime95](https://www.mersenne.org/download/)
-  - ### Memory stress testing
-    - [Options](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
-    - Test with a variety of programs/configs, since the algorithms differ. One may not fail at all, while another may fail within minutes.
-- ## GPU (NVIDIA)
-  - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 
 # Windows
 
@@ -133,7 +127,7 @@
 - I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
 - As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in, e.g., Realtek audio or gaming peripheral software).
 - A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch), which can be very expensive.  
-  Here are some supplements for various system tools ([Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](http://www.nirsoft.net/utils/index.html) have a lot more):
+  Here are some supplements for various system tools ([Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](https://www.nirsoft.net/utils/index.html) have a lot more):
   - Task Manager: [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](content/windows/process%20explorer%20settings.reg)
   - Startup section of Task Manager: [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
   - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
@@ -172,6 +166,7 @@
     - [Mouse Functionality Tester](https://boringboredom.github.io/Mouse-Functionality-Tester/)
 - ## Mouse pad
   - [Hoya's sheet](https://docs.google.com/spreadsheets/d/1RAnmZxDNduaGV8kB-GCvZ0MO6d9-0j9jmrU2f8dp0Ww/edit)
+  - [Viscose's sheet](https://docs.google.com/spreadsheets/d/1Ix0RN4WDgRIn9uSUMy2smG_vWR3FTnZHgNpumChfHM0/edit)
 - ## Keyboard
   - ["What influences keyboard input speed"](https://wooting.io/post/what-influences-keyboard-speed)
 - ## Controller
@@ -197,7 +192,7 @@
     - [ControlMyMonitor](https://www.nirsoft.net/utils/control_my_monitor.html)
     - [Open Source Response Time Tool](https://www.osrtt.com/)
     - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
-    - [Screen Density Calculator](http://phrogz.net/tmp/ScreenDens2In.html)
+    - [Screen Density Calculator](https://phrogz.net/tmp/ScreenDens2In.html)
     - [Video Timings Calculator](https://tomverbeure.github.io/video_timings_calculator)
 - ## PSU
   - ### Information
