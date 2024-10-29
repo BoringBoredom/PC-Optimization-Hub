@@ -101,8 +101,8 @@
   - Turn off case fans.
   - Turn up room heaters.
 - Avoid monitoring programs (e.g., HWiNFO) while stress testing, since they have a large performance impact.
-- [Core](https://youtu.be/WK5Md-90XHQ?t=851), [Uncore and RAM](https://youtu.be/WK5Md-90XHQ?t=1116) affect each other's stability. They should be treated as one unit and adjusted and stress tested together.
-- [Integralfx's DDR4 guide](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
+- CPU and RAM should be treated as one unit and adjusted and stress tested together.
+- Resources: [1](https://skatterbencher.com/) [2](https://www.youtube.com/@ActuallyHardcoreOverclocking/videos) [3](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#table-of-contents)
 - ## Stress testing
   - [StresKit](https://github.com/valleyofdoom/StresKit)
   - [Memory](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
