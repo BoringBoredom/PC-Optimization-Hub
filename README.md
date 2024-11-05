@@ -228,12 +228,8 @@
     - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
     - [AIDA](https://www.aida64.com/downloads)
   - ### Stress testing programs
-    - [Karhu RAM Test](https://www.karhusoftware.com/ramtest/) ([Enable _Caching_ on all operating systems and change the _RNG_ to _XORWOW_ if testing on Windows 7](https://www.karhusoftware.com/ramtest/README.txt))
-    - [TestMem5](https://testmem.tz.ru/testmem5.htm) + [anta777's config](https://bit.ly/2MUvl6n) & [LMHz's config](https://drive.google.com/file/d/1fEPPG3sCqwtg7t1GQTwVrrixsyidwjL5/view) (links taken from [anta777's profile](https://forums.overclockers.ru/memberlist.php?mode=viewprofile&u=203320))
-    - [OCCT](https://www.ocbase.com/)
-    - [y-cruncher](http://www.numberworld.org/y-cruncher/)
-    - [HCI MemTest](https://hcidesign.com/memtest/)
-    - [GSAT](https://github.com/stressapptest/stressapptest)
+    - [StresKit](https://github.com/valleyofdoom/StresKit)
+    - [Integralfx's list](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
 - ## GPU
   - ### Information
     - [NVAPI Driver Settings](https://docs.nvidia.com/gameworks/content/gameworkslibrary/coresdk/nvapi/NvApiDriverSettings_8h.html)
