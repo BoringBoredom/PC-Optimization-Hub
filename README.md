@@ -224,7 +224,9 @@
     - [B-Die list](https://translate.google.com/translate?sl=auto&tl=en&u=https://www.hardwareluxx.de/community/threads/die-ultimative-hardwareluxx-samsung-8gb-b-die-liste-alle-hersteller-13-12-20.1161530/)
     - ["How to remove modern DDR5 Heat-spreaders"](https://youtu.be/w2LnlLGBUy8)
   - ### Tools
+    - [ZenTimings](https://github.com/irusanov/ZenTimings)
     - New versions of ASRock Timing Configurator, ASUS MemTweakIt and MSI Dragon Ball can usually be found [here](https://community.hwbot.org/forum/126-intel-cpu-overclocking/).
+    - [Microbenchmarks](https://github.com/clamchowder/MicrobenchmarksGui)
     - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
     - [AIDA](https://www.aida64.com/downloads)
   - ### Stress testing programs
@@ -286,6 +288,7 @@
     - [Intel Graphics Performance Analyzers](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)
     - [Processor Counter Monitor](https://github.com/opcm/pcm)
     - [MouseTester](https://github.com/valleyofdoom/MouseTester)
+    - [XTW](https://github.com/valleyofdoom/xtw)
     - [Latencymon](https://www.resplendence.com/latencymon)
     - [Liblava](https://github.com/liblava/liblava-demo)
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
