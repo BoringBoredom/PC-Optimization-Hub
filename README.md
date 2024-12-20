@@ -261,7 +261,7 @@
     - [CrystalDiskMark](https://crystalmark.info/en/)
     - [ATTO Disk Benchmark](https://www.techpowerup.com/download/atto-disk-benchmark/)
   - ### Tools
-    - [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
+    - [WizTree](https://diskanalyzer.com/) / [TreeSize](https://www.jam-software.com/treesize_free) / [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
     - [Total Commander](https://www.ghisler.com/) (file manager)
     - [Ventoy](https://github.com/ventoy/Ventoy) (multi-boot USB drive)
     - [Rufus](https://github.com/pbatard/rufus) (ISO mounting)
