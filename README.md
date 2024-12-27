@@ -194,6 +194,7 @@
     - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
     - [Screen Density Calculator](https://phrogz.net/tmp/ScreenDens2In.html)
     - [Video Timings Calculator](https://tomverbeure.github.io/video_timings_calculator)
+    - [Video Bandwidth Calculator](https://trychen.com/feature/video-bandwidth)
 - ## PSU
   - ### Information
     - When choosing a power supply, keep in mind that there are spikes that go well beyond the average power consumption. ([1](https://www.igorslab.de/wp-content/uploads/2018/12/Peak-Load.png) [2](https://www.igorslab.de/wp-content/uploads/2020/09/04-Peak-Power-1.png) [3](https://www.igorslab.de/wp-content/uploads/2020/12/03-Peak-Power.png) [4](https://tpucdn.com/review/zotac-geforce-rtx-3090-amp-extreme-holo/images/power-spikes.png) [5](https://tpucdn.com/review/asrock-radeon-rx-6900-xt-oc-formula/images/power-spikes.png))
