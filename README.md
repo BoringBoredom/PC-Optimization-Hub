@@ -110,6 +110,7 @@
 - ## GPU (NVIDIA)
   - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 - ## Temperature
+  - [Impact on DDR5](https://www.techpowerup.com/review/ddr5-temperature-variable-analysis/3.html)
   - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
   - ["The load has increased the main board temperature by 5 deg. (centigrade scale) only, but the influence to the measured performance counter frequency is quite considerable."](http://www.windowstimestamp.com/description)
   - ["According to a report on reliability prediction of electronic equipment prepared by the U.S. Department of Defense, the failure factor, which is relative failure rate at any temperature over failure rate at 75 °C, increases exponentially with increasing the device temperature as demonstrated in Fig. 3. Pedram and Nazarian also reported that more than 50% of all integrated circuit (IC) failures are related to thermal issues. Thus a rule of thumb is that the failure rate of electronic components can be halved for each 10 °C reduction in their junction temperature and the cooler the devices operate, the more reliable they are."](https://doi.org/10.1016/j.rser.2017.04.112)
