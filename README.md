@@ -318,7 +318,7 @@
     - [EasyBCD](https://neosmart.net/EasyBCD/)
 - ## Audio
   - ### Tools
-    - [LowAudioLatency](https://github.com/spddl/LowAudioLatency) / [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
+    - [LowAudioLatency](https://github.com/spddl/LowAudioLatency) / [REAL](https://github.com/miniant-git/REAL) (audio latency reduction)
     - [Round-trip audio latency tester](https://superpowered.com/webbrowserlatency)
 - ## Alternatives to bloated programs
   - Epic Games: [Legendary](https://github.com/derrod/legendary)
