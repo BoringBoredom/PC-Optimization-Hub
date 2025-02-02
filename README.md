@@ -308,8 +308,7 @@
     - [Timer Resolution](https://github.com/valleyofdoom/TimerResolution)
     - [AdvancedRun](https://www.nirsoft.net/utils/advanced_run.html)
     - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager) (compatibility settings editor)
-    - [VC++ Redist. AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (TPU)
-    - [VC++ Redist. AIO](https://github.com/abbodi1406/vcredist) (abbodi1406)
+    - VC++ Redist. AIO: [TPU](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) / [abbodi1406](https://github.com/abbodi1406/vcredist)
     - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/) (interrupt mode and priority control)
     - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
     - [GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy)
@@ -319,7 +318,7 @@
     - [EasyBCD](https://neosmart.net/EasyBCD/)
 - ## Audio
   - ### Tools
-    - [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
+    - [LowAudioLatency](https://github.com/spddl/LowAudioLatency) / [REAL](https://github.com/miniant-git/REAL) (W10 audio latency reduction)
     - [Round-trip audio latency tester](https://superpowered.com/webbrowserlatency)
 - ## Alternatives to bloated programs
   - Epic Games: [Legendary](https://github.com/derrod/legendary)
