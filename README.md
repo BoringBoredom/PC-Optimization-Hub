@@ -159,6 +159,8 @@
     - [FAQ](content/peripherals/mouse%20faq.md)
     - [Newbrict's page](https://sensor.fyi/info/)
     - [Click latency database](https://github.com/NVIDIA/Reflex-Latency-Analyzer-Mouse-Database/blob/main/NVIDIA%20RLA%20Mice%20Database%20-%20Github.csv)
+  - ### Reviews
+    - [TechPowerUp](https://www.techpowerup.com/review/?category=Mice&manufacturer=&pp=50&order=date)
   - ### Tools
     - [EloShapes shape comparison](https://www.eloshapes.com/)
     - [RTINGS shape comparison](https://www.rtings.com/mouse/tools/3d-model-shape-compare/?orientation=3D)
@@ -198,7 +200,7 @@
     - [Video Bandwidth Calculator](https://trychen.com/feature/video-bandwidth)
 - ## PSU
   - ### Information
-    - When choosing a power supply, keep in mind that there are spikes that go well beyond the average power consumption. ([1](https://www.igorslab.de/wp-content/uploads/2018/12/Peak-Load.png) [2](https://www.igorslab.de/wp-content/uploads/2020/09/04-Peak-Power-1.png) [3](https://www.igorslab.de/wp-content/uploads/2020/12/03-Peak-Power.png) [4](https://tpucdn.com/review/zotac-geforce-rtx-3090-amp-extreme-holo/images/power-spikes.png) [5](https://tpucdn.com/review/asrock-radeon-rx-6900-xt-oc-formula/images/power-spikes.png))
+    - When choosing a power supply, keep in mind that there are spikes that go well beyond the average power consumption ([1](https://www.igorslab.de/wp-content/uploads/2018/12/Peak-Load.png) [2](https://www.igorslab.de/wp-content/uploads/2020/09/04-Peak-Power-1.png) [3](https://www.igorslab.de/wp-content/uploads/2020/12/03-Peak-Power.png) [4](https://tpucdn.com/review/zotac-geforce-rtx-3090-amp-extreme-holo/images/power-spikes.png) [5](https://tpucdn.com/review/asrock-radeon-rx-6900-xt-oc-formula/images/power-spikes.png)).
     - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
     - [Single vs. Multi Rail](https://youtu.be/PWtKSHT2od8)
   - ### Reviews
@@ -214,7 +216,6 @@
   - ### Stress testing programs
     - [StresKit](https://github.com/valleyofdoom/StresKit)
     - [Linpack Extended](https://github.com/BoringBoredom/Linpack-Extended)
-    - [LinX](https://hwtips-tistory-com.translate.goog/1611?category=377841&_x_tr_sl=auto&_x_tr_tl=en)
     - [Linpack Xtreme](https://www.ngohq.com/linpack-xtreme.html)
     - [OCCT](https://www.ocbase.com/)
     - [Prime95](https://www.mersenne.org/download/)
@@ -227,7 +228,7 @@
     - ["How to remove modern DDR5 Heat-spreaders"](https://youtu.be/w2LnlLGBUy8)
   - ### Tools
     - [ZenTimings](https://github.com/irusanov/ZenTimings)
-    - New versions of ASRock Timing Configurator, ASUS MemTweakIt and MSI Dragon Ball can usually be found [here](https://community.hwbot.org/forum/126-intel-cpu-overclocking/).
+    - New versions of ASRock's Timing Configurator can usually be found on OCF download pages, e.g., [Z890 Taichi OCF](https://www.asrock.com/mb/Intel/Z890%20Taichi%20OCF/Specification.asp#Download) or [Z590 OC Formula](https://www.asrock.com/mb/Intel/Z590%20OC%20Formula/Specification.asp#Download).
     - [Microbenchmarks](https://github.com/clamchowder/MicrobenchmarksGui)
     - [Intel Memory Latency Checker](https://software.intel.com/content/www/us/en/develop/articles/intelr-memory-latency-checker.html)
     - [AIDA](https://www.aida64.com/downloads)
@@ -264,7 +265,6 @@
     - [ATTO Disk Benchmark](https://www.techpowerup.com/download/atto-disk-benchmark/)
   - ### Tools
     - [WizTree](https://diskanalyzer.com/) / [TreeSize](https://www.jam-software.com/treesize_free) / [WinDirStat](https://sourceforge.net/projects/windirstat/) (disk usage analyzer)
-    - [Total Commander](https://www.ghisler.com/) (file manager)
     - [Ventoy](https://github.com/ventoy/Ventoy) (multi-boot USB drive)
     - [Rufus](https://github.com/pbatard/rufus) (ISO mounting)
 - ## BIOS
