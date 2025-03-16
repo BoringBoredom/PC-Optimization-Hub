@@ -205,7 +205,7 @@
     - [Single vs. Multi Rail](https://youtu.be/PWtKSHT2od8)
   - ### Reviews
     - [LTT Labs](https://www.lttlabs.com/categories/power-supplies)
-    - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
+    - [Hardware Busters](https://hwbusters.com/psus/)
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
 - ## CPU
