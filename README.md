@@ -204,6 +204,7 @@
     - ["Defining Power Supply Voltage Ripple & Its Real-World Impact"](https://www.gamersnexus.net/guides/2053-power-supply-voltage-ripple-and-relevance)
     - [Single vs. Multi Rail](https://youtu.be/PWtKSHT2od8)
   - ### Reviews
+    - [LTT Labs](https://www.lttlabs.com/categories/power-supplies)
     - [Cybenetics](https://www.cybenetics.com/index.php?option=power-supplies)
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
