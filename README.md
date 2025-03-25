@@ -177,6 +177,7 @@
   - [Input lag sheet](https://docs.google.com/spreadsheets/d/1KlRObr3Be4zLch7Zyqg6qCJzGuhyGmXaOIUrpfncXIM/edit)
 - ## Monitor
   - ### Information
+    - [Computer Display Reference Guide](https://rentry.co/CDRG)
     - [Factors affecting PC Monitor responsiveness](https://pcmonitors.info/articles/factors-affecting-pc-monitor-responsiveness/)
     - [UFO Motion Test Database](https://docs.google.com/spreadsheets/d/180jSMtUKHsXVWBdG9LEYmTLWcBaTAEO9d7d4SUTgmTw/edit)
     - [Monitor Panel Part Database](https://tftcentral.co.uk/monitor_panel_parts)
