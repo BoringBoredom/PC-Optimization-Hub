@@ -128,9 +128,9 @@
 - I highly recommend [setting up a multi-boot environment](content/multi-booting/multi-booting.md#how-to-multi-boot-windows-7-10-in-uefi-mode-on-a-single-drive) to separate the gaming and the "can-be-bloated" operating system. Keeping your programs and files on a different partition (separate from operating system partitions) is also convenient due to all operating systems having shared access to everything and the ease of reinstalling either of them without having to back up your data.
 - As usual, disable everything you don't explicitly need and avoid installing unnecessary and bloated drivers (included in, e.g., Realtek audio or gaming peripheral software).
 - A lot of the default system tools lack functionality. For example, the Task Manager is an inaccurate representation of system load since it only displays Core usage on a very superficial level. It doesn't account for things like [context switching](https://en.wikipedia.org/wiki/Context_switch), which can be very expensive.  
-  Here are some supplements for various system tools ([Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](https://www.nirsoft.net/utils/index.html) have a lot more):
-  - Task Manager: [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](content/windows/process%20explorer%20settings.reg)
-  - Startup section of Task Manager: [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
+  Here are some supplements for various system tools ([Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) and [Nirsoft](https://www.nirsoft.net/utils/index.html) have a lot more):
+  - Task Manager: [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) with [modified settings](content/windows/process%20explorer%20settings.reg)
+  - Startup section of Task Manager: [Autoruns](https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns)
   - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
   - Device Manager: [DevManView](https://www.nirsoft.net/utils/device_manager_view.html)
 - [NVIDIA Profile Inspector](https://www.pcgamingwiki.com/wiki/Nvidia_Profile_Inspector) exposes a lot of settings that are hidden from the control panel.
@@ -144,7 +144,7 @@
   - [Drivers](https://winraid.level1techs.com/c/important-drivers/6/all) (mostly relevant for W7) & [driver integration guide](https://winraid.level1techs.com/t/guide-integration-of-drivers-into-a-win7-11-image/30793)
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
-    - Always check the legitimacy of ISOs by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
+    - Always check the legitimacy of ISOs by comparing hashes ([1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-5.1#example-2-compute-the-hash-value-for-an-iso-file) [2](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#-hashfile)) to [Heidoc's](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) or [Adguard's](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5) hash archive.
     - [Genuine Installation Media](https://massgrave.dev/genuine-installation-media.html)
     - [OS.click](https://os.click/en)
     - [Adguard](https://uup.rg-adguard.net/index.php)
@@ -277,15 +277,15 @@
     - [Cancerogeno's compendium](https://sites.google.com/view/cancerogenoslab/bios-mods-and-tools)
 - ## Windows
   - ### Information
-    - [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
+    - [Windows Internals](https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals)
     - [Windows changelog](https://www.changewindows.org/platforms/pc)
     - [Group Policy Administrative Templates Catalog](https://admx.help/)
     - [Presentation Model](https://wiki.special-k.info/en/Presentation_Model)
   - ### Profiling / Monitoring / Benchmarking
     - [HWiNFO](https://www.hwinfo.com/download/) & [LogViewer](https://www.hwinfo.com/forum/threads/logviewer-for-hwinfo-is-available.802/) (hardware analysis, monitoring and reporting)
     - [Benchmarking FPS](https://boringboredom.github.io/Frame-Time-Analysis/)
-    - [Windows Performance Toolkit](https://docs.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
-    - [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+    - [Windows Performance Toolkit](https://learn.microsoft.com/en-us/windows-hardware/test/wpt/) ([Windows 7](https://www.microsoft.com/en-us/download/details.aspx?id=8279))
+    - [Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
     - [API Monitor](http://www.rohitab.com/apimonitor)
     - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
     - [Intel Graphics Performance Analyzers](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)
@@ -297,7 +297,7 @@
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
     - [Dependencies](https://github.com/lucasg/Dependencies) (dll load dependency checker)
   - ### Tools
-    - [Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/) (huge compendium)
+    - [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) (huge compendium)
     - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
     - [NTLite](https://www.ntlite.com/) (ISO creation)
     - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
