@@ -144,7 +144,7 @@
   - [Drivers](https://winraid.level1techs.com/c/important-drivers/6/all) (mostly relevant for W7) & [driver integration guide](https://winraid.level1techs.com/t/guide-integration-of-drivers-into-a-win7-11-image/30793)
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
-    - Always check the legitimacy of ISOs by comparing [hashes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
+    - Always check the legitimacy of ISOs by comparing [hashes](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-5.1) -> [Heidoc's hash archive](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) / [Adguard's hash archive](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5)
     - [Genuine Installation Media](https://massgrave.dev/genuine-installation-media.html)
     - [OS.click](https://os.click/en)
     - [Adguard](https://uup.rg-adguard.net/index.php)
