@@ -302,6 +302,7 @@
     - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
     - [NTLite](https://www.ntlite.com/) (ISO creation)
     - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
+    - [MultiTool](https://github.com/BoringBoredom/Windows-MultiTool)
     - [ReservedCpuSets](https://github.com/valleyofdoom/ReservedCpuSets)
     - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
     - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
