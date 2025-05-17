@@ -134,7 +134,7 @@
   - Services: [Serviwin](https://www.nirsoft.net/utils/serviwin.html)
   - Device Manager: [DevManView](https://www.nirsoft.net/utils/device_manager_view.html)
 - [NVIDIA Profile Inspector](https://www.pcgamingwiki.com/wiki/Nvidia_Profile_Inspector) exposes a lot of settings that are hidden from the control panel.
-- Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running.
+- Whenever possible, use portable versions of programs. Sometimes installers come with background services/drivers which may run even if the program is not running. [Scoop](https://github.com/ScoopInstaller/Scoop) can help you manage them.
 - ## Optimization guides
   - [Calypto's guide](https://docs.google.com/document/d/1c2-lUJq74wuYK1WrA_bIvgb89dUN0sj8-hO3vqmrau4/edit)
   - [Timecard's guide](https://github.com/djdallmann/GamingPCSetup)
@@ -298,6 +298,7 @@
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
     - [Dependencies](https://github.com/lucasg/Dependencies) (dll load dependency checker)
   - ### Tools
+    - [Scoop](https://github.com/ScoopInstaller/Scoop) (package manager)
     - [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/) (huge compendium)
     - [Nirsoft's Tools](https://www.nirsoft.net/utils/index.html) (huge compendium)
     - [NTLite](https://www.ntlite.com/) (ISO creation)
