@@ -209,6 +209,7 @@
     - [Hardware Busters](https://hwbusters.com/psus/)
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Power+Supplies&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/power-supplies/reviews)
+    - [Cybenetics](https://www.cybenetics.com/index.php?option=psu-performance-database) (does not account for fire hazards)
 - ## CPU
   - ### Information
     - [Intel resources](https://www.intel.com/content/www/us/en/products/docs/processors/core/core-technical-resources.html)
@@ -294,7 +295,7 @@
     - [MouseTester](https://github.com/valleyofdoom/MouseTester)
     - [XTW](https://github.com/valleyofdoom/xtw)
     - [Latencymon](https://www.resplendence.com/latencymon)
-    - [Liblava](https://github.com/liblava/liblava-demo)
+    - [Liblava](https://github.com/liblava/liblava)
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
     - [Dependencies](https://github.com/lucasg/Dependencies) (dll load dependency checker)
   - ### Tools
@@ -307,11 +308,9 @@
     - [ReservedCpuSets](https://github.com/valleyofdoom/ReservedCpuSets)
     - [Process Lasso](https://bitsum.com/) (priority and affinity saver)
     - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
-    - [Power Settings Editor](https://boringboredom.github.io/tools/powersettingseditor)
+    - [Quick CPU](https://coderbag.com/product/quickcpu)
     - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
     - [Timer Resolution](https://github.com/valleyofdoom/TimerResolution)
-    - [AdvancedRun](https://www.nirsoft.net/utils/advanced_run.html)
-    - [Compatibility Manager](https://github.com/Skymirrh/CompatibilityManager) (compatibility settings editor)
     - VC++ Redist. AIO: [TPU](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) / [abbodi1406](https://github.com/abbodi1406/vcredist)
     - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/) (interrupt mode and priority control)
     - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
