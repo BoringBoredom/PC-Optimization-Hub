@@ -319,6 +319,7 @@
     - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
     - [Special K](https://wiki.special-k.info/) (game modifying framework | DO NOT USE WITH ANTI-CHEATS)
     - [EasyBCD](https://neosmart.net/EasyBCD/)
+    - [Winbindex](https://winbindex.m417z.com/) (index of Windows binaries)
 - ## Audio
   - ### Tools
     - [LowAudioLatency](https://github.com/spddl/LowAudioLatency) / [REAL](https://github.com/miniant-git/REAL) (audio latency reduction)
