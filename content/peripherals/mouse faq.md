@@ -61,3 +61,7 @@ Windows 11 [updated](https://reddit.com/r/Windows11/comments/109ca82/call_to_act
 > We capped the rate at which background recipients of raw mouse input could receive messages, so e.g. instead of seeing 1000 messages per second for a 1000Hz mouse, it may only see 125 (but each containing the combined payload of the coalesced messages).
 
 To circumvent this issue, keep the MouseTester window focussed.
+
+### Custom WinPE
+
+You can use a [custom WinPE ISO](https://github.com/BoringBoredom/WinPE) to avoid dealing with Windows bloat while testing.
