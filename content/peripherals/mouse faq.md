@@ -24,7 +24,7 @@ Whenever MouseTester receives a raw input message, it gets timestamped and colle
 - Right-click your Desktop, hover over `View` and uncheck `Show desktop icons`.
 - Keep the MouseTester window focussed to avoid [this issue](#why-is-mousetester-stuck-at-8-ms--125-hz).
 - Start quickly moving the mouse in circles before you start recording and don't stop until after you stop recording.
-- Make sure to keep the cursor on the desktop and avoid hitting the taskbar or MouseTester window.
+- Make sure to keep the cursor on the desktop and avoid hitting the taskbar, MouseTester window, and screen edges. Colliding with any UI elements will cause spikes.
 
 ### Why does the `Frequency vs. Time` graph show very high peaks, way above the actual report rate?
 
@@ -64,4 +64,4 @@ To circumvent this issue, keep the MouseTester window focussed.
 
 ### Custom WinPE
 
-You can use a [custom WinPE ISO](https://github.com/BoringBoredom/WinPE) to avoid dealing with Windows bloat while testing.
+You can use a [custom WinPE ISO](https://github.com/BoringBoredom/WinPE) to avoid dealing with Windows bloat while testing. Read [these tips](#usage-tips) and remember to minimize the command prompt.
