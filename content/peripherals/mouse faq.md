@@ -22,7 +22,7 @@ Whenever MouseTester receives a raw input message, it gets timestamped and colle
 - Use 15k+ DPI for testing to ensure lack of sensor data doesn't skew the results.
 - Exit all running applications.
 - Right-click your Desktop, hover over `View` and uncheck `Show desktop icons`.
-- Keep the MouseTester window focussed to avoid [this issue](#why-is-mousetester-stuck-at-8-ms--125-hz).
+- Keep the MouseTester window focused to avoid [this issue](#why-is-mousetester-stuck-at-8-ms--125-hz).
 - Start quickly moving the mouse in circles before you start recording and don't stop until after you stop recording.
 - Make sure to keep the cursor on the desktop and avoid hitting the taskbar, MouseTester window, and screen edges. Colliding with any UI elements will cause spikes.
 
@@ -60,7 +60,7 @@ Windows 11 [updated](https://reddit.com/r/Windows11/comments/109ca82/call_to_act
 
 > We capped the rate at which background recipients of raw mouse input could receive messages, so e.g. instead of seeing 1000 messages per second for a 1000Hz mouse, it may only see 125 (but each containing the combined payload of the coalesced messages).
 
-To circumvent this issue, keep the MouseTester window focussed.
+To circumvent this issue, keep the MouseTester window focused.
 
 ### Custom WinPE
 
