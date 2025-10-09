@@ -57,7 +57,7 @@
     - A [balloon pump](https://www.magictricks.com/assets/images/trickspix/balloonpump-basic.jpg) will do the job without risking physical damage to the polycarbonate lens ([1](https://dtsheet.com/doc/1305617/lens-datasheet---pixart-imaging-inc.) [2](https://manualzz.com/doc/43036065/lens-datasheet---pixart-imaging-inc.) [3](https://youtu.be/XkUIePwhrc4?t=73)).
 - ## Monitor
   - ### Capped FPS vs. VRR vs. uncapped FPS
-    - There are a lot of variables involved: GPU workload, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, NVIDIA Reflex, AMD Anti-Lag 2 etc.
+    - There are a lot of variables involved: GPU workload, sustained frame rate, type of frame rate limiter (some limiters have large variation), OS, monitor's refresh rate, [NVIDIA Reflex](https://www.nvidia.com/en-us/geforce/technologies/reflex/supported-products/), [AMD Anti-Lag 2](https://www.amd.com/en/products/graphics/technologies/fidelityfx/supported-games.html#fsr4-item-2f4d78e11f-tab) etc.
     - [Input lag increases as GPU workload increases.](https://youtu.be/8ZRuFaFZh5M?t=817)
     - [VRR](https://youtu.be/dPMHEyz38TM?t=289) and [V-Sync](https://youtu.be/rs0PYCpBJjc?t=202) increase input lag.
     - #### Frame mistiming
