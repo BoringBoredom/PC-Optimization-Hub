@@ -196,7 +196,7 @@
     - [ControlMyMonitor](https://www.nirsoft.net/utils/control_my_monitor.html)
     - [Open Source Response Time Tool](https://www.osrtt.com/)
     - [piLagTester](https://alantechreview.blogspot.com/2020/08/pilagtester-pro-order-page.html) (input lag and response time tester)
-    - [Screen Density Calculator](https://phrogz.net/tmp/ScreenDens2In.html)
+    - PPD Calculator: [1](https://phrogz.net/tmp/ScreenDens2In.html) [2](https://www.cl.cam.ac.uk/research/rainbow/projects/display_calc/)
     - [Video Timings Calculator](https://tomverbeure.github.io/video_timings_calculator)
     - [Video Bandwidth Calculator](https://trychen.com/feature/video-bandwidth)
 - ## PSU
