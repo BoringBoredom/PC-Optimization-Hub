@@ -1,4 +1,4 @@
-# Importance of low input lag
+# Importance of low input lag and high refresh rate
 
 - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://doi.org/10.1145/2556288.2557037).
 - [Visual demonstration of 1 vs. 10 milliseconds](https://youtu.be/vOvQCPLkPt4?t=80)
@@ -7,6 +7,7 @@
 - ["In the first part, perceptual user experience under different jitter levels was examined using the ISO 4120:2004 triangle test protocol, and a jitter of over 0.3 ms could be perceived by sensitive subjects."](https://dl.acm.org/doi/10.1145/3472749.3474783)
 - [Summary in the form of an infographic](content/importance%20of%20low%20input%20lag/latency.png)
 - ["What Frame Rate is Needed to Simulate Reality?"](https://youtu.be/7zky-smR_ZY)
+- ["240Hz is not enough. Not even close."](https://youtu.be/nhLzso8MMMw)
 
 # Disclaimer
 
