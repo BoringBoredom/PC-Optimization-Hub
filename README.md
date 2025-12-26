@@ -1,13 +1,13 @@
 # Importance of low input lag and high refresh rate
 
-- ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://doi.org/10.1145/2556288.2557037).
 - [Visual demonstration of 1 vs. 10 milliseconds](https://youtu.be/vOvQCPLkPt4?t=80)
 - ["The average difference in aiming task completion (the time it takes to acquire and shoot a target) between a 12ms and 20ms PCs was measured to be 182ms - that is about 22 times the system latency difference."](https://www.nvidia.com/en-us/geforce/news/reflex-low-latency-platform/#why-does-system-latency-matter)
 - ["In all studies, the trend shows continued improvements all the way toward zero latency."](https://developer.nvidia.com/blog/aiming-faster-in-games-with-low-computer-system-latency/)
-- ["In the first part, perceptual user experience under different jitter levels was examined using the ISO 4120:2004 triangle test protocol, and a jitter of over 0.3 ms could be perceived by sensitive subjects."](https://dl.acm.org/doi/10.1145/3472749.3474783)
-- [Summary in the form of an infographic](content/importance%20of%20low%20input%20lag/latency.png)
-- ["What Frame Rate is Needed to Simulate Reality?"](https://youtu.be/7zky-smR_ZY)
+- ["We can confidently say that as little as 3 ms impacts gaming performance for above-average gamers."](https://youtu.be/5qjSGEOEaXo?t=1140)
 - ["240Hz is not enough. Not even close."](https://youtu.be/nhLzso8MMMw)
+- ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://doi.org/10.1145/2556288.2557037).
+- ["In the first part, perceptual user experience under different jitter levels was examined using the ISO 4120:2004 triangle test protocol, and a jitter of over 0.3 ms could be perceived by sensitive subjects."](https://dl.acm.org/doi/10.1145/3472749.3474783)
+- ["What Frame Rate is Needed to Simulate Reality?"](https://youtu.be/7zky-smR_ZY)
 
 # Disclaimer
 
