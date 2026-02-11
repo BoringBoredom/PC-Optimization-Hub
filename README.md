@@ -8,6 +8,7 @@
 - ["While participants performed dragging and scribbling tasks, very low levels of latency could be discriminated, i.e., ~1 versus 2 milliseconds while dragging"](https://doi.org/10.1145/2556288.2557037).
 - ["In the first part, perceptual user experience under different jitter levels was examined using the ISO 4120:2004 triangle test protocol, and a jitter of over 0.3 ms could be perceived by sensitive subjects."](https://dl.acm.org/doi/10.1145/3472749.3474783)
 - ["What Frame Rate is Needed to Simulate Reality?"](https://youtu.be/7zky-smR_ZY)
+- ["The human eye can see 39,620 Hz"](https://youtu.be/Sb_7uN7sfTw)
 
 # Disclaimer
 
