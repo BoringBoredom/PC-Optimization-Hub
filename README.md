@@ -336,6 +336,7 @@
   - [Geizhals database](https://geizhals.eu/) (useful for finding specific hardware due to the very extensive filtering functionality)
   - [NVIDIA article on lag reduction](https://www.nvidia.com/en-us/geforce/guides/system-latency-optimization-guide/)
   - [Digitec return & RMA rates](https://www.digitec.ch/en/page/refreshingly-honest-digitec-galaxus-now-displays-warranty-score-and-return-rate-25950)
+  - [Mindfactory](https://www.mindfactory.de/) and [Alza](https://www.alza.cz/) list per-product complaint rates.
 
 # [My Twitter](https://twitter.com/Bra1nlet)
 
