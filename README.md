@@ -50,8 +50,7 @@
     - Depending on your mouse, preferred cm/360°, [mouse pad](content/peripherals/mousepad.png) and FOV in games, you may want to experiment with different DPI. Higher DPI reduces the latency between hand motion and the sensor acknowledging a change ([1](content/peripherals/dpi.PNG) [2](https://youtu.be/mwf_F2VboFQ?t=458) [3](https://youtu.be/6AoRfv9W110) [4](https://youtu.be/imYBTj2RXFs?t=275)) and improves [motion clarity](https://youtu.be/QrF_e5vKqPk) and accuracy ([1](https://i0.hdslb.com/bfs/article/watermark/ac7bdde084e67d365ecb435aa8fc3195992b5cbe.jpg) [2](https://www.bilibili.com/read/cv11545206) [3](https://i0.hdslb.com/bfs/article/watermark/97e28f38daae36aa3e0ec43f26936590c684799f.png) [4](https://www.bilibili.com/read/cv10950469)). Beware of smoothing and other jitter reduction technologies kicking in at various thresholds. To counteract the increased sensitivity on the Desktop and in game menus, you can adjust the [Windows sensitivity](https://liquipedia.net/counterstrike/Mouse_Settings#Windows_Sensitivity).
     - [Windows Sensitivity Calculator](https://boringboredom.github.io/tools/winsenscalculator)
     - Finding your individual approximate point of diminishing returns (taking 1000 Hz as example):
-      - Run [MouseTester](https://github.com/valleyofdoom/MouseTester) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
-      - Set the graph to **_Interval vs. Time_**.
+      - Run [MousePlotter](https://github.com/XBAB-Tech/MousePlotter) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
       - Values greater than or equal to 2 ms indicate that the mouse hasn't reported motion data in the previous **_value - 1_** poll(s) (assuming other factors such as system or interference have been ruled out).
       - Raise your DPI until all polls contain motion data.
   - ### Polling rate
@@ -160,7 +159,6 @@
 
 - ## Mouse
   - ### Information
-    - [FAQ](content/peripherals/mouse%20faq.md)
     - [Firmware design](https://xbabtech.com/blog/firmware/)
   - ### Reviews
     - [TechPowerUp](https://www.techpowerup.com/review/?category=Mice&manufacturer=&pp=50&order=date)
@@ -296,6 +294,7 @@
     - [Intel VTune Profiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
     - [Intel Graphics Performance Analyzers](https://www.intel.com/content/www/us/en/developer/tools/graphics-performance-analyzers/overview.html)
     - [Processor Counter Monitor](https://github.com/opcm/pcm)
+    - [MousePlotter](https://github.com/XBAB-Tech/MousePlotter)
     - [MouseTester](https://github.com/valleyofdoom/MouseTester)
     - [XTW](https://github.com/valleyofdoom/xtw)
     - [Latencymon](https://www.resplendence.com/latencymon)
