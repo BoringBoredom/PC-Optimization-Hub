@@ -53,6 +53,7 @@
       - Run [MousePlotter](https://github.com/XBAB-Tech/MousePlotter) and move your mouse unidirectionally at a velocity similar to your slowest realistic tracking speed.
       - Values greater than or equal to 2 ms indicate that the mouse hasn't reported motion data in the previous **_value - 1_** poll(s) (assuming other factors such as system or interference have been ruled out).
       - Raise your DPI until all polls contain motion data.
+      - Zoom out on the graph, as some samples may be off-screen by default. The y-axis maximum defaults to the most common smoothed interval across the full recording, rounded to the nearest multiple of 0.125 and then multiplied by 4.
   - ### Polling rate
     - Higher polling rate [reduces latency](https://youtu.be/mwf_F2VboFQ?t=458) and improves motion clarity ([1](https://youtu.be/gOQNRvJbpmk?t=540) [2](https://forums.blurbusters.com/viewtopic.php?f=10&t=7569#p57804)).
     - [How to disable Interrupt Moderation](content/xhci%20imod/xhci%20imod.md#how-to-persistently-disable-xhci-interrupt-moderation)
@@ -110,8 +111,6 @@
   - [StresKit](https://github.com/valleyofdoom/StresKit)
   - [Memory](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md#recommended)
   - Test with a variety of programs/configs, since the algorithms differ. One may not fail at all, while another may fail within minutes.
-- ## GPU (NVIDIA)
-  - [Cancerogeno's guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/edit)
 - ## Temperature
   - [Impact on DDR5](https://www.techpowerup.com/review/ddr5-temperature-variable-analysis/3.html)
   - ["Charge leakage rate of DRAM cells approximately doubles for every 10°C increase in the temperature"](https://www.pdl.cmu.edu/PDL-FTP/NVM/chargecache_low-latency-dram_hpca16.pdf).
