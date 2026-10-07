@@ -148,11 +148,10 @@
   - [Rufus](https://github.com/pbatard/rufus) / [Ventoy](https://github.com/ventoy/Ventoy)
   - ### ISO sources
     - Always check the legitimacy of ISOs by comparing hashes ([1](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-5.1#example-2-compute-the-hash-value-for-an-iso-file) [2](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#-hashfile)) to [Heidoc's](https://www.heidoc.net/php/myvsdump_directory.php?letter=W) or [Adguard's](https://files.rg-adguard.net/version/f0bd8307-d897-ef77-dbd6-216fefbe94c5) hash archive.
-    - [Genuine Installation Media](https://massgrave.dev/genuine-installation-media.html)
+    - [Massgrave](https://massgrave.dev/genuine-installation-media.html)
+    - [NTRiver](https://ntriver.org/download-windows-office)
     - [OS.click](https://os.click/en)
     - [Adguard](https://uup.rg-adguard.net/index.php)
-    - [KichHoatBanQuyen's list](https://docs.google.com/spreadsheets/d/14-D4tIlFp9APP0OOvQBRXvfLOYC447UygywenX5LXfo/edit)
-    - [Unknown list](https://docs.google.com/spreadsheets/d/1zTF5uRJKfZ3ziLxAZHh47kF85ja34_OFB5C5bVSPumk/edit)
     - [MSDN file server](https://files.dog/MSDN/)
 
 # Tools & resources
