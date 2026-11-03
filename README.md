@@ -183,7 +183,6 @@
     - [UFO Motion Test Database](https://docs.google.com/spreadsheets/d/180jSMtUKHsXVWBdG9LEYmTLWcBaTAEO9d7d4SUTgmTw/edit)
     - [Monitor Panel Part Database](https://tftcentral.co.uk/monitor_panel_parts)
   - ### Reviews
-    - [RTINGS](https://www.rtings.com/monitor/tools/table)
     - [TFT Central](https://www.tftcentral.co.uk/reviews_index.htm)
     - [Hardware Unboxed](https://www.youtube.com/playlist?list=PL7m5C6_P_lnXb9cHwdo0Ct1TTZ7KUwm3e)
     - [Monitors Unboxed](https://www.youtube.com/@monitorsunboxed/videos)
@@ -261,7 +260,6 @@
   - ### Reviews
     - [TechPowerUp](https://www.techpowerup.com/review/?category=SSD&manufacturer=&pp=25&order=date)
     - [Tom's Hardware](https://www.tomshardware.com/topics/storage/reviews)
-    - [AnandTech](https://www.anandtech.com/Bench/SSD21)
     - [TweakTown](https://www.tweaktown.com/cat/storage/index.html)
   - ### Profiling / Monitoring / Benchmarking
     - [CrystalDiskMark](https://crystalmark.info/en/)
@@ -295,8 +293,8 @@
     - [MousePlotter](https://github.com/XBAB-Tech/MousePlotter)
     - [MouseTester](https://github.com/valleyofdoom/MouseTester)
     - [XTW](https://github.com/valleyofdoom/xtw)
+    - [Bitsum LatencyTest](https://bitsum.com/latencytest/)
     - [Latencymon](https://www.resplendence.com/latencymon)
-    - [Liblava](https://github.com/liblava/liblava)
     - [PC Clock Timing](https://www.satsignal.eu/software/net.htm) (resolution of system time calls)
     - [Dependencies](https://github.com/lucasg/Dependencies) (dll load dependency checker)
   - ### Tools
@@ -312,16 +310,13 @@
     - [ProcessPluginFramework Service](https://forums.guru3d.com/threads/processpluginframework-in-the-form-of-windows-system-service.378450/)
     - [Quick CPU](https://coderbag.com/product/quickcpu)
     - [Power Plan Settings Explorer](https://forums.guru3d.com/threads/windows-power-plan-settings-explorer-utility.416058/)
-    - [Timer Resolution](https://github.com/valleyofdoom/TimerResolution)
     - VC++ Redist. AIO: [TPU](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) / [abbodi1406](https://github.com/abbodi1406/vcredist)
-    - [MSI Utility](https://forums.guru3d.com/threads/windows-line-based-vs-message-signaled-based-interrupts-msi-tool.378044/) (interrupt mode and priority control)
-    - [Microsoft Interrupt Affinity Policy Tool](http://download.microsoft.com/download/9/2/0/9200a84d-6c21-4226-9922-57ef1dae939e/interrupt_affinity_policy_tool.msi)
+    - [Bitsum IRQControl](https://bitsum.com/irqcontrol/)
     - [GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy)
     - [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html)
-    - [DeviceTree](https://www.osronline.com/article.cfm%5Earticle=97.htm)
     - [Special K](https://wiki.special-k.info/) (game modifying framework | DO NOT USE WITH ANTI-CHEATS)
-    - [EasyBCD](https://neosmart.net/EasyBCD/)
     - [Winbindex](https://winbindex.m417z.com/) (index of Windows binaries)
+    - [Timer Resolution](https://github.com/valleyofdoom/TimerResolution)
 - ## Audio
   - ### Tools
     - [LowAudioLatency](https://github.com/spddl/LowAudioLatency) / [REAL](https://github.com/miniant-git/REAL) (audio latency reduction)
